@@ -23,7 +23,5 @@ sealed class Report with _$Report {
     required String step,
     String? message,
   }) = Report_TableGeneration;
-  const factory Report.misc({
-    String? message,
-  }) = Report_Misc;
+  const factory Report.misc({String? message}) = Report_Misc;
 }

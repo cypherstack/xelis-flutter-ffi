@@ -11,7 +11,8 @@ abstract class SearchEngine implements RustOpaqueInterface {
   List<String> checkSeed({required List<String> seed});
 
   static SearchEngine init({required BigInt languageIndex}) => RustLib
-      .instance.api
+      .instance
+      .api
       .crateApiSeedSearchEngineSearchEngineInit(languageIndex: languageIndex);
 
   List<String> search({required String query});

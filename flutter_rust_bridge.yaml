@@ -3,3 +3,14 @@ rust_root: rust/
 dart_output: lib/src/
 c_output: ios/Classes/frb_generated.h
 full_dep: true
+
+# ffigen searches each location for lib/libclang.so (or the platform
+# equivalent). The generator wrapper also detects the active LLVM install via
+# llvm-config; these entries cover direct `flutter_rust_bridge_codegen` runs.
+llvm_path:
+  - /usr/lib/llvm-19
+  - /usr/lib/llvm-18
+  - /usr/lib/llvm-17
+  - /usr/local/opt/llvm
+  - /opt/homebrew/opt/llvm
+  - C:/Program Files/LLVM

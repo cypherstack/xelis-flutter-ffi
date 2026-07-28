@@ -1,0 +1,10 @@
+targets:
+  $default:
+    sources:
+      - $package$
+      - "!example/**"
+      - "!build_tool/**"
+      - "!cargokit/**"
+      - "!tool/**"
+      - "!rust/**"
+      - "!**/.dart_tool/**"

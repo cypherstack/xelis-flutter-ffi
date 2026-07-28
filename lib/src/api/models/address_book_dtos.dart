@@ -13,14 +13,10 @@ import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated.dart';
 class AddressBookData {
   final Map<String, ContactDetails> contacts;
 
-  const AddressBookData({
-    required this.contacts,
-  });
+  const AddressBookData({required this.contacts});
 
   Future<List<ContactDetails>> getAllEntries() => RustLib.instance.api
-          .crateApiModelsAddressBookDtosAddressBookDataGetAllEntries(
-        that: this,
-      );
+      .crateApiModelsAddressBookDtosAddressBookDataGetAllEntries(that: this);
 
   @override
   int get hashCode => contacts.hashCode;
@@ -38,11 +34,7 @@ class ContactDetails {
   final String address;
   final String? note;
 
-  const ContactDetails({
-    required this.name,
-    required this.address,
-    this.note,
-  });
+  const ContactDetails({required this.name, required this.address, this.note});
 
   @override
   int get hashCode => name.hashCode ^ address.hashCode ^ note.hashCode;

@@ -12,21 +12,27 @@ import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated.dart';
 BigInt getLanguageIndexFromStr({required String input}) =>
     RustLib.instance.api.crateApiUtilsGetLanguageIndexFromStr(input: input);
 
-List<String> getMnemonicWords({required BigInt languageIndex}) =>
-    RustLib.instance.api
-        .crateApiUtilsGetMnemonicWords(languageIndex: languageIndex);
+List<String> getMnemonicWords({required BigInt languageIndex}) => RustLib
+    .instance
+    .api
+    .crateApiUtilsGetMnemonicWords(languageIndex: languageIndex);
 
 bool isAddressValid({required String strAddress, required Network network}) =>
-    RustLib.instance.api
-        .crateApiUtilsIsAddressValid(strAddress: strAddress, network: network);
+    RustLib.instance.api.crateApiUtilsIsAddressValid(
+      strAddress: strAddress,
+      network: network,
+    );
 
 String splitIntegratedAddress({required String integratedAddress}) => RustLib
-    .instance.api
+    .instance
+    .api
     .crateApiUtilsSplitIntegratedAddress(integratedAddress: integratedAddress);
 
 Future<String> formatCoin({required BigInt value, required int decimals}) =>
-    RustLib.instance.api
-        .crateApiUtilsFormatCoin(value: value, decimals: decimals);
+    RustLib.instance.api.crateApiUtilsFormatCoin(
+      value: value,
+      decimals: decimals,
+    );
 
 Future<String> formatXelis({required BigInt value}) =>
     RustLib.instance.api.crateApiUtilsFormatXelis(value: value);

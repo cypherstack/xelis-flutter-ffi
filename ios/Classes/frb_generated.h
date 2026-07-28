@@ -52,12 +52,16 @@ typedef struct wire_cst_history_page_filter {
   uintptr_t *limit;
   struct wire_cst_list_prim_u_8_strict *asset_hash;
   struct wire_cst_list_prim_u_8_strict *address;
+  struct wire_cst_list_prim_u_8_strict *contract;
   uint64_t *min_topoheight;
   uint64_t *max_topoheight;
   bool accept_incoming;
   bool accept_outgoing;
   bool accept_coinbase;
   bool accept_burn;
+  bool accept_blob;
+  uint64_t *min_timestamp;
+  uint64_t *max_timestamp;
 } wire_cst_history_page_filter;
 
 typedef struct wire_cst_record_string_permission_policy {

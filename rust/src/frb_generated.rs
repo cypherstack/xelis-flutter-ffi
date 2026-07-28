@@ -4848,23 +4848,31 @@ impl SseDecode for crate::api::models::wallet_dtos::HistoryPageFilter {
         let mut var_limit = <Option<usize>>::sse_decode(deserializer);
         let mut var_assetHash = <Option<String>>::sse_decode(deserializer);
         let mut var_address = <Option<String>>::sse_decode(deserializer);
+        let mut var_contract = <Option<String>>::sse_decode(deserializer);
         let mut var_minTopoheight = <Option<u64>>::sse_decode(deserializer);
         let mut var_maxTopoheight = <Option<u64>>::sse_decode(deserializer);
         let mut var_acceptIncoming = <bool>::sse_decode(deserializer);
         let mut var_acceptOutgoing = <bool>::sse_decode(deserializer);
         let mut var_acceptCoinbase = <bool>::sse_decode(deserializer);
         let mut var_acceptBurn = <bool>::sse_decode(deserializer);
+        let mut var_acceptBlob = <bool>::sse_decode(deserializer);
+        let mut var_minTimestamp = <Option<u64>>::sse_decode(deserializer);
+        let mut var_maxTimestamp = <Option<u64>>::sse_decode(deserializer);
         return crate::api::models::wallet_dtos::HistoryPageFilter {
             page: var_page,
             limit: var_limit,
             asset_hash: var_assetHash,
             address: var_address,
+            contract: var_contract,
             min_topoheight: var_minTopoheight,
             max_topoheight: var_maxTopoheight,
             accept_incoming: var_acceptIncoming,
             accept_outgoing: var_acceptOutgoing,
             accept_coinbase: var_acceptCoinbase,
             accept_burn: var_acceptBurn,
+            accept_blob: var_acceptBlob,
+            min_timestamp: var_minTimestamp,
+            max_timestamp: var_maxTimestamp,
         };
     }
 }
@@ -5801,12 +5809,16 @@ impl flutter_rust_bridge::IntoDart for crate::api::models::wallet_dtos::HistoryP
             self.limit.into_into_dart().into_dart(),
             self.asset_hash.into_into_dart().into_dart(),
             self.address.into_into_dart().into_dart(),
+            self.contract.into_into_dart().into_dart(),
             self.min_topoheight.into_into_dart().into_dart(),
             self.max_topoheight.into_into_dart().into_dart(),
             self.accept_incoming.into_into_dart().into_dart(),
             self.accept_outgoing.into_into_dart().into_dart(),
             self.accept_coinbase.into_into_dart().into_dart(),
             self.accept_burn.into_into_dart().into_dart(),
+            self.accept_blob.into_into_dart().into_dart(),
+            self.min_timestamp.into_into_dart().into_dart(),
+            self.max_timestamp.into_into_dart().into_dart(),
         ]
         .into_dart()
     }
@@ -6602,12 +6614,16 @@ impl SseEncode for crate::api::models::wallet_dtos::HistoryPageFilter {
         <Option<usize>>::sse_encode(self.limit, serializer);
         <Option<String>>::sse_encode(self.asset_hash, serializer);
         <Option<String>>::sse_encode(self.address, serializer);
+        <Option<String>>::sse_encode(self.contract, serializer);
         <Option<u64>>::sse_encode(self.min_topoheight, serializer);
         <Option<u64>>::sse_encode(self.max_topoheight, serializer);
         <bool>::sse_encode(self.accept_incoming, serializer);
         <bool>::sse_encode(self.accept_outgoing, serializer);
         <bool>::sse_encode(self.accept_coinbase, serializer);
         <bool>::sse_encode(self.accept_burn, serializer);
+        <bool>::sse_encode(self.accept_blob, serializer);
+        <Option<u64>>::sse_encode(self.min_timestamp, serializer);
+        <Option<u64>>::sse_encode(self.max_timestamp, serializer);
     }
 }
 
@@ -7781,12 +7797,16 @@ mod io {
                 limit: self.limit.cst_decode(),
                 asset_hash: self.asset_hash.cst_decode(),
                 address: self.address.cst_decode(),
+                contract: self.contract.cst_decode(),
                 min_topoheight: self.min_topoheight.cst_decode(),
                 max_topoheight: self.max_topoheight.cst_decode(),
                 accept_incoming: self.accept_incoming.cst_decode(),
                 accept_outgoing: self.accept_outgoing.cst_decode(),
                 accept_coinbase: self.accept_coinbase.cst_decode(),
                 accept_burn: self.accept_burn.cst_decode(),
+                accept_blob: self.accept_blob.cst_decode(),
+                min_timestamp: self.min_timestamp.cst_decode(),
+                max_timestamp: self.max_timestamp.cst_decode(),
             }
         }
     }
@@ -8185,12 +8205,16 @@ mod io {
                 limit: core::ptr::null_mut(),
                 asset_hash: core::ptr::null_mut(),
                 address: core::ptr::null_mut(),
+                contract: core::ptr::null_mut(),
                 min_topoheight: core::ptr::null_mut(),
                 max_topoheight: core::ptr::null_mut(),
                 accept_incoming: Default::default(),
                 accept_outgoing: Default::default(),
                 accept_coinbase: Default::default(),
                 accept_burn: Default::default(),
+                accept_blob: Default::default(),
+                min_timestamp: core::ptr::null_mut(),
+                max_timestamp: core::ptr::null_mut(),
             }
         }
     }
@@ -9968,12 +9992,16 @@ field1: Default::default(), }
         limit: *mut usize,
         asset_hash: *mut wire_cst_list_prim_u_8_strict,
         address: *mut wire_cst_list_prim_u_8_strict,
+        contract: *mut wire_cst_list_prim_u_8_strict,
         min_topoheight: *mut u64,
         max_topoheight: *mut u64,
         accept_incoming: bool,
         accept_outgoing: bool,
         accept_coinbase: bool,
         accept_burn: bool,
+        accept_blob: bool,
+        min_timestamp: *mut u64,
+        max_timestamp: *mut u64,
     }
     #[repr(C)]
     #[derive(Clone, Copy)]
@@ -10393,8 +10421,8 @@ mod web {
                 .unwrap();
             assert_eq!(
                 self_.length(),
-                10,
-                "Expected 10 elements, got {}",
+                14,
+                "Expected 14 elements, got {}",
                 self_.length()
             );
             crate::api::models::wallet_dtos::HistoryPageFilter {
@@ -10402,12 +10430,16 @@ mod web {
                 limit: self_.get(1).cst_decode(),
                 asset_hash: self_.get(2).cst_decode(),
                 address: self_.get(3).cst_decode(),
-                min_topoheight: self_.get(4).cst_decode(),
-                max_topoheight: self_.get(5).cst_decode(),
-                accept_incoming: self_.get(6).cst_decode(),
-                accept_outgoing: self_.get(7).cst_decode(),
-                accept_coinbase: self_.get(8).cst_decode(),
-                accept_burn: self_.get(9).cst_decode(),
+                contract: self_.get(4).cst_decode(),
+                min_topoheight: self_.get(5).cst_decode(),
+                max_topoheight: self_.get(6).cst_decode(),
+                accept_incoming: self_.get(7).cst_decode(),
+                accept_outgoing: self_.get(8).cst_decode(),
+                accept_coinbase: self_.get(9).cst_decode(),
+                accept_burn: self_.get(10).cst_decode(),
+                accept_blob: self_.get(11).cst_decode(),
+                min_timestamp: self_.get(12).cst_decode(),
+                max_timestamp: self_.get(13).cst_decode(),
             }
         }
     }

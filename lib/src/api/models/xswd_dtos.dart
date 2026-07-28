@@ -22,20 +22,9 @@ sealed class AppInfo with _$AppInfo {
   }) = _AppInfo;
 }
 
-enum PermissionPolicy {
-  ask,
-  accept,
-  reject,
-  ;
-}
+enum PermissionPolicy { ask, accept, reject }
 
-enum UserPermissionDecision {
-  accept,
-  reject,
-  alwaysAccept,
-  alwaysReject,
-  ;
-}
+enum UserPermissionDecision { accept, reject, alwaysAccept, alwaysReject }
 
 @freezed
 sealed class XswdRequestSummary with _$XswdRequestSummary {
@@ -45,37 +34,27 @@ sealed class XswdRequestSummary with _$XswdRequestSummary {
     required AppInfo applicationInfo,
   }) = _XswdRequestSummary;
   bool isAppDisconnect() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryIsAppDisconnect(
-        that: this,
-      );
+      .crateApiModelsXswdDtosXswdRequestSummaryIsAppDisconnect(that: this);
 
   bool isApplicationRequest() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryIsApplicationRequest(
-        that: this,
-      );
+      .crateApiModelsXswdDtosXswdRequestSummaryIsApplicationRequest(that: this);
 
   bool isCancelRequest() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryIsCancelRequest(
-        that: this,
-      );
+      .crateApiModelsXswdDtosXswdRequestSummaryIsCancelRequest(that: this);
 
   bool isPermissionRequest() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryIsPermissionRequest(
-        that: this,
-      );
+      .crateApiModelsXswdDtosXswdRequestSummaryIsPermissionRequest(that: this);
 
   bool isPrefetchPermissionsRequest() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryIsPrefetchPermissionsRequest(
+      .crateApiModelsXswdDtosXswdRequestSummaryIsPrefetchPermissionsRequest(
         that: this,
       );
 
   String? permissionJson() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryPermissionJson(
-        that: this,
-      );
+      .crateApiModelsXswdDtosXswdRequestSummaryPermissionJson(that: this);
 
   String? prefetchPermissionsJson() => RustLib.instance.api
-          .crateApiModelsXswdDtosXswdRequestSummaryPrefetchPermissionsJson(
+      .crateApiModelsXswdDtosXswdRequestSummaryPrefetchPermissionsJson(
         that: this,
       );
 }
@@ -85,12 +64,10 @@ sealed class XswdRequestType with _$XswdRequestType {
   const XswdRequestType._();
 
   const factory XswdRequestType.application() = XswdRequestType_Application;
-  const factory XswdRequestType.permission(
-    String field0,
-  ) = XswdRequestType_Permission;
-  const factory XswdRequestType.prefetchPermissions(
-    String field0,
-  ) = XswdRequestType_PrefetchPermissions;
+  const factory XswdRequestType.permission(String field0) =
+      XswdRequestType_Permission;
+  const factory XswdRequestType.prefetchPermissions(String field0) =
+      XswdRequestType_PrefetchPermissions;
   const factory XswdRequestType.cancelRequest() = XswdRequestType_CancelRequest;
   const factory XswdRequestType.appDisconnect() = XswdRequestType_AppDisconnect;
 }

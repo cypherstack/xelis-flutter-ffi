@@ -9,26 +9,27 @@ import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated.dart';
 
 // These functions are ignored because they are not marked as `pub`: `create_event_summary`, `handle_permission_decision`, `handle_prefetch_permissions_decision`, `xswd_event_name`
 
-Future<void> xswdHandler(
-        {required UnboundedReceiverXswdEvent receiver,
-        required FutureOr<void> Function(XswdRequestSummary)
-            cancelRequestDartCallback,
-        required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-            requestApplicationDartCallback,
-        required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-            requestPermissionDartCallback,
-        required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-            requestPrefetchPermissionsDartCallback,
-        required FutureOr<void> Function(XswdRequestSummary)
-            appDisconnectDartCallback}) =>
-    RustLib.instance.api.crateApiXswdImpXswdHandler(
-        receiver: receiver,
-        cancelRequestDartCallback: cancelRequestDartCallback,
-        requestApplicationDartCallback: requestApplicationDartCallback,
-        requestPermissionDartCallback: requestPermissionDartCallback,
-        requestPrefetchPermissionsDartCallback:
-            requestPrefetchPermissionsDartCallback,
-        appDisconnectDartCallback: appDisconnectDartCallback);
+Future<void> xswdHandler({
+  required UnboundedReceiverXswdEvent receiver,
+  required FutureOr<void> Function(XswdRequestSummary)
+  cancelRequestDartCallback,
+  required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+  requestApplicationDartCallback,
+  required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+  requestPermissionDartCallback,
+  required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+  requestPrefetchPermissionsDartCallback,
+  required FutureOr<void> Function(XswdRequestSummary)
+  appDisconnectDartCallback,
+}) => RustLib.instance.api.crateApiXswdImpXswdHandler(
+  receiver: receiver,
+  cancelRequestDartCallback: cancelRequestDartCallback,
+  requestApplicationDartCallback: requestApplicationDartCallback,
+  requestPermissionDartCallback: requestPermissionDartCallback,
+  requestPrefetchPermissionsDartCallback:
+      requestPrefetchPermissionsDartCallback,
+  appDisconnectDartCallback: appDisconnectDartCallback,
+);
 
 Future<AppInfo> createAppInfo({required AppState state}) =>
     RustLib.instance.api.crateApiXswdImpCreateAppInfo(state: state);
@@ -46,20 +47,23 @@ abstract class XSWD {
 
   Future<bool> isXswdRunning();
 
-  Future<void> modifyApplicationPermissions(
-      {required String id, required Map<String, PermissionPolicy> permissions});
+  Future<void> modifyApplicationPermissions({
+    required String id,
+    required Map<String, PermissionPolicy> permissions,
+  });
 
-  Future<void> startXswd(
-      {required FutureOr<void> Function(XswdRequestSummary)
-          cancelRequestDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestApplicationDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestPermissionDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestPrefetchPermissionsDartCallback,
-      required FutureOr<void> Function(XswdRequestSummary)
-          appDisconnectDartCallback});
+  Future<void> startXswd({
+    required FutureOr<void> Function(XswdRequestSummary)
+    cancelRequestDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestApplicationDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestPermissionDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestPrefetchPermissionsDartCallback,
+    required FutureOr<void> Function(XswdRequestSummary)
+    appDisconnectDartCallback,
+  });
 
   Future<void> stopXswd();
 }

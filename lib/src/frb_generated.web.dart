@@ -32,182 +32,208 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
     required super.portManager,
   });
 
-  CrossPlatformFinalizerArg get rust_arc_decrement_strong_count_AddressPtr => wire
+  CrossPlatformFinalizerArg
+  get rust_arc_decrement_strong_count_AddressPtr => wire
       .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress;
 
-  CrossPlatformFinalizerArg get rust_arc_decrement_strong_count_AppStatePtr => wire
+  CrossPlatformFinalizerArg
+  get rust_arc_decrement_strong_count_AppStatePtr => wire
       .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_DataElementPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement;
+  get rust_arc_decrement_strong_count_DataElementPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_IntegratedAddressPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress;
+  get rust_arc_decrement_strong_count_IntegratedAddressPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_LevelFilterPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter;
+  get rust_arc_decrement_strong_count_LevelFilterPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_PrecomputedTablesSharedPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared;
+  get rust_arc_decrement_strong_count_PrecomputedTablesSharedPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SearchEnginePtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine;
+  get rust_arc_decrement_strong_count_SearchEnginePtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SendToDartLoggerPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger;
+  get rust_arc_decrement_strong_count_SendToDartLoggerPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SummaryTransactionPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction;
+  get rust_arc_decrement_strong_count_SummaryTransactionPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction;
+  get rust_arc_decrement_strong_count_TransactionPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionBuilderStatePtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState;
+  get rust_arc_decrement_strong_count_TransactionBuilderStatePtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionTypeBuilderPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder;
+  get rust_arc_decrement_strong_count_TransactionTypeBuilderPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_UnboundedReceiverXswdEventPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent;
+  get rust_arc_decrement_strong_count_UnboundedReceiverXswdEventPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_XelisWalletPtr => wire
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet;
+  get rust_arc_decrement_strong_count_XelisWalletPtr => wire
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet;
 
   @protected
   AnyhowException dco_decode_AnyhowException(dynamic raw);
 
   @protected
   Address
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    dynamic raw,
+  );
 
   @protected
   DataElement
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   LevelFilter
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   Transaction
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    dynamic raw,
+  );
 
   @protected
   TransactionBuilderState
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    dynamic raw,
+  );
 
   @protected
   TransactionTypeBuilder
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    dynamic raw,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   AppState
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   FutureOr<void> Function(XswdRequestSummary)
-      dco_decode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          dynamic raw);
+  dco_decode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    dynamic raw,
+  );
 
   @protected
   FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-      dco_decode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          dynamic raw);
+  dco_decode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    dynamic raw,
+  );
 
   @protected
   Object dco_decode_DartOpaque(dynamic raw);
@@ -217,84 +243,100 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   Map<String, ContactDetails> dco_decode_Map_String_contact_details_None(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Map<String, PermissionPolicy> dco_decode_Map_String_permission_policy_None(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Map<String, BigInt> dco_decode_Map_String_u_64_None(dynamic raw);
 
   @protected
   Address
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    dynamic raw,
+  );
 
   @protected
   AppState
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    dynamic raw,
+  );
 
   @protected
   DataElement
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   LevelFilter
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   Transaction
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    dynamic raw,
+  );
 
   @protected
   TransactionBuilderState
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    dynamic raw,
+  );
 
   @protected
   TransactionTypeBuilder
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    dynamic raw,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   RustStreamSink<String> dco_decode_StreamSink_String_Dco(dynamic raw);
@@ -322,13 +364,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement
-      dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   AddressBookData dco_decode_box_autoadd_address_book_data(dynamic raw);
@@ -341,7 +385,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   PrecomputedTableType dco_decode_box_autoadd_precomputed_table_type(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Report dco_decode_box_autoadd_report(dynamic raw);
@@ -390,11 +435,12 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<(String, ContactDetails)> dco_decode_list_record_string_contact_details(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   List<(String, PermissionPolicy)>
-      dco_decode_list_record_string_permission_policy(dynamic raw);
+  dco_decode_list_record_string_permission_policy(dynamic raw);
 
   @protected
   List<(String, String)> dco_decode_list_record_string_string(dynamic raw);
@@ -404,7 +450,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<(String, XelisAssetMetadata)>
-      dco_decode_list_record_string_xelis_asset_metadata(dynamic raw);
+  dco_decode_list_record_string_xelis_asset_metadata(dynamic raw);
 
   @protected
   List<SignatureMultisig> dco_decode_list_signature_multisig(dynamic raw);
@@ -423,13 +469,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement?
-      dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared?
-      dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   bool? dco_decode_opt_box_autoadd_bool(dynamic raw);
@@ -450,19 +498,20 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   PrecomputedTableType dco_decode_precomputed_table_type(dynamic raw);
 
   @protected
-  (
-    Transaction,
-    TransactionBuilderState
-  ) dco_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-      dynamic raw);
+  (Transaction, TransactionBuilderState)
+  dco_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    dynamic raw,
+  );
 
   @protected
   (String, ContactDetails) dco_decode_record_string_contact_details(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   (String, PermissionPolicy) dco_decode_record_string_permission_policy(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   (String, String) dco_decode_record_string_string(dynamic raw);
@@ -472,7 +521,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   (String, XelisAssetMetadata) dco_decode_record_string_xelis_asset_metadata(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Report dco_decode_report(dynamic raw);
@@ -521,214 +571,257 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   Address
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   DataElement
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   LevelFilter
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Transaction
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionBuilderState
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionTypeBuilder
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    SseDeserializer deserializer,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AppState
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Object sse_decode_DartOpaque(SseDeserializer deserializer);
 
   @protected
   Map<String, String> sse_decode_Map_String_String_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, ContactDetails> sse_decode_Map_String_contact_details_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, PermissionPolicy> sse_decode_Map_String_permission_policy_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, BigInt> sse_decode_Map_String_u_64_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Address
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AppState
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   DataElement
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   LevelFilter
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Transaction
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionBuilderState
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionTypeBuilder
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    SseDeserializer deserializer,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<String> sse_decode_StreamSink_String_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<LogEntry> sse_decode_StreamSink_log_entry_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<Report> sse_decode_StreamSink_report_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   String sse_decode_String(SseDeserializer deserializer);
@@ -744,28 +837,33 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement
-      sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AddressBookData sse_decode_box_autoadd_address_book_data(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   bool sse_decode_box_autoadd_bool(SseDeserializer deserializer);
 
   @protected
   HistoryPageFilter sse_decode_box_autoadd_history_page_filter(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTableType sse_decode_box_autoadd_precomputed_table_type(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Report sse_decode_box_autoadd_report(SseDeserializer deserializer);
@@ -778,11 +876,13 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   XelisAssetOwner sse_decode_box_autoadd_xelis_asset_owner(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestSummary sse_decode_box_autoadd_xswd_request_summary(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   ContactDetails sse_decode_contact_details(SseDeserializer deserializer);
@@ -792,7 +892,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   HistoryPageFilter sse_decode_history_page_filter(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   int sse_decode_i_32(SseDeserializer deserializer);
@@ -811,36 +912,41 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<ContactDetails> sse_decode_list_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Uint8List sse_decode_list_prim_u_8_strict(SseDeserializer deserializer);
 
   @protected
   List<(String, ContactDetails)> sse_decode_list_record_string_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, PermissionPolicy)>
-      sse_decode_list_record_string_permission_policy(
-          SseDeserializer deserializer);
+  sse_decode_list_record_string_permission_policy(SseDeserializer deserializer);
 
   @protected
   List<(String, String)> sse_decode_list_record_string_string(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, BigInt)> sse_decode_list_record_string_u_64(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, XelisAssetMetadata)>
-      sse_decode_list_record_string_xelis_asset_metadata(
-          SseDeserializer deserializer);
+  sse_decode_list_record_string_xelis_asset_metadata(
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<SignatureMultisig> sse_decode_list_signature_multisig(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<Transfer> sse_decode_list_transfer(SseDeserializer deserializer);
@@ -856,13 +962,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement?
-      sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared?
-      sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   bool? sse_decode_opt_box_autoadd_bool(SseDeserializer deserializer);
@@ -875,40 +983,45 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   XelisAssetOwner? sse_decode_opt_box_autoadd_xelis_asset_owner(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   PermissionPolicy sse_decode_permission_policy(SseDeserializer deserializer);
 
   @protected
   PrecomputedTableType sse_decode_precomputed_table_type(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
-  (
-    Transaction,
-    TransactionBuilderState
-  ) sse_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-      SseDeserializer deserializer);
+  (Transaction, TransactionBuilderState)
+  sse_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, ContactDetails) sse_decode_record_string_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, PermissionPolicy) sse_decode_record_string_permission_policy(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, String) sse_decode_record_string_string(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, BigInt) sse_decode_record_string_u_64(SseDeserializer deserializer);
 
   @protected
   (String, XelisAssetMetadata) sse_decode_record_string_xelis_asset_metadata(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Report sse_decode_report(SseDeserializer deserializer);
@@ -933,25 +1046,29 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   UserPermissionDecision sse_decode_user_permission_decision(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   BigInt sse_decode_usize(SseDeserializer deserializer);
 
   @protected
   XelisAssetMetadata sse_decode_xelis_asset_metadata(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisAssetOwner sse_decode_xelis_asset_owner(SseDeserializer deserializer);
 
   @protected
   XelisMaxSupplyMode sse_decode_xelis_max_supply_mode(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestSummary sse_decode_xswd_request_summary(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestType sse_decode_xswd_request_type(SseDeserializer deserializer);
@@ -966,60 +1083,75 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   JSAny cst_encode_Map_String_String_None(Map<String, String> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_string(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   JSAny cst_encode_Map_String_contact_details_None(
-      Map<String, ContactDetails> raw) {
+    Map<String, ContactDetails> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_contact_details(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   JSAny cst_encode_Map_String_permission_policy_None(
-      Map<String, PermissionPolicy> raw) {
+    Map<String, PermissionPolicy> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_permission_policy(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   JSAny cst_encode_Map_String_u_64_None(Map<String, BigInt> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_u_64(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   String cst_encode_StreamSink_String_Dco(RustStreamSink<String> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_String,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_String,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
   String cst_encode_StreamSink_log_entry_Dco(RustStreamSink<LogEntry> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_log_entry,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_log_entry,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
   String cst_encode_StreamSink_report_Dco(RustStreamSink<Report> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_report,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_report,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
@@ -1042,24 +1174,30 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
       cst_encode_String(raw.name),
       cst_encode_String(raw.description),
       cst_encode_opt_String(raw.url),
-      cst_encode_Map_String_permission_policy_None(raw.permissions)
+      cst_encode_Map_String_permission_policy_None(raw.permissions),
     ].jsify()!;
   }
 
   @protected
-  int cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-      DataElement raw) {
+  int
+  cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-        raw);
+      raw,
+    );
   }
 
   @protected
-  int cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-      PrecomputedTablesShared raw) {
+  int
+  cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-        raw);
+      raw,
+    );
   }
 
   @protected
@@ -1082,7 +1220,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   JSAny cst_encode_box_autoadd_precomputed_table_type(
-      PrecomputedTableType raw) {
+    PrecomputedTableType raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_precomputed_table_type(raw);
   }
@@ -1123,7 +1262,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
     return [
       cst_encode_String(raw.name),
       cst_encode_String(raw.address),
-      cst_encode_opt_String(raw.note)
+      cst_encode_opt_String(raw.note),
     ].jsify()!;
   }
 
@@ -1135,12 +1274,16 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
       cst_encode_opt_box_autoadd_usize(raw.limit),
       cst_encode_opt_String(raw.assetHash),
       cst_encode_opt_String(raw.address),
+      cst_encode_opt_String(raw.contract),
       cst_encode_opt_box_autoadd_u_64(raw.minTopoheight),
       cst_encode_opt_box_autoadd_u_64(raw.maxTopoheight),
       cst_encode_bool(raw.acceptIncoming),
       cst_encode_bool(raw.acceptOutgoing),
       cst_encode_bool(raw.acceptCoinbase),
-      cst_encode_bool(raw.acceptBurn)
+      cst_encode_bool(raw.acceptBurn),
+      cst_encode_bool(raw.acceptBlob),
+      cst_encode_opt_box_autoadd_u_64(raw.minTimestamp),
+      cst_encode_opt_box_autoadd_u_64(raw.maxTimestamp),
     ].jsify()!;
   }
 
@@ -1176,14 +1319,16 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   JSAny cst_encode_list_record_string_contact_details(
-      List<(String, ContactDetails)> raw) {
+    List<(String, ContactDetails)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw.map(cst_encode_record_string_contact_details).toList().jsify()!;
   }
 
   @protected
   JSAny cst_encode_list_record_string_permission_policy(
-      List<(String, PermissionPolicy)> raw) {
+    List<(String, PermissionPolicy)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw
         .map(cst_encode_record_string_permission_policy)
@@ -1205,7 +1350,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   JSAny cst_encode_list_record_string_xelis_asset_metadata(
-      List<(String, XelisAssetMetadata)> raw) {
+    List<(String, XelisAssetMetadata)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw
         .map(cst_encode_record_string_xelis_asset_metadata)
@@ -1231,7 +1377,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
     return [
       cst_encode_level(raw.level),
       cst_encode_String(raw.tag),
-      cst_encode_String(raw.msg)
+      cst_encode_String(raw.msg),
     ].jsify()!;
   }
 
@@ -1243,24 +1389,28 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   int?
-      cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement? raw) {
+  cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement? raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null
         ? null
         : cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-            raw);
+            raw,
+          );
   }
 
   @protected
   int?
-      cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared? raw) {
+  cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared? raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null
         ? null
         : cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-            raw);
+            raw,
+          );
   }
 
   @protected
@@ -1308,30 +1458,38 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   JSAny
-      cst_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-          (Transaction, TransactionBuilderState) raw) {
+  cst_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    (Transaction, TransactionBuilderState) raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return [
       cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          raw.$1),
+        raw.$1,
+      ),
       cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          raw.$2)
+        raw.$2,
+      ),
     ].jsify()!;
   }
 
   @protected
   JSAny cst_encode_record_string_contact_details((String, ContactDetails) raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return [cst_encode_String(raw.$1), cst_encode_contact_details(raw.$2)]
-        .jsify()!;
+    return [
+      cst_encode_String(raw.$1),
+      cst_encode_contact_details(raw.$2),
+    ].jsify()!;
   }
 
   @protected
   JSAny cst_encode_record_string_permission_policy(
-      (String, PermissionPolicy) raw) {
+    (String, PermissionPolicy) raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return [cst_encode_String(raw.$1), cst_encode_permission_policy(raw.$2)]
-        .jsify()!;
+    return [
+      cst_encode_String(raw.$1),
+      cst_encode_permission_policy(raw.$2),
+    ].jsify()!;
   }
 
   @protected
@@ -1348,10 +1506,13 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   JSAny cst_encode_record_string_xelis_asset_metadata(
-      (String, XelisAssetMetadata) raw) {
+    (String, XelisAssetMetadata) raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return [cst_encode_String(raw.$1), cst_encode_xelis_asset_metadata(raw.$2)]
-        .jsify()!;
+    return [
+      cst_encode_String(raw.$1),
+      cst_encode_xelis_asset_metadata(raw.$2),
+    ].jsify()!;
   }
 
   @protected
@@ -1362,7 +1523,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
         0,
         cst_encode_f_64(raw.progress),
         cst_encode_String(raw.step),
-        cst_encode_opt_String(raw.message)
+        cst_encode_opt_String(raw.message),
       ].jsify()!;
     }
     if (raw is Report_Misc) {
@@ -1386,7 +1547,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
       cst_encode_String(raw.strAddress),
       cst_encode_String(raw.assetHash),
       cst_encode_opt_String(raw.extraData),
-      cst_encode_opt_box_autoadd_bool(raw.encryptExtraData)
+      cst_encode_opt_box_autoadd_bool(raw.encryptExtraData),
     ].jsify()!;
   }
 
@@ -1410,7 +1571,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
       cst_encode_String(raw.ticker),
       cst_encode_u_8(raw.decimals),
       cst_encode_xelis_max_supply_mode(raw.maxSupply),
-      cst_encode_opt_box_autoadd_xelis_asset_owner(raw.owner)
+      cst_encode_opt_box_autoadd_xelis_asset_owner(raw.owner),
     ].jsify()!;
   }
 
@@ -1421,15 +1582,18 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
       return [0].jsify()!;
     }
     if (raw is XelisAssetOwner_Creator) {
-      return [1, cst_encode_String(raw.contract), cst_encode_u_64(raw.id)]
-          .jsify()!;
+      return [
+        1,
+        cst_encode_String(raw.contract),
+        cst_encode_u_64(raw.id),
+      ].jsify()!;
     }
     if (raw is XelisAssetOwner_Owner) {
       return [
         2,
         cst_encode_String(raw.origin),
         cst_encode_u_64(raw.originId),
-        cst_encode_String(raw.owner)
+        cst_encode_String(raw.owner),
       ].jsify()!;
     }
 
@@ -1457,7 +1621,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return [
       cst_encode_xswd_request_type(raw.eventType),
-      cst_encode_app_info(raw.applicationInfo)
+      cst_encode_app_info(raw.applicationInfo),
     ].jsify()!;
   }
 
@@ -1484,161 +1648,235 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   }
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-      Address raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-      DataElement raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-      LevelFilter raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-      PrecomputedTablesShared raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-      Transaction raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-      TransactionBuilderState raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-      TransactionTypeBuilder raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-      UnboundedReceiverXswdEvent raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-      AppState raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
   PlatformPointer
-      cst_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          FutureOr<void> Function(XswdRequestSummary) raw);
+  cst_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    FutureOr<void> Function(XswdRequestSummary) raw,
+  );
 
   @protected
   PlatformPointer
-      cst_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          FutureOr<UserPermissionDecision> Function(XswdRequestSummary) raw);
+  cst_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    FutureOr<UserPermissionDecision> Function(XswdRequestSummary) raw,
+  );
 
   @protected
   PlatformPointer cst_encode_DartOpaque(Object raw);
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-      Address raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-      AppState raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-      DataElement raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-      LevelFilter raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-      PrecomputedTablesShared raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-      Transaction raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-      TransactionBuilderState raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-      TransactionTypeBuilder raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-      UnboundedReceiverXswdEvent raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
   bool cst_encode_bool(bool raw);
@@ -1672,237 +1910,329 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_AnyhowException(
-      AnyhowException self, SseSerializer serializer);
+    AnyhowException self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          Address self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          LevelFilter self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          Transaction self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          TransactionBuilderState self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          TransactionTypeBuilder self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          UnboundedReceiverXswdEvent self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          AppState self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          FutureOr<void> Function(XswdRequestSummary) self,
-          SseSerializer serializer);
+  sse_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    FutureOr<void> Function(XswdRequestSummary) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          FutureOr<UserPermissionDecision> Function(XswdRequestSummary) self,
-          SseSerializer serializer);
+  sse_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    FutureOr<UserPermissionDecision> Function(XswdRequestSummary) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_DartOpaque(Object self, SseSerializer serializer);
 
   @protected
   void sse_encode_Map_String_String_None(
-      Map<String, String> self, SseSerializer serializer);
+    Map<String, String> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_contact_details_None(
-      Map<String, ContactDetails> self, SseSerializer serializer);
+    Map<String, ContactDetails> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_permission_policy_None(
-      Map<String, PermissionPolicy> self, SseSerializer serializer);
+    Map<String, PermissionPolicy> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_u_64_None(
-      Map<String, BigInt> self, SseSerializer serializer);
+    Map<String, BigInt> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          Address self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          AppState self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          LevelFilter self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          Transaction self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          TransactionBuilderState self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          TransactionTypeBuilder self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          UnboundedReceiverXswdEvent self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_String_Dco(
-      RustStreamSink<String> self, SseSerializer serializer);
+    RustStreamSink<String> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_log_entry_Dco(
-      RustStreamSink<LogEntry> self, SseSerializer serializer);
+    RustStreamSink<LogEntry> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_report_Dco(
-      RustStreamSink<Report> self, SseSerializer serializer);
+    RustStreamSink<Report> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_String(String self, SseSerializer serializer);
 
   @protected
   void sse_encode_address_book_data(
-      AddressBookData self, SseSerializer serializer);
+    AddressBookData self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_app_info(AppInfo self, SseSerializer serializer);
@@ -1912,28 +2242,38 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void
-      sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_address_book_data(
-      AddressBookData self, SseSerializer serializer);
+    AddressBookData self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_bool(bool self, SseSerializer serializer);
 
   @protected
   void sse_encode_box_autoadd_history_page_filter(
-      HistoryPageFilter self, SseSerializer serializer);
+    HistoryPageFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_precomputed_table_type(
-      PrecomputedTableType self, SseSerializer serializer);
+    PrecomputedTableType self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_report(Report self, SseSerializer serializer);
@@ -1946,22 +2286,30 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_box_autoadd_xelis_asset_owner(
-      XelisAssetOwner self, SseSerializer serializer);
+    XelisAssetOwner self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_xswd_request_summary(
-      XswdRequestSummary self, SseSerializer serializer);
+    XswdRequestSummary self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_contact_details(
-      ContactDetails self, SseSerializer serializer);
+    ContactDetails self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_f_64(double self, SseSerializer serializer);
 
   @protected
   void sse_encode_history_page_filter(
-      HistoryPageFilter self, SseSerializer serializer);
+    HistoryPageFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_i_32(int self, SseSerializer serializer);
@@ -1980,35 +2328,51 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_list_contact_details(
-      List<ContactDetails> self, SseSerializer serializer);
+    List<ContactDetails> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_prim_u_8_strict(
-      Uint8List self, SseSerializer serializer);
+    Uint8List self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_contact_details(
-      List<(String, ContactDetails)> self, SseSerializer serializer);
+    List<(String, ContactDetails)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_permission_policy(
-      List<(String, PermissionPolicy)> self, SseSerializer serializer);
+    List<(String, PermissionPolicy)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_string(
-      List<(String, String)> self, SseSerializer serializer);
+    List<(String, String)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_u_64(
-      List<(String, BigInt)> self, SseSerializer serializer);
+    List<(String, BigInt)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_xelis_asset_metadata(
-      List<(String, XelisAssetMetadata)> self, SseSerializer serializer);
+    List<(String, XelisAssetMetadata)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_signature_multisig(
-      List<SignatureMultisig> self, SseSerializer serializer);
+    List<SignatureMultisig> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_transfer(List<Transfer> self, SseSerializer serializer);
@@ -2024,13 +2388,17 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void
-      sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement? self, SseSerializer serializer);
+  sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared? self, SseSerializer serializer);
+  sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_opt_box_autoadd_bool(bool? self, SseSerializer serializer);
@@ -2043,48 +2411,67 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_opt_box_autoadd_xelis_asset_owner(
-      XelisAssetOwner? self, SseSerializer serializer);
+    XelisAssetOwner? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_permission_policy(
-      PermissionPolicy self, SseSerializer serializer);
+    PermissionPolicy self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_precomputed_table_type(
-      PrecomputedTableType self, SseSerializer serializer);
+    PrecomputedTableType self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-          (Transaction, TransactionBuilderState) self,
-          SseSerializer serializer);
+  sse_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    (Transaction, TransactionBuilderState) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_contact_details(
-      (String, ContactDetails) self, SseSerializer serializer);
+    (String, ContactDetails) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_permission_policy(
-      (String, PermissionPolicy) self, SseSerializer serializer);
+    (String, PermissionPolicy) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_string(
-      (String, String) self, SseSerializer serializer);
+    (String, String) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_u_64(
-      (String, BigInt) self, SseSerializer serializer);
+    (String, BigInt) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_xelis_asset_metadata(
-      (String, XelisAssetMetadata) self, SseSerializer serializer);
+    (String, XelisAssetMetadata) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_report(Report self, SseSerializer serializer);
 
   @protected
   void sse_encode_signature_multisig(
-      SignatureMultisig self, SseSerializer serializer);
+    SignatureMultisig self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_transfer(Transfer self, SseSerializer serializer);
@@ -2103,30 +2490,42 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_user_permission_decision(
-      UserPermissionDecision self, SseSerializer serializer);
+    UserPermissionDecision self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_usize(BigInt self, SseSerializer serializer);
 
   @protected
   void sse_encode_xelis_asset_metadata(
-      XelisAssetMetadata self, SseSerializer serializer);
+    XelisAssetMetadata self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xelis_asset_owner(
-      XelisAssetOwner self, SseSerializer serializer);
+    XelisAssetOwner self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xelis_max_supply_mode(
-      XelisMaxSupplyMode self, SseSerializer serializer);
+    XelisMaxSupplyMode self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xswd_request_summary(
-      XswdRequestSummary self, SseSerializer serializer);
+    XswdRequestSummary self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xswd_request_type(
-      XswdRequestType self, SseSerializer serializer);
+    XswdRequestType self,
+    SseSerializer serializer,
+  );
 }
 
 // Section: wire_class
@@ -2135,858 +2534,1212 @@ class RustLibWire implements BaseWire {
   RustLibWire.fromExternalLibrary(ExternalLibrary lib);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
-              int that) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
-                  that);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
-              int that) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
-                  that);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
-              int that, int address) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
-                  that, address);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
+    int that,
+    int address,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
+        that,
+        address,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
-              int that, int? data) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
-                  that, data);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
+    int that,
+    int? data,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
+        that,
+        data,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_check_seed(
-              int that, JSAny seed) =>
-          wasmModule
-              .wire__crate__api__seed_search_engine__SearchEngine_check_seed(
-                  that, seed);
+  wire__crate__api__seed_search_engine__SearchEngine_check_seed(
+    int that,
+    JSAny seed,
+  ) => wasmModule.wire__crate__api__seed_search_engine__SearchEngine_check_seed(
+    that,
+    seed,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_init(
-              JSAny language_index) =>
-          wasmModule.wire__crate__api__seed_search_engine__SearchEngine_init(
-              language_index);
+  wire__crate__api__seed_search_engine__SearchEngine_init(
+    JSAny language_index,
+  ) => wasmModule.wire__crate__api__seed_search_engine__SearchEngine_init(
+    language_index,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_search(
-              int that, String query) =>
-          wasmModule.wire__crate__api__seed_search_engine__SearchEngine_search(
-              that, query);
+  wire__crate__api__seed_search_engine__SearchEngine_search(
+    int that,
+    String query,
+  ) => wasmModule.wire__crate__api__seed_search_engine__SearchEngine_search(
+    that,
+    query,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
-              int that) =>
-          wasmModule
-              .wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
-                  that);
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(that);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
-              int that, int level) =>
-          wasmModule
-              .wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
-                  that, level);
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
+    int that,
+    int level,
+  ) => wasmModule
+      .wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
+        that,
+        level,
+      );
 
   void wire__crate__api__logger__SendToDartLogger_set_stream_sink(
-          NativePortType port_, String stream_sink) =>
-      wasmModule.wire__crate__api__logger__SendToDartLogger_set_stream_sink(
-          port_, stream_sink);
+    NativePortType port_,
+    String stream_sink,
+  ) => wasmModule.wire__crate__api__logger__SendToDartLogger_set_stream_sink(
+    port_,
+    stream_sink,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
-              int that) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
-                  that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
-              int that) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
-                  that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
-              int that) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
-                  that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
+    int that,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
-              int that, JSAny fee) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
-                  that, fee);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
+    int that,
+    JSAny fee,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
+        that,
+        fee,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
-              int that, String hash) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
-                  that, hash);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
+    int that,
+    String hash,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
+        that,
+        hash,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
-              int that, int transaction_type) =>
-          wasmModule
-              .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
-                  that, transaction_type);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
+    int that,
+    int transaction_type,
+  ) => wasmModule
+      .wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
+        that,
+        transaction_type,
+      );
 
   void wire__crate__api__wallet__XelisWallet_all_history(
-          NativePortType port_, int that) =>
+    NativePortType port_,
+    int that,
+  ) =>
       wasmModule.wire__crate__api__wallet__XelisWallet_all_history(port_, that);
 
   void wire__crate__api__wallet__XelisWallet_broadcast_transaction(
-          NativePortType port_, int that, String tx_hash) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_broadcast_transaction(
-          port_, that, tx_hash);
+    NativePortType port_,
+    int that,
+    String tx_hash,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_broadcast_transaction(
+    port_,
+    that,
+    tx_hash,
+  );
 
   void wire__crate__api__wallet__XelisWallet_change_password(
-          NativePortType port_,
-          int that,
-          String old_password,
-          String new_password) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_change_password(
-          port_, that, old_password, new_password);
+    NativePortType port_,
+    int that,
+    String old_password,
+    String new_password,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_change_password(
+    port_,
+    that,
+    old_password,
+    new_password,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_clear_transaction(
-              int that, String tx_hash) =>
-          wasmModule.wire__crate__api__wallet__XelisWallet_clear_transaction(
-              that, tx_hash);
+  wire__crate__api__wallet__XelisWallet_clear_transaction(
+    int that,
+    String tx_hash,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_clear_transaction(
+    that,
+    tx_hash,
+  );
 
   void wire__crate__api__wallet__XelisWallet_close(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_close(port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_close(port_, that);
 
   void wire__crate__api__wallet__XelisWallet_close_application_session(
-          NativePortType port_, int that, String id) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_close_application_session(
-              port_, that, id);
+    NativePortType port_,
+    int that,
+    String id,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_close_application_session(
+        port_,
+        that,
+        id,
+      );
 
   void wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
-          NativePortType port_, int that) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
-              port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
+        port_,
+        that,
+      );
 
   void wire__crate__api__wallet__XelisWallet_create_burn_all_transaction(
-          NativePortType port_, int that, String asset_hash) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_burn_all_transaction(
-              port_, that, asset_hash);
+    NativePortType port_,
+    int that,
+    String asset_hash,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_burn_all_transaction(
+        port_,
+        that,
+        asset_hash,
+      );
 
   void wire__crate__api__wallet__XelisWallet_create_burn_transaction(
-          NativePortType port_,
-          int that,
-          double float_amount,
-          String asset_hash) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_create_burn_transaction(
-          port_, that, float_amount, asset_hash);
+    NativePortType port_,
+    int that,
+    double float_amount,
+    String asset_hash,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_create_burn_transaction(
+    port_,
+    that,
+    float_amount,
+    asset_hash,
+  );
 
-  void wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
-          NativePortType port_, int that, String asset_hash) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
-              port_, that, asset_hash);
+  void
+  wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
+    NativePortType port_,
+    int that,
+    String asset_hash,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
+        port_,
+        that,
+        asset_hash,
+      );
 
   void wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
-          NativePortType port_,
-          int that,
-          double float_amount,
-          String asset_hash) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
-              port_, that, float_amount, asset_hash);
+    NativePortType port_,
+    int that,
+    double float_amount,
+    String asset_hash,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
+        port_,
+        that,
+        float_amount,
+        asset_hash,
+      );
 
-  void wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
-          NativePortType port_,
-          int that,
-          String str_address,
-          String? asset_hash,
-          String? extra_data,
-          bool? encrypt_extra_data) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
-              port_,
-              that,
-              str_address,
-              asset_hash,
-              extra_data,
-              encrypt_extra_data);
+  void
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
+    NativePortType port_,
+    int that,
+    String str_address,
+    String? asset_hash,
+    String? extra_data,
+    bool? encrypt_extra_data,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
+        port_,
+        that,
+        str_address,
+        asset_hash,
+        extra_data,
+        encrypt_extra_data,
+      );
 
-  void wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
-          NativePortType port_, int that, JSAny transfers) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
-              port_, that, transfers);
+  void
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
+        port_,
+        that,
+        transfers,
+      );
 
   void wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
-          NativePortType port_,
-          int that,
-          String str_address,
-          String? asset_hash,
-          String? extra_data,
-          bool? encrypt_extra_data) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
-              port_,
-              that,
-              str_address,
-              asset_hash,
-              extra_data,
-              encrypt_extra_data);
+    NativePortType port_,
+    int that,
+    String str_address,
+    String? asset_hash,
+    String? extra_data,
+    bool? encrypt_extra_data,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
+        port_,
+        that,
+        str_address,
+        asset_hash,
+        extra_data,
+        encrypt_extra_data,
+      );
 
   void wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
-          NativePortType port_, int that, JSAny transfers) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
-              port_, that, transfers);
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
+        port_,
+        that,
+        transfers,
+      );
 
   void wire__crate__api__wallet__XelisWallet_estimate_fees(
-          NativePortType port_, int that, JSAny transfers) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_estimate_fees(
-          port_, that, transfers);
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_estimate_fees(
+    port_,
+    that,
+    transfers,
+  );
 
   void wire__crate__api__wallet__XelisWallet_events_stream(
-          NativePortType port_, int that, String sink) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_events_stream(
-          port_, that, sink);
+    NativePortType port_,
+    int that,
+    String sink,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_events_stream(
+    port_,
+    that,
+    sink,
+  );
 
   void wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
-          NativePortType port_, int that, String file_path) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
-              port_, that, file_path);
+    NativePortType port_,
+    int that,
+    String file_path,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
+        port_,
+        that,
+        file_path,
+      );
 
   void wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
-          NativePortType port_, int that, JSAny signatures) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
-              port_, that, signatures);
+    NativePortType port_,
+    int that,
+    JSAny signatures,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
+        port_,
+        that,
+        signatures,
+      );
 
-  void wire__crate__api__wallet__XelisWallet_format_coin(NativePortType port_,
-          int that, JSAny atomic_amount, String? asset_hash) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_format_coin(
-          port_, that, atomic_amount, asset_hash);
+  void wire__crate__api__wallet__XelisWallet_format_coin(
+    NativePortType port_,
+    int that,
+    JSAny atomic_amount,
+    String? asset_hash,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_format_coin(
+    port_,
+    that,
+    atomic_amount,
+    asset_hash,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_get_address_str(int that) =>
-          wasmModule
-              .wire__crate__api__wallet__XelisWallet_get_address_str(that);
+  wire__crate__api__wallet__XelisWallet_get_address_str(int that) =>
+      wasmModule.wire__crate__api__wallet__XelisWallet_get_address_str(that);
 
   void wire__crate__api__wallet__XelisWallet_get_all_assets(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_all_assets(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_all_assets(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_application_permissions(
-          NativePortType port_, int that) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_get_application_permissions(
-              port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_get_application_permissions(
+        port_,
+        that,
+      );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
-          NativePortType port_, int that, String asset) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
-              port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
+        port_,
+        that,
+        asset,
+      );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_balances(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_balances(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_balances(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_decimals(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_decimals(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_decimals(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_metadata(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_metadata(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_metadata(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_asset_ticker(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_ticker(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_asset_ticker(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_daemon_info(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_daemon_info(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_daemon_info(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_history_count(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_history_count(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_history_count(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_known_assets(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_known_assets(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_known_assets(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_multisig_state(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_multisig_state(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_multisig_state(
+    port_,
+    that,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_get_network(int that) =>
-          wasmModule.wire__crate__api__wallet__XelisWallet_get_network(that);
+  wire__crate__api__wallet__XelisWallet_get_network(int that) =>
+      wasmModule.wire__crate__api__wallet__XelisWallet_get_network(that);
 
   void wire__crate__api__wallet__XelisWallet_get_nonce(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_nonce(port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_nonce(port_, that);
 
   void wire__crate__api__wallet__XelisWallet_get_seed(
-          NativePortType port_, int that, JSAny? language_index) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_seed(
-          port_, that, language_index);
+    NativePortType port_,
+    int that,
+    JSAny? language_index,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_seed(
+    port_,
+    that,
+    language_index,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw(
-          NativePortType port_, int that) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw(
-              port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw(
+        port_,
+        that,
+      );
 
   void wire__crate__api__wallet__XelisWallet_get_tracked_balances(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_tracked_balances(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_tracked_balances(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_xelis_balance(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_xelis_balance(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_xelis_balance(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_has_asset_balance(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_has_asset_balance(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_has_asset_balance(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_has_xelis_balance(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_has_xelis_balance(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_has_xelis_balance(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_history(
-          NativePortType port_, int that, JSAny filter) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_history(
-          port_, that, filter);
+    NativePortType port_,
+    int that,
+    JSAny filter,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_history(
+    port_,
+    that,
+    filter,
+  );
 
   void wire__crate__api__wallet__XelisWallet_init_delete_multisig(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_init_delete_multisig(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_init_delete_multisig(
+    port_,
+    that,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
-              int that, String address) =>
-          wasmModule
-              .wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
-                  that, address);
+  wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
+    int that,
+    String address,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
+        that,
+        address,
+      );
 
   void wire__crate__api__wallet__XelisWallet_is_asset_tracked(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_is_asset_tracked(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_is_asset_tracked(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_is_online(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_is_online(port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_is_online(port_, that);
 
   void wire__crate__api__wallet__XelisWallet_is_valid_password(
-          NativePortType port_, int that, String password) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_is_valid_password(
-          port_, that, password);
+    NativePortType port_,
+    int that,
+    String password,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_is_valid_password(
+    port_,
+    that,
+    password,
+  );
 
   void wire__crate__api__wallet__XelisWallet_is_xswd_running(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_is_xswd_running(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_is_xswd_running(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_modify_application_permissions(
-          NativePortType port_, int that, String id, JSAny permissions) =>
-      wasmModule
-          .wire__crate__api__wallet__XelisWallet_modify_application_permissions(
-              port_, that, id, permissions);
+    NativePortType port_,
+    int that,
+    String id,
+    JSAny permissions,
+  ) => wasmModule
+      .wire__crate__api__wallet__XelisWallet_modify_application_permissions(
+        port_,
+        that,
+        id,
+        permissions,
+      );
 
   void wire__crate__api__wallet__XelisWallet_multisig_setup(
-          NativePortType port_, int that, int threshold, JSAny participants) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_multisig_setup(
-          port_, that, threshold, participants);
+    NativePortType port_,
+    int that,
+    int threshold,
+    JSAny participants,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_multisig_setup(
+    port_,
+    that,
+    threshold,
+    participants,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_multisig_sign(
-              int that, String tx_hash) =>
-          wasmModule.wire__crate__api__wallet__XelisWallet_multisig_sign(
-              that, tx_hash);
+  wire__crate__api__wallet__XelisWallet_multisig_sign(
+    int that,
+    String tx_hash,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_multisig_sign(
+    that,
+    tx_hash,
+  );
 
   void wire__crate__api__wallet__XelisWallet_offline_mode(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_offline_mode(
-          port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_offline_mode(
+    port_,
+    that,
+  );
 
   void wire__crate__api__wallet__XelisWallet_online_mode(
-          NativePortType port_, int that, String daemon_address) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_online_mode(
-          port_, that, daemon_address);
+    NativePortType port_,
+    int that,
+    String daemon_address,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_online_mode(
+    port_,
+    that,
+    daemon_address,
+  );
 
   void wire__crate__api__wallet__XelisWallet_rescan(
-          NativePortType port_, int that, JSAny topoheight) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_rescan(
-          port_, that, topoheight);
+    NativePortType port_,
+    int that,
+    JSAny topoheight,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_rescan(
+    port_,
+    that,
+    topoheight,
+  );
 
   void wire__crate__api__wallet__XelisWallet_start_xswd(
-          NativePortType port_,
-          int that,
-          PlatformPointer cancel_request_dart_callback,
-          PlatformPointer request_application_dart_callback,
-          PlatformPointer request_permission_dart_callback,
-          PlatformPointer request_prefetch_permissions_dart_callback,
-          PlatformPointer app_disconnect_dart_callback) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_start_xswd(
-          port_,
-          that,
-          cancel_request_dart_callback,
-          request_application_dart_callback,
-          request_permission_dart_callback,
-          request_prefetch_permissions_dart_callback,
-          app_disconnect_dart_callback);
+    NativePortType port_,
+    int that,
+    PlatformPointer cancel_request_dart_callback,
+    PlatformPointer request_application_dart_callback,
+    PlatformPointer request_permission_dart_callback,
+    PlatformPointer request_prefetch_permissions_dart_callback,
+    PlatformPointer app_disconnect_dart_callback,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_start_xswd(
+    port_,
+    that,
+    cancel_request_dart_callback,
+    request_application_dart_callback,
+    request_permission_dart_callback,
+    request_prefetch_permissions_dart_callback,
+    app_disconnect_dart_callback,
+  );
 
   void wire__crate__api__wallet__XelisWallet_stop_xswd(
-          NativePortType port_, int that) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_stop_xswd(port_, that);
+    NativePortType port_,
+    int that,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_stop_xswd(port_, that);
 
   void wire__crate__api__wallet__XelisWallet_track_asset(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_track_asset(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_track_asset(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__wallet__XelisWallet_untrack_asset(
-          NativePortType port_, int that, String asset) =>
-      wasmModule.wire__crate__api__wallet__XelisWallet_untrack_asset(
-          port_, that, asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  ) => wasmModule.wire__crate__api__wallet__XelisWallet_untrack_asset(
+    port_,
+    that,
+    asset,
+  );
 
   void wire__crate__api__progress_report__add_progress_report(
-          NativePortType port_, JSAny report) =>
-      wasmModule.wire__crate__api__progress_report__add_progress_report(
-          port_, report);
+    NativePortType port_,
+    JSAny report,
+  ) => wasmModule.wire__crate__api__progress_report__add_progress_report(
+    port_,
+    report,
+  );
 
-  void wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
-          NativePortType port_, JSAny that) =>
-      wasmModule
-          .wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
-              port_, that);
+  void
+  wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
+    NativePortType port_,
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
+        port_,
+        that,
+      );
 
   void wire__crate__api__precomputed_tables__are_precomputed_tables_available(
-          NativePortType port_,
-          String precomputed_tables_path,
-          JSAny precomputed_table_type) =>
-      wasmModule
-          .wire__crate__api__precomputed_tables__are_precomputed_tables_available(
-              port_, precomputed_tables_path, precomputed_table_type);
+    NativePortType port_,
+    String precomputed_tables_path,
+    JSAny precomputed_table_type,
+  ) => wasmModule
+      .wire__crate__api__precomputed_tables__are_precomputed_tables_available(
+        port_,
+        precomputed_tables_path,
+        precomputed_table_type,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__clear_cached_tables() =>
-          wasmModule.wire__crate__api__wallet__clear_cached_tables();
+  wire__crate__api__wallet__clear_cached_tables() =>
+      wasmModule.wire__crate__api__wallet__clear_cached_tables();
 
   void wire__crate__api__xswd__imp__create_app_info(
-          NativePortType port_, int state) =>
-      wasmModule.wire__crate__api__xswd__imp__create_app_info(port_, state);
+    NativePortType port_,
+    int state,
+  ) => wasmModule.wire__crate__api__xswd__imp__create_app_info(port_, state);
 
   void wire__crate__api__api__create_log_stream(
-          NativePortType port_, String s) =>
-      wasmModule.wire__crate__api__api__create_log_stream(port_, s);
+    NativePortType port_,
+    String s,
+  ) => wasmModule.wire__crate__api__api__create_log_stream(port_, s);
 
   void wire__crate__api__api__create_progress_report_stream(
-          NativePortType port_, String stream_sink) =>
-      wasmModule.wire__crate__api__api__create_progress_report_stream(
-          port_, stream_sink);
+    NativePortType port_,
+    String stream_sink,
+  ) => wasmModule.wire__crate__api__api__create_progress_report_stream(
+    port_,
+    stream_sink,
+  );
 
   void wire__crate__api__wallet__create_xelis_wallet(
-          NativePortType port_,
-          String name,
-          String directory,
-          String password,
-          int network,
-          String? seed,
-          String? private_key,
-          String? precomputed_tables_path,
-          JSAny precomputed_table_type) =>
-      wasmModule.wire__crate__api__wallet__create_xelis_wallet(
-          port_,
-          name,
-          directory,
-          password,
-          network,
-          seed,
-          private_key,
-          precomputed_tables_path,
-          precomputed_table_type);
+    NativePortType port_,
+    String name,
+    String directory,
+    String password,
+    int network,
+    String? seed,
+    String? private_key,
+    String? precomputed_tables_path,
+    JSAny precomputed_table_type,
+  ) => wasmModule.wire__crate__api__wallet__create_xelis_wallet(
+    port_,
+    name,
+    directory,
+    password,
+    network,
+    seed,
+    private_key,
+    precomputed_tables_path,
+    precomputed_table_type,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__drop_wallet(int wallet) =>
-          wasmModule.wire__crate__api__wallet__drop_wallet(wallet);
+  wire__crate__api__wallet__drop_wallet(int wallet) =>
+      wasmModule.wire__crate__api__wallet__drop_wallet(wallet);
 
   void wire__crate__api__utils__format_coin(
-          NativePortType port_, JSAny value, int decimals) =>
-      wasmModule.wire__crate__api__utils__format_coin(port_, value, decimals);
+    NativePortType port_,
+    JSAny value,
+    int decimals,
+  ) => wasmModule.wire__crate__api__utils__format_coin(port_, value, decimals);
 
   void wire__crate__api__utils__format_xelis(
-          NativePortType port_, JSAny value) =>
-      wasmModule.wire__crate__api__utils__format_xelis(port_, value);
+    NativePortType port_,
+    JSAny value,
+  ) => wasmModule.wire__crate__api__utils__format_xelis(port_, value);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__get_cached_table() =>
-          wasmModule.wire__crate__api__wallet__get_cached_table();
+  wire__crate__api__wallet__get_cached_table() =>
+      wasmModule.wire__crate__api__wallet__get_cached_table();
 
   void wire__crate__api__wallet__get_current_precomputed_tables_type(
-          NativePortType port_) =>
-      wasmModule
-          .wire__crate__api__wallet__get_current_precomputed_tables_type(port_);
+    NativePortType port_,
+  ) => wasmModule.wire__crate__api__wallet__get_current_precomputed_tables_type(
+    port_,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__get_language_index_from_str(String input) =>
-          wasmModule
-              .wire__crate__api__utils__get_language_index_from_str(input);
+  wire__crate__api__utils__get_language_index_from_str(String input) =>
+      wasmModule.wire__crate__api__utils__get_language_index_from_str(input);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__get_mnemonic_words(JSAny language_index) =>
-          wasmModule
-              .wire__crate__api__utils__get_mnemonic_words(language_index);
+  wire__crate__api__utils__get_mnemonic_words(JSAny language_index) =>
+      wasmModule.wire__crate__api__utils__get_mnemonic_words(language_index);
 
   void wire__crate__api__logger__init_logger(NativePortType port_) =>
       wasmModule.wire__crate__api__logger__init_logger(port_);
 
   void wire__crate__api__api__initialize_crypto_provider(
-          NativePortType port_) =>
-      wasmModule.wire__crate__api__api__initialize_crypto_provider(port_);
+    NativePortType port_,
+  ) => wasmModule.wire__crate__api__api__initialize_crypto_provider(port_);
 
   void wire__crate__api__api__initialize_xelis_config(NativePortType port_) =>
       wasmModule.wire__crate__api__api__initialize_xelis_config(port_);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__is_address_valid(
-              String str_address, int network) =>
-          wasmModule.wire__crate__api__utils__is_address_valid(
-              str_address, network);
+  wire__crate__api__utils__is_address_valid(String str_address, int network) =>
+      wasmModule.wire__crate__api__utils__is_address_valid(
+        str_address,
+        network,
+      );
 
   void wire__crate__api__wallet__open_xelis_wallet(
-          NativePortType port_,
-          String name,
-          String directory,
-          String password,
-          int network,
-          String? precomputed_tables_path,
-          JSAny precomputed_table_type) =>
-      wasmModule.wire__crate__api__wallet__open_xelis_wallet(
-          port_,
-          name,
-          directory,
-          password,
-          network,
-          precomputed_tables_path,
-          precomputed_table_type);
+    NativePortType port_,
+    String name,
+    String directory,
+    String password,
+    int network,
+    String? precomputed_tables_path,
+    JSAny precomputed_table_type,
+  ) => wasmModule.wire__crate__api__wallet__open_xelis_wallet(
+    port_,
+    name,
+    directory,
+    password,
+    network,
+    precomputed_tables_path,
+    precomputed_table_type,
+  );
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_index(
-          NativePortType port_, JSAny that) =>
-      wasmModule
-          .wire__crate__api__precomputed_tables__precomputed_table_type_index(
-              port_, that);
+    NativePortType port_,
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__precomputed_tables__precomputed_table_type_index(
+        port_,
+        that,
+      );
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_name(
-          NativePortType port_, JSAny that) =>
-      wasmModule
-          .wire__crate__api__precomputed_tables__precomputed_table_type_name(
-              port_, that);
+    NativePortType port_,
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__precomputed_tables__precomputed_table_type_name(
+        port_,
+        that,
+      );
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
-          NativePortType port_, JSAny that) =>
-      wasmModule
-          .wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
-              port_, that);
+    NativePortType port_,
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
+        port_,
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__refresh_mt_params() =>
-          wasmModule.wire__crate__api__wallet__refresh_mt_params();
+  wire__crate__api__wallet__refresh_mt_params() =>
+      wasmModule.wire__crate__api__wallet__refresh_mt_params();
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__set_mt_params(
-              JSAny thread_count, JSAny concurrency) =>
-          wasmModule.wire__crate__api__wallet__set_mt_params(
-              thread_count, concurrency);
+  wire__crate__api__wallet__set_mt_params(
+    JSAny thread_count,
+    JSAny concurrency,
+  ) => wasmModule.wire__crate__api__wallet__set_mt_params(
+    thread_count,
+    concurrency,
+  );
 
   void wire__crate__api__api__set_up_rust_logger(NativePortType port_) =>
       wasmModule.wire__crate__api__api__set_up_rust_logger(port_);
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__split_integrated_address(
-              String integrated_address) =>
-          wasmModule.wire__crate__api__utils__split_integrated_address(
-              integrated_address);
+  wire__crate__api__utils__split_integrated_address(
+    String integrated_address,
+  ) => wasmModule.wire__crate__api__utils__split_integrated_address(
+    integrated_address,
+  );
 
-  void wire__crate__api__wallet__update_tables(NativePortType port_,
-          String precomputed_tables_path, JSAny precomputed_table_type) =>
-      wasmModule.wire__crate__api__wallet__update_tables(
-          port_, precomputed_tables_path, precomputed_table_type);
+  void wire__crate__api__wallet__update_tables(
+    NativePortType port_,
+    String precomputed_tables_path,
+    JSAny precomputed_table_type,
+  ) => wasmModule.wire__crate__api__wallet__update_tables(
+    port_,
+    precomputed_tables_path,
+    precomputed_table_type,
+  );
 
   void wire__crate__api__xswd__imp__xswd_handler(
-          NativePortType port_,
-          int receiver,
-          PlatformPointer cancel_request_dart_callback,
-          PlatformPointer request_application_dart_callback,
-          PlatformPointer request_permission_dart_callback,
-          PlatformPointer request_prefetch_permissions_dart_callback,
-          PlatformPointer app_disconnect_dart_callback) =>
-      wasmModule.wire__crate__api__xswd__imp__xswd_handler(
-          port_,
-          receiver,
-          cancel_request_dart_callback,
-          request_application_dart_callback,
-          request_permission_dart_callback,
-          request_prefetch_permissions_dart_callback,
-          app_disconnect_dart_callback);
+    NativePortType port_,
+    int receiver,
+    PlatformPointer cancel_request_dart_callback,
+    PlatformPointer request_application_dart_callback,
+    PlatformPointer request_permission_dart_callback,
+    PlatformPointer request_prefetch_permissions_dart_callback,
+    PlatformPointer app_disconnect_dart_callback,
+  ) => wasmModule.wire__crate__api__xswd__imp__xswd_handler(
+    port_,
+    receiver,
+    cancel_request_dart_callback,
+    request_application_dart_callback,
+    request_permission_dart_callback,
+    request_prefetch_permissions_dart_callback,
+    app_disconnect_dart_callback,
+  );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
+        that,
+      );
 
   JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
-              JSAny that) =>
-          wasmModule
-              .wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
-                  that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
+    JSAny that,
+  ) => wasmModule
+      .wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
+        that,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+        ptr,
+      );
 
-  void rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          int ptr) =>
-      wasmModule
-          .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-              ptr);
+  void
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+        ptr,
+      );
 
-  void rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          int ptr) =>
-      wasmModule
-          .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-              ptr);
+  void
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    int ptr,
+  ) => wasmModule
+      .rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+        ptr,
+      );
 }
 
 @JS('wasm_bindgen')
@@ -2996,533 +3749,761 @@ external RustLibWasmModule get wasmModule;
 @anonymous
 extension type RustLibWasmModule._(JSObject _) implements JSObject {
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
-          int that);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
-          int that);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
-          int that, int address);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
+    int that,
+    int address,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
-          int that, int? data);
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
+    int that,
+    int? data,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_check_seed(
-          int that, JSAny seed);
+  wire__crate__api__seed_search_engine__SearchEngine_check_seed(
+    int that,
+    JSAny seed,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_init(
-          JSAny language_index);
+  wire__crate__api__seed_search_engine__SearchEngine_init(JSAny language_index);
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__seed_search_engine__SearchEngine_search(
-          int that, String query);
+  wire__crate__api__seed_search_engine__SearchEngine_search(
+    int that,
+    String query,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
-          int that);
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(int that);
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
-          int that, int level);
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
+    int that,
+    int level,
+  );
 
   external void wire__crate__api__logger__SendToDartLogger_set_stream_sink(
-      NativePortType port_, String stream_sink);
+    NativePortType port_,
+    String stream_sink,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
-          int that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
-          int that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
-          int that);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
-          int that, JSAny fee);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
+    int that,
+    JSAny fee,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
-          int that, String hash);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
+    int that,
+    String hash,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
-          int that, int transaction_type);
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
+    int that,
+    int transaction_type,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_all_history(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_broadcast_transaction(
-      NativePortType port_, int that, String tx_hash);
+    NativePortType port_,
+    int that,
+    String tx_hash,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_change_password(
-      NativePortType port_, int that, String old_password, String new_password);
+    NativePortType port_,
+    int that,
+    String old_password,
+    String new_password,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_clear_transaction(
-          int that, String tx_hash);
+  wire__crate__api__wallet__XelisWallet_clear_transaction(
+    int that,
+    String tx_hash,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_close(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_close_application_session(
-      NativePortType port_, int that, String id);
+    NativePortType port_,
+    int that,
+    String id,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
-          NativePortType port_, int that);
+  wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
+    NativePortType port_,
+    int that,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_burn_all_transaction(
-          NativePortType port_, int that, String asset_hash);
+  wire__crate__api__wallet__XelisWallet_create_burn_all_transaction(
+    NativePortType port_,
+    int that,
+    String asset_hash,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_create_burn_transaction(
-      NativePortType port_, int that, double float_amount, String asset_hash);
+    NativePortType port_,
+    int that,
+    double float_amount,
+    String asset_hash,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
-          NativePortType port_, int that, String asset_hash);
+  wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
+    NativePortType port_,
+    int that,
+    String asset_hash,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
-          NativePortType port_,
-          int that,
-          double float_amount,
-          String asset_hash);
+  wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
+    NativePortType port_,
+    int that,
+    double float_amount,
+    String asset_hash,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
-          NativePortType port_,
-          int that,
-          String str_address,
-          String? asset_hash,
-          String? extra_data,
-          bool? encrypt_extra_data);
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
+    NativePortType port_,
+    int that,
+    String str_address,
+    String? asset_hash,
+    String? extra_data,
+    bool? encrypt_extra_data,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
-          NativePortType port_, int that, JSAny transfers);
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
-          NativePortType port_,
-          int that,
-          String str_address,
-          String? asset_hash,
-          String? extra_data,
-          bool? encrypt_extra_data);
+  wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
+    NativePortType port_,
+    int that,
+    String str_address,
+    String? asset_hash,
+    String? extra_data,
+    bool? encrypt_extra_data,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
-          NativePortType port_, int that, JSAny transfers);
+  wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_estimate_fees(
-      NativePortType port_, int that, JSAny transfers);
+    NativePortType port_,
+    int that,
+    JSAny transfers,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_events_stream(
-      NativePortType port_, int that, String sink);
+    NativePortType port_,
+    int that,
+    String sink,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
-          NativePortType port_, int that, String file_path);
+  wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
+    NativePortType port_,
+    int that,
+    String file_path,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
-          NativePortType port_, int that, JSAny signatures);
+  wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
+    NativePortType port_,
+    int that,
+    JSAny signatures,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_format_coin(
-      NativePortType port_, int that, JSAny atomic_amount, String? asset_hash);
+    NativePortType port_,
+    int that,
+    JSAny atomic_amount,
+    String? asset_hash,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_get_address_str(int that);
+  wire__crate__api__wallet__XelisWallet_get_address_str(int that);
 
   external void wire__crate__api__wallet__XelisWallet_get_all_assets(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_get_application_permissions(
-          NativePortType port_, int that);
+  wire__crate__api__wallet__XelisWallet_get_application_permissions(
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
-          NativePortType port_, int that, String asset);
+  wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_asset_balances(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_asset_decimals(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_asset_metadata(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_asset_ticker(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_daemon_info(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_history_count(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_known_assets(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_multisig_state(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_get_network(int that);
+  wire__crate__api__wallet__XelisWallet_get_network(int that);
 
   external void wire__crate__api__wallet__XelisWallet_get_nonce(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_seed(
-      NativePortType port_, int that, JSAny? language_index);
+    NativePortType port_,
+    int that,
+    JSAny? language_index,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw(
-          NativePortType port_, int that);
+  wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw(
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_tracked_balances(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_xelis_balance(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_has_asset_balance(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_has_xelis_balance(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_history(
-      NativePortType port_, int that, JSAny filter);
+    NativePortType port_,
+    int that,
+    JSAny filter,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_init_delete_multisig(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
-          int that, String address);
+  wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
+    int that,
+    String address,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_is_asset_tracked(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_is_online(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_is_valid_password(
-      NativePortType port_, int that, String password);
+    NativePortType port_,
+    int that,
+    String password,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_is_xswd_running(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void
-      wire__crate__api__wallet__XelisWallet_modify_application_permissions(
-          NativePortType port_, int that, String id, JSAny permissions);
+  wire__crate__api__wallet__XelisWallet_modify_application_permissions(
+    NativePortType port_,
+    int that,
+    String id,
+    JSAny permissions,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_multisig_setup(
-      NativePortType port_, int that, int threshold, JSAny participants);
+    NativePortType port_,
+    int that,
+    int threshold,
+    JSAny participants,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__XelisWallet_multisig_sign(
-          int that, String tx_hash);
+  wire__crate__api__wallet__XelisWallet_multisig_sign(int that, String tx_hash);
 
   external void wire__crate__api__wallet__XelisWallet_offline_mode(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_online_mode(
-      NativePortType port_, int that, String daemon_address);
+    NativePortType port_,
+    int that,
+    String daemon_address,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_rescan(
-      NativePortType port_, int that, JSAny topoheight);
+    NativePortType port_,
+    int that,
+    JSAny topoheight,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_start_xswd(
-      NativePortType port_,
-      int that,
-      PlatformPointer cancel_request_dart_callback,
-      PlatformPointer request_application_dart_callback,
-      PlatformPointer request_permission_dart_callback,
-      PlatformPointer request_prefetch_permissions_dart_callback,
-      PlatformPointer app_disconnect_dart_callback);
+    NativePortType port_,
+    int that,
+    PlatformPointer cancel_request_dart_callback,
+    PlatformPointer request_application_dart_callback,
+    PlatformPointer request_permission_dart_callback,
+    PlatformPointer request_prefetch_permissions_dart_callback,
+    PlatformPointer app_disconnect_dart_callback,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_stop_xswd(
-      NativePortType port_, int that);
+    NativePortType port_,
+    int that,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_track_asset(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__wallet__XelisWallet_untrack_asset(
-      NativePortType port_, int that, String asset);
+    NativePortType port_,
+    int that,
+    String asset,
+  );
 
   external void wire__crate__api__progress_report__add_progress_report(
-      NativePortType port_, JSAny report);
+    NativePortType port_,
+    JSAny report,
+  );
 
   external void
-      wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
-          NativePortType port_, JSAny that);
+  wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
+    NativePortType port_,
+    JSAny that,
+  );
 
   external void
-      wire__crate__api__precomputed_tables__are_precomputed_tables_available(
-          NativePortType port_,
-          String precomputed_tables_path,
-          JSAny precomputed_table_type);
+  wire__crate__api__precomputed_tables__are_precomputed_tables_available(
+    NativePortType port_,
+    String precomputed_tables_path,
+    JSAny precomputed_table_type,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__clear_cached_tables();
+  wire__crate__api__wallet__clear_cached_tables();
 
   external void wire__crate__api__xswd__imp__create_app_info(
-      NativePortType port_, int state);
+    NativePortType port_,
+    int state,
+  );
 
   external void wire__crate__api__api__create_log_stream(
-      NativePortType port_, String s);
+    NativePortType port_,
+    String s,
+  );
 
   external void wire__crate__api__api__create_progress_report_stream(
-      NativePortType port_, String stream_sink);
+    NativePortType port_,
+    String stream_sink,
+  );
 
   external void wire__crate__api__wallet__create_xelis_wallet(
-      NativePortType port_,
-      String name,
-      String directory,
-      String password,
-      int network,
-      String? seed,
-      String? private_key,
-      String? precomputed_tables_path,
-      JSAny precomputed_table_type);
+    NativePortType port_,
+    String name,
+    String directory,
+    String password,
+    int network,
+    String? seed,
+    String? private_key,
+    String? precomputed_tables_path,
+    JSAny precomputed_table_type,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__drop_wallet(int wallet);
+  wire__crate__api__wallet__drop_wallet(int wallet);
 
   external void wire__crate__api__utils__format_coin(
-      NativePortType port_, JSAny value, int decimals);
+    NativePortType port_,
+    JSAny value,
+    int decimals,
+  );
 
   external void wire__crate__api__utils__format_xelis(
-      NativePortType port_, JSAny value);
+    NativePortType port_,
+    JSAny value,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__get_cached_table();
+  wire__crate__api__wallet__get_cached_table();
 
   external void wire__crate__api__wallet__get_current_precomputed_tables_type(
-      NativePortType port_);
+    NativePortType port_,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__get_language_index_from_str(String input);
+  wire__crate__api__utils__get_language_index_from_str(String input);
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__get_mnemonic_words(JSAny language_index);
+  wire__crate__api__utils__get_mnemonic_words(JSAny language_index);
 
   external void wire__crate__api__logger__init_logger(NativePortType port_);
 
   external void wire__crate__api__api__initialize_crypto_provider(
-      NativePortType port_);
+    NativePortType port_,
+  );
 
   external void wire__crate__api__api__initialize_xelis_config(
-      NativePortType port_);
+    NativePortType port_,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__is_address_valid(
-          String str_address, int network);
+  wire__crate__api__utils__is_address_valid(String str_address, int network);
 
   external void wire__crate__api__wallet__open_xelis_wallet(
-      NativePortType port_,
-      String name,
-      String directory,
-      String password,
-      int network,
-      String? precomputed_tables_path,
-      JSAny precomputed_table_type);
+    NativePortType port_,
+    String name,
+    String directory,
+    String password,
+    int network,
+    String? precomputed_tables_path,
+    JSAny precomputed_table_type,
+  );
 
   external void
-      wire__crate__api__precomputed_tables__precomputed_table_type_index(
-          NativePortType port_, JSAny that);
+  wire__crate__api__precomputed_tables__precomputed_table_type_index(
+    NativePortType port_,
+    JSAny that,
+  );
 
   external void
-      wire__crate__api__precomputed_tables__precomputed_table_type_name(
-          NativePortType port_, JSAny that);
+  wire__crate__api__precomputed_tables__precomputed_table_type_name(
+    NativePortType port_,
+    JSAny that,
+  );
 
   external void
-      wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
-          NativePortType port_, JSAny that);
+  wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
+    NativePortType port_,
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__refresh_mt_params();
+  wire__crate__api__wallet__refresh_mt_params();
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__wallet__set_mt_params(
-          JSAny thread_count, JSAny concurrency);
+  wire__crate__api__wallet__set_mt_params(
+    JSAny thread_count,
+    JSAny concurrency,
+  );
 
   external void wire__crate__api__api__set_up_rust_logger(NativePortType port_);
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__utils__split_integrated_address(
-          String integrated_address);
+  wire__crate__api__utils__split_integrated_address(String integrated_address);
 
-  external void wire__crate__api__wallet__update_tables(NativePortType port_,
-      String precomputed_tables_path, JSAny precomputed_table_type);
+  external void wire__crate__api__wallet__update_tables(
+    NativePortType port_,
+    String precomputed_tables_path,
+    JSAny precomputed_table_type,
+  );
 
   external void wire__crate__api__xswd__imp__xswd_handler(
-      NativePortType port_,
-      int receiver,
-      PlatformPointer cancel_request_dart_callback,
-      PlatformPointer request_application_dart_callback,
-      PlatformPointer request_permission_dart_callback,
-      PlatformPointer request_prefetch_permissions_dart_callback,
-      PlatformPointer app_disconnect_dart_callback);
+    NativePortType port_,
+    int receiver,
+    PlatformPointer cancel_request_dart_callback,
+    PlatformPointer request_application_dart_callback,
+    PlatformPointer request_permission_dart_callback,
+    PlatformPointer request_prefetch_permissions_dart_callback,
+    PlatformPointer app_disconnect_dart_callback,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
+    JSAny that,
+  );
 
   external JSAny? /* flutter_rust_bridge::for_generated::WireSyncRust2DartDco */
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
-          JSAny that);
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
+    JSAny that,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    int ptr,
+  );
 
   external void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          int ptr);
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    int ptr,
+  );
 
   external void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          int ptr);
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    int ptr,
+  );
 }

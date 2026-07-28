@@ -30,182 +30,208 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
     required super.portManager,
   });
 
-  CrossPlatformFinalizerArg get rust_arc_decrement_strong_count_AddressPtr => wire
+  CrossPlatformFinalizerArg
+  get rust_arc_decrement_strong_count_AddressPtr => wire
       ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddressPtr;
 
-  CrossPlatformFinalizerArg get rust_arc_decrement_strong_count_AppStatePtr => wire
+  CrossPlatformFinalizerArg
+  get rust_arc_decrement_strong_count_AppStatePtr => wire
       ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppStatePtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_DataElementPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr;
+  get rust_arc_decrement_strong_count_DataElementPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_IntegratedAddressPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr;
+  get rust_arc_decrement_strong_count_IntegratedAddressPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_LevelFilterPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr;
+  get rust_arc_decrement_strong_count_LevelFilterPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_PrecomputedTablesSharedPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr;
+  get rust_arc_decrement_strong_count_PrecomputedTablesSharedPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SearchEnginePtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr;
+  get rust_arc_decrement_strong_count_SearchEnginePtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SendToDartLoggerPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr;
+  get rust_arc_decrement_strong_count_SendToDartLoggerPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_SummaryTransactionPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr;
+  get rust_arc_decrement_strong_count_SummaryTransactionPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr;
+  get rust_arc_decrement_strong_count_TransactionPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionBuilderStatePtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr;
+  get rust_arc_decrement_strong_count_TransactionBuilderStatePtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_TransactionTypeBuilderPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr;
+  get rust_arc_decrement_strong_count_TransactionTypeBuilderPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_UnboundedReceiverXswdEventPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr;
+  get rust_arc_decrement_strong_count_UnboundedReceiverXswdEventPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr;
 
   CrossPlatformFinalizerArg
-      get rust_arc_decrement_strong_count_XelisWalletPtr => wire
-          ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr;
+  get rust_arc_decrement_strong_count_XelisWalletPtr => wire
+      ._rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr;
 
   @protected
   AnyhowException dco_decode_AnyhowException(dynamic raw);
 
   @protected
   Address
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    dynamic raw,
+  );
 
   @protected
   DataElement
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   LevelFilter
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   Transaction
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    dynamic raw,
+  );
 
   @protected
   TransactionBuilderState
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    dynamic raw,
+  );
 
   @protected
   TransactionTypeBuilder
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    dynamic raw,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   AppState
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   FutureOr<void> Function(XswdRequestSummary)
-      dco_decode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          dynamic raw);
+  dco_decode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    dynamic raw,
+  );
 
   @protected
   FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-      dco_decode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          dynamic raw);
+  dco_decode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    dynamic raw,
+  );
 
   @protected
   Object dco_decode_DartOpaque(dynamic raw);
@@ -215,84 +241,100 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   Map<String, ContactDetails> dco_decode_Map_String_contact_details_None(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Map<String, PermissionPolicy> dco_decode_Map_String_permission_policy_None(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Map<String, BigInt> dco_decode_Map_String_u_64_None(dynamic raw);
 
   @protected
   Address
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    dynamic raw,
+  );
 
   @protected
   AppState
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    dynamic raw,
+  );
 
   @protected
   DataElement
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   IntegratedAddress
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    dynamic raw,
+  );
 
   @protected
   LevelFilter
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   SearchEngine
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    dynamic raw,
+  );
 
   @protected
   SendToDartLogger
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    dynamic raw,
+  );
 
   @protected
   SummaryTransaction
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    dynamic raw,
+  );
 
   @protected
   Transaction
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    dynamic raw,
+  );
 
   @protected
   TransactionBuilderState
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    dynamic raw,
+  );
 
   @protected
   TransactionTypeBuilder
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    dynamic raw,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    dynamic raw,
+  );
 
   @protected
   XelisWallet
-      dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          dynamic raw);
+  dco_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    dynamic raw,
+  );
 
   @protected
   RustStreamSink<String> dco_decode_StreamSink_String_Dco(dynamic raw);
@@ -320,13 +362,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement
-      dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared
-      dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   AddressBookData dco_decode_box_autoadd_address_book_data(dynamic raw);
@@ -339,7 +383,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   PrecomputedTableType dco_decode_box_autoadd_precomputed_table_type(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Report dco_decode_box_autoadd_report(dynamic raw);
@@ -388,11 +433,12 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<(String, ContactDetails)> dco_decode_list_record_string_contact_details(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   List<(String, PermissionPolicy)>
-      dco_decode_list_record_string_permission_policy(dynamic raw);
+  dco_decode_list_record_string_permission_policy(dynamic raw);
 
   @protected
   List<(String, String)> dco_decode_list_record_string_string(dynamic raw);
@@ -402,7 +448,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<(String, XelisAssetMetadata)>
-      dco_decode_list_record_string_xelis_asset_metadata(dynamic raw);
+  dco_decode_list_record_string_xelis_asset_metadata(dynamic raw);
 
   @protected
   List<SignatureMultisig> dco_decode_list_signature_multisig(dynamic raw);
@@ -421,13 +467,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement?
-      dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          dynamic raw);
+  dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    dynamic raw,
+  );
 
   @protected
   PrecomputedTablesShared?
-      dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          dynamic raw);
+  dco_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    dynamic raw,
+  );
 
   @protected
   bool? dco_decode_opt_box_autoadd_bool(dynamic raw);
@@ -448,19 +496,20 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   PrecomputedTableType dco_decode_precomputed_table_type(dynamic raw);
 
   @protected
-  (
-    Transaction,
-    TransactionBuilderState
-  ) dco_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-      dynamic raw);
+  (Transaction, TransactionBuilderState)
+  dco_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    dynamic raw,
+  );
 
   @protected
   (String, ContactDetails) dco_decode_record_string_contact_details(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   (String, PermissionPolicy) dco_decode_record_string_permission_policy(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   (String, String) dco_decode_record_string_string(dynamic raw);
@@ -470,7 +519,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   (String, XelisAssetMetadata) dco_decode_record_string_xelis_asset_metadata(
-      dynamic raw);
+    dynamic raw,
+  );
 
   @protected
   Report dco_decode_report(dynamic raw);
@@ -519,214 +569,257 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   Address
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   DataElement
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   LevelFilter
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Transaction
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionBuilderState
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionTypeBuilder
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    SseDeserializer deserializer,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AppState
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Object sse_decode_DartOpaque(SseDeserializer deserializer);
 
   @protected
   Map<String, String> sse_decode_Map_String_String_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, ContactDetails> sse_decode_Map_String_contact_details_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, PermissionPolicy> sse_decode_Map_String_permission_policy_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Map<String, BigInt> sse_decode_Map_String_u_64_None(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Address
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AppState
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   DataElement
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   IntegratedAddress
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    SseDeserializer deserializer,
+  );
 
   @protected
   LevelFilter
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SearchEngine
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SendToDartLogger
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SseDeserializer deserializer,
+  );
 
   @protected
   SummaryTransaction
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   Transaction
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionBuilderState
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    SseDeserializer deserializer,
+  );
 
   @protected
   TransactionTypeBuilder
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    SseDeserializer deserializer,
+  );
 
   @protected
   UnboundedReceiverXswdEvent
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisWallet
-      sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          SseDeserializer deserializer);
+  sse_decode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<String> sse_decode_StreamSink_String_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<LogEntry> sse_decode_StreamSink_log_entry_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   RustStreamSink<Report> sse_decode_StreamSink_report_Dco(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   String sse_decode_String(SseDeserializer deserializer);
@@ -742,28 +835,33 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement
-      sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared
-      sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   AddressBookData sse_decode_box_autoadd_address_book_data(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   bool sse_decode_box_autoadd_bool(SseDeserializer deserializer);
 
   @protected
   HistoryPageFilter sse_decode_box_autoadd_history_page_filter(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTableType sse_decode_box_autoadd_precomputed_table_type(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Report sse_decode_box_autoadd_report(SseDeserializer deserializer);
@@ -776,11 +874,13 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   XelisAssetOwner sse_decode_box_autoadd_xelis_asset_owner(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestSummary sse_decode_box_autoadd_xswd_request_summary(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   ContactDetails sse_decode_contact_details(SseDeserializer deserializer);
@@ -790,7 +890,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   HistoryPageFilter sse_decode_history_page_filter(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   int sse_decode_i_32(SseDeserializer deserializer);
@@ -809,36 +910,41 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   List<ContactDetails> sse_decode_list_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Uint8List sse_decode_list_prim_u_8_strict(SseDeserializer deserializer);
 
   @protected
   List<(String, ContactDetails)> sse_decode_list_record_string_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, PermissionPolicy)>
-      sse_decode_list_record_string_permission_policy(
-          SseDeserializer deserializer);
+  sse_decode_list_record_string_permission_policy(SseDeserializer deserializer);
 
   @protected
   List<(String, String)> sse_decode_list_record_string_string(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, BigInt)> sse_decode_list_record_string_u_64(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<(String, XelisAssetMetadata)>
-      sse_decode_list_record_string_xelis_asset_metadata(
-          SseDeserializer deserializer);
+  sse_decode_list_record_string_xelis_asset_metadata(
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<SignatureMultisig> sse_decode_list_signature_multisig(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   List<Transfer> sse_decode_list_transfer(SseDeserializer deserializer);
@@ -854,13 +960,15 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   DataElement?
-      sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          SseDeserializer deserializer);
+  sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    SseDeserializer deserializer,
+  );
 
   @protected
   PrecomputedTablesShared?
-      sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          SseDeserializer deserializer);
+  sse_decode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    SseDeserializer deserializer,
+  );
 
   @protected
   bool? sse_decode_opt_box_autoadd_bool(SseDeserializer deserializer);
@@ -873,40 +981,45 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   XelisAssetOwner? sse_decode_opt_box_autoadd_xelis_asset_owner(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   PermissionPolicy sse_decode_permission_policy(SseDeserializer deserializer);
 
   @protected
   PrecomputedTableType sse_decode_precomputed_table_type(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
-  (
-    Transaction,
-    TransactionBuilderState
-  ) sse_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-      SseDeserializer deserializer);
+  (Transaction, TransactionBuilderState)
+  sse_decode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, ContactDetails) sse_decode_record_string_contact_details(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, PermissionPolicy) sse_decode_record_string_permission_policy(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, String) sse_decode_record_string_string(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   (String, BigInt) sse_decode_record_string_u_64(SseDeserializer deserializer);
 
   @protected
   (String, XelisAssetMetadata) sse_decode_record_string_xelis_asset_metadata(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   Report sse_decode_report(SseDeserializer deserializer);
@@ -931,101 +1044,122 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   UserPermissionDecision sse_decode_user_permission_decision(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   BigInt sse_decode_usize(SseDeserializer deserializer);
 
   @protected
   XelisAssetMetadata sse_decode_xelis_asset_metadata(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XelisAssetOwner sse_decode_xelis_asset_owner(SseDeserializer deserializer);
 
   @protected
   XelisMaxSupplyMode sse_decode_xelis_max_supply_mode(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestSummary sse_decode_xswd_request_summary(
-      SseDeserializer deserializer);
+    SseDeserializer deserializer,
+  );
 
   @protected
   XswdRequestType sse_decode_xswd_request_type(SseDeserializer deserializer);
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict> cst_encode_AnyhowException(
-      AnyhowException raw) {
+    AnyhowException raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     throw UnimplementedError();
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_string>
-      cst_encode_Map_String_String_None(Map<String, String> raw) {
+  cst_encode_Map_String_String_None(Map<String, String> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_string(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_contact_details>
-      cst_encode_Map_String_contact_details_None(
-          Map<String, ContactDetails> raw) {
+  cst_encode_Map_String_contact_details_None(Map<String, ContactDetails> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_contact_details(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_permission_policy>
-      cst_encode_Map_String_permission_policy_None(
-          Map<String, PermissionPolicy> raw) {
+  cst_encode_Map_String_permission_policy_None(
+    Map<String, PermissionPolicy> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_permission_policy(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_u_64> cst_encode_Map_String_u_64_None(
-      Map<String, BigInt> raw) {
+    Map<String, BigInt> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return cst_encode_list_record_string_u_64(
-        raw.entries.map((e) => (e.key, e.value)).toList());
+      raw.entries.map((e) => (e.key, e.value)).toList(),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict> cst_encode_StreamSink_String_Dco(
-      RustStreamSink<String> raw) {
+    RustStreamSink<String> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_String,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_String,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict>
-      cst_encode_StreamSink_log_entry_Dco(RustStreamSink<LogEntry> raw) {
+  cst_encode_StreamSink_log_entry_Dco(RustStreamSink<LogEntry> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_log_entry,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_log_entry,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict> cst_encode_StreamSink_report_Dco(
-      RustStreamSink<Report> raw) {
+    RustStreamSink<Report> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    return cst_encode_String(raw.setupAndSerialize(
+    return cst_encode_String(
+      raw.setupAndSerialize(
         codec: DcoCodec(
-      decodeSuccessData: dco_decode_report,
-      decodeErrorData: dco_decode_AnyhowException,
-    )));
+          decodeSuccessData: dco_decode_report,
+          decodeErrorData: dco_decode_AnyhowException,
+        ),
+      ),
+    );
   }
 
   @protected
@@ -1036,29 +1170,35 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<ffi.UintPtr>
-      cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement raw) {
+  cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return wire
         .cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-            cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-                raw));
+          cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+            raw,
+          ),
+        );
   }
 
   @protected
   ffi.Pointer<ffi.UintPtr>
-      cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared raw) {
+  cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return wire
         .cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-            cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-                raw));
+          cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+            raw,
+          ),
+        );
   }
 
   @protected
   ffi.Pointer<wire_cst_address_book_data>
-      cst_encode_box_autoadd_address_book_data(AddressBookData raw) {
+  cst_encode_box_autoadd_address_book_data(AddressBookData raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ptr = wire.cst_new_box_autoadd_address_book_data();
     cst_api_fill_to_wire_address_book_data(raw, ptr.ref);
@@ -1073,7 +1213,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_history_page_filter>
-      cst_encode_box_autoadd_history_page_filter(HistoryPageFilter raw) {
+  cst_encode_box_autoadd_history_page_filter(HistoryPageFilter raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ptr = wire.cst_new_box_autoadd_history_page_filter();
     cst_api_fill_to_wire_history_page_filter(raw, ptr.ref);
@@ -1082,7 +1222,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_precomputed_table_type>
-      cst_encode_box_autoadd_precomputed_table_type(PrecomputedTableType raw) {
+  cst_encode_box_autoadd_precomputed_table_type(PrecomputedTableType raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ptr = wire.cst_new_box_autoadd_precomputed_table_type();
     cst_api_fill_to_wire_precomputed_table_type(raw, ptr.ref);
@@ -1111,7 +1251,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_xelis_asset_owner>
-      cst_encode_box_autoadd_xelis_asset_owner(XelisAssetOwner raw) {
+  cst_encode_box_autoadd_xelis_asset_owner(XelisAssetOwner raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ptr = wire.cst_new_box_autoadd_xelis_asset_owner();
     cst_api_fill_to_wire_xelis_asset_owner(raw, ptr.ref);
@@ -1120,7 +1260,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_xswd_request_summary>
-      cst_encode_box_autoadd_xswd_request_summary(XswdRequestSummary raw) {
+  cst_encode_box_autoadd_xswd_request_summary(XswdRequestSummary raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ptr = wire.cst_new_box_autoadd_xswd_request_summary();
     cst_api_fill_to_wire_xswd_request_summary(raw, ptr.ref);
@@ -1145,7 +1285,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_app_info> cst_encode_list_app_info(
-      List<AppInfo> raw) {
+    List<AppInfo> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_app_info(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1156,7 +1297,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_contact_details> cst_encode_list_contact_details(
-      List<ContactDetails> raw) {
+    List<ContactDetails> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_contact_details(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1167,7 +1309,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict> cst_encode_list_prim_u_8_strict(
-      Uint8List raw) {
+    Uint8List raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_prim_u_8_strict(raw.length);
     ans.ref.ptr.asTypedList(raw.length).setAll(0, raw);
@@ -1176,33 +1319,39 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_contact_details>
-      cst_encode_list_record_string_contact_details(
-          List<(String, ContactDetails)> raw) {
+  cst_encode_list_record_string_contact_details(
+    List<(String, ContactDetails)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_record_string_contact_details(raw.length);
     for (var i = 0; i < raw.length; ++i) {
       cst_api_fill_to_wire_record_string_contact_details(
-          raw[i], ans.ref.ptr[i]);
+        raw[i],
+        ans.ref.ptr[i],
+      );
     }
     return ans;
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_permission_policy>
-      cst_encode_list_record_string_permission_policy(
-          List<(String, PermissionPolicy)> raw) {
+  cst_encode_list_record_string_permission_policy(
+    List<(String, PermissionPolicy)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_record_string_permission_policy(raw.length);
     for (var i = 0; i < raw.length; ++i) {
       cst_api_fill_to_wire_record_string_permission_policy(
-          raw[i], ans.ref.ptr[i]);
+        raw[i],
+        ans.ref.ptr[i],
+      );
     }
     return ans;
   }
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_string>
-      cst_encode_list_record_string_string(List<(String, String)> raw) {
+  cst_encode_list_record_string_string(List<(String, String)> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_record_string_string(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1213,7 +1362,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_u_64>
-      cst_encode_list_record_string_u_64(List<(String, BigInt)> raw) {
+  cst_encode_list_record_string_u_64(List<(String, BigInt)> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_record_string_u_64(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1224,21 +1373,25 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_record_string_xelis_asset_metadata>
-      cst_encode_list_record_string_xelis_asset_metadata(
-          List<(String, XelisAssetMetadata)> raw) {
+  cst_encode_list_record_string_xelis_asset_metadata(
+    List<(String, XelisAssetMetadata)> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
-    final ans =
-        wire.cst_new_list_record_string_xelis_asset_metadata(raw.length);
+    final ans = wire.cst_new_list_record_string_xelis_asset_metadata(
+      raw.length,
+    );
     for (var i = 0; i < raw.length; ++i) {
       cst_api_fill_to_wire_record_string_xelis_asset_metadata(
-          raw[i], ans.ref.ptr[i]);
+        raw[i],
+        ans.ref.ptr[i],
+      );
     }
     return ans;
   }
 
   @protected
   ffi.Pointer<wire_cst_list_signature_multisig>
-      cst_encode_list_signature_multisig(List<SignatureMultisig> raw) {
+  cst_encode_list_signature_multisig(List<SignatureMultisig> raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_signature_multisig(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1249,7 +1402,8 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_transfer> cst_encode_list_transfer(
-      List<Transfer> raw) {
+    List<Transfer> raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     final ans = wire.cst_new_list_transfer(raw.length);
     for (var i = 0; i < raw.length; ++i) {
@@ -1260,31 +1414,36 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_list_prim_u_8_strict> cst_encode_opt_String(
-      String? raw) {
+    String? raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null ? ffi.nullptr : cst_encode_String(raw);
   }
 
   @protected
   ffi.Pointer<ffi.UintPtr>
-      cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement? raw) {
+  cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement? raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null
         ? ffi.nullptr
         : cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-            raw);
+            raw,
+          );
   }
 
   @protected
   ffi.Pointer<ffi.UintPtr>
-      cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared? raw) {
+  cst_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared? raw,
+  ) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null
         ? ffi.nullptr
         : cst_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-            raw);
+            raw,
+          );
   }
 
   @protected
@@ -1307,7 +1466,7 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   ffi.Pointer<wire_cst_xelis_asset_owner>
-      cst_encode_opt_box_autoadd_xelis_asset_owner(XelisAssetOwner? raw) {
+  cst_encode_opt_box_autoadd_xelis_asset_owner(XelisAssetOwner? raw) {
     // Codec=Cst (C-struct based), see doc to use other codecs
     return raw == null
         ? ffi.nullptr
@@ -1328,64 +1487,81 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_address_book_data(
-      AddressBookData apiObj, wire_cst_address_book_data wireObj) {
-    wireObj.contacts =
-        cst_encode_Map_String_contact_details_None(apiObj.contacts);
+    AddressBookData apiObj,
+    wire_cst_address_book_data wireObj,
+  ) {
+    wireObj.contacts = cst_encode_Map_String_contact_details_None(
+      apiObj.contacts,
+    );
   }
 
   @protected
   void cst_api_fill_to_wire_app_info(
-      AppInfo apiObj, wire_cst_app_info wireObj) {
+    AppInfo apiObj,
+    wire_cst_app_info wireObj,
+  ) {
     wireObj.id = cst_encode_String(apiObj.id);
     wireObj.name = cst_encode_String(apiObj.name);
     wireObj.description = cst_encode_String(apiObj.description);
     wireObj.url = cst_encode_opt_String(apiObj.url);
-    wireObj.permissions =
-        cst_encode_Map_String_permission_policy_None(apiObj.permissions);
+    wireObj.permissions = cst_encode_Map_String_permission_policy_None(
+      apiObj.permissions,
+    );
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_address_book_data(
-      AddressBookData apiObj, ffi.Pointer<wire_cst_address_book_data> wireObj) {
+    AddressBookData apiObj,
+    ffi.Pointer<wire_cst_address_book_data> wireObj,
+  ) {
     cst_api_fill_to_wire_address_book_data(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_history_page_filter(
-      HistoryPageFilter apiObj,
-      ffi.Pointer<wire_cst_history_page_filter> wireObj) {
+    HistoryPageFilter apiObj,
+    ffi.Pointer<wire_cst_history_page_filter> wireObj,
+  ) {
     cst_api_fill_to_wire_history_page_filter(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_precomputed_table_type(
-      PrecomputedTableType apiObj,
-      ffi.Pointer<wire_cst_precomputed_table_type> wireObj) {
+    PrecomputedTableType apiObj,
+    ffi.Pointer<wire_cst_precomputed_table_type> wireObj,
+  ) {
     cst_api_fill_to_wire_precomputed_table_type(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_report(
-      Report apiObj, ffi.Pointer<wire_cst_report> wireObj) {
+    Report apiObj,
+    ffi.Pointer<wire_cst_report> wireObj,
+  ) {
     cst_api_fill_to_wire_report(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_xelis_asset_owner(
-      XelisAssetOwner apiObj, ffi.Pointer<wire_cst_xelis_asset_owner> wireObj) {
+    XelisAssetOwner apiObj,
+    ffi.Pointer<wire_cst_xelis_asset_owner> wireObj,
+  ) {
     cst_api_fill_to_wire_xelis_asset_owner(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_box_autoadd_xswd_request_summary(
-      XswdRequestSummary apiObj,
-      ffi.Pointer<wire_cst_xswd_request_summary> wireObj) {
+    XswdRequestSummary apiObj,
+    ffi.Pointer<wire_cst_xswd_request_summary> wireObj,
+  ) {
     cst_api_fill_to_wire_xswd_request_summary(apiObj, wireObj.ref);
   }
 
   @protected
   void cst_api_fill_to_wire_contact_details(
-      ContactDetails apiObj, wire_cst_contact_details wireObj) {
+    ContactDetails apiObj,
+    wire_cst_contact_details wireObj,
+  ) {
     wireObj.name = cst_encode_String(apiObj.name);
     wireObj.address = cst_encode_String(apiObj.address);
     wireObj.note = cst_encode_opt_String(apiObj.note);
@@ -1393,24 +1569,38 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_history_page_filter(
-      HistoryPageFilter apiObj, wire_cst_history_page_filter wireObj) {
+    HistoryPageFilter apiObj,
+    wire_cst_history_page_filter wireObj,
+  ) {
     wireObj.page = cst_encode_usize(apiObj.page);
     wireObj.limit = cst_encode_opt_box_autoadd_usize(apiObj.limit);
     wireObj.asset_hash = cst_encode_opt_String(apiObj.assetHash);
     wireObj.address = cst_encode_opt_String(apiObj.address);
-    wireObj.min_topoheight =
-        cst_encode_opt_box_autoadd_u_64(apiObj.minTopoheight);
-    wireObj.max_topoheight =
-        cst_encode_opt_box_autoadd_u_64(apiObj.maxTopoheight);
+    wireObj.contract = cst_encode_opt_String(apiObj.contract);
+    wireObj.min_topoheight = cst_encode_opt_box_autoadd_u_64(
+      apiObj.minTopoheight,
+    );
+    wireObj.max_topoheight = cst_encode_opt_box_autoadd_u_64(
+      apiObj.maxTopoheight,
+    );
     wireObj.accept_incoming = cst_encode_bool(apiObj.acceptIncoming);
     wireObj.accept_outgoing = cst_encode_bool(apiObj.acceptOutgoing);
     wireObj.accept_coinbase = cst_encode_bool(apiObj.acceptCoinbase);
     wireObj.accept_burn = cst_encode_bool(apiObj.acceptBurn);
+    wireObj.accept_blob = cst_encode_bool(apiObj.acceptBlob);
+    wireObj.min_timestamp = cst_encode_opt_box_autoadd_u_64(
+      apiObj.minTimestamp,
+    );
+    wireObj.max_timestamp = cst_encode_opt_box_autoadd_u_64(
+      apiObj.maxTimestamp,
+    );
   }
 
   @protected
   void cst_api_fill_to_wire_log_entry(
-      LogEntry apiObj, wire_cst_log_entry wireObj) {
+    LogEntry apiObj,
+    wire_cst_log_entry wireObj,
+  ) {
     wireObj.level = cst_encode_level(apiObj.level);
     wireObj.tag = cst_encode_String(apiObj.tag);
     wireObj.msg = cst_encode_String(apiObj.msg);
@@ -1418,7 +1608,9 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_precomputed_table_type(
-      PrecomputedTableType apiObj, wire_cst_precomputed_table_type wireObj) {
+    PrecomputedTableType apiObj,
+    wire_cst_precomputed_table_type wireObj,
+  ) {
     if (apiObj is PrecomputedTableType_L1Low) {
       wireObj.tag = 0;
       return;
@@ -1440,52 +1632,63 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   }
 
   @protected
-  void cst_api_fill_to_wire_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-      (Transaction, TransactionBuilderState) apiObj,
-      wire_cst_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state
-          wireObj) {
+  void
+  cst_api_fill_to_wire_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    (Transaction, TransactionBuilderState) apiObj,
+    wire_cst_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state
+    wireObj,
+  ) {
     wireObj.field0 =
         cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-            apiObj.$1);
+          apiObj.$1,
+        );
     wireObj.field1 =
         cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-            apiObj.$2);
+          apiObj.$2,
+        );
   }
 
   @protected
   void cst_api_fill_to_wire_record_string_contact_details(
-      (String, ContactDetails) apiObj,
-      wire_cst_record_string_contact_details wireObj) {
+    (String, ContactDetails) apiObj,
+    wire_cst_record_string_contact_details wireObj,
+  ) {
     wireObj.field0 = cst_encode_String(apiObj.$1);
     cst_api_fill_to_wire_contact_details(apiObj.$2, wireObj.field1);
   }
 
   @protected
   void cst_api_fill_to_wire_record_string_permission_policy(
-      (String, PermissionPolicy) apiObj,
-      wire_cst_record_string_permission_policy wireObj) {
+    (String, PermissionPolicy) apiObj,
+    wire_cst_record_string_permission_policy wireObj,
+  ) {
     wireObj.field0 = cst_encode_String(apiObj.$1);
     wireObj.field1 = cst_encode_permission_policy(apiObj.$2);
   }
 
   @protected
   void cst_api_fill_to_wire_record_string_string(
-      (String, String) apiObj, wire_cst_record_string_string wireObj) {
+    (String, String) apiObj,
+    wire_cst_record_string_string wireObj,
+  ) {
     wireObj.field0 = cst_encode_String(apiObj.$1);
     wireObj.field1 = cst_encode_String(apiObj.$2);
   }
 
   @protected
   void cst_api_fill_to_wire_record_string_u_64(
-      (String, BigInt) apiObj, wire_cst_record_string_u_64 wireObj) {
+    (String, BigInt) apiObj,
+    wire_cst_record_string_u_64 wireObj,
+  ) {
     wireObj.field0 = cst_encode_String(apiObj.$1);
     wireObj.field1 = cst_encode_u_64(apiObj.$2);
   }
 
   @protected
   void cst_api_fill_to_wire_record_string_xelis_asset_metadata(
-      (String, XelisAssetMetadata) apiObj,
-      wire_cst_record_string_xelis_asset_metadata wireObj) {
+    (String, XelisAssetMetadata) apiObj,
+    wire_cst_record_string_xelis_asset_metadata wireObj,
+  ) {
     wireObj.field0 = cst_encode_String(apiObj.$1);
     cst_api_fill_to_wire_xelis_asset_metadata(apiObj.$2, wireObj.field1);
   }
@@ -1512,36 +1715,47 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_signature_multisig(
-      SignatureMultisig apiObj, wire_cst_signature_multisig wireObj) {
+    SignatureMultisig apiObj,
+    wire_cst_signature_multisig wireObj,
+  ) {
     wireObj.id = cst_encode_u_8(apiObj.id);
     wireObj.signature = cst_encode_String(apiObj.signature);
   }
 
   @protected
   void cst_api_fill_to_wire_transfer(
-      Transfer apiObj, wire_cst_transfer wireObj) {
+    Transfer apiObj,
+    wire_cst_transfer wireObj,
+  ) {
     wireObj.float_amount = cst_encode_f_64(apiObj.floatAmount);
     wireObj.str_address = cst_encode_String(apiObj.strAddress);
     wireObj.asset_hash = cst_encode_String(apiObj.assetHash);
     wireObj.extra_data = cst_encode_opt_String(apiObj.extraData);
-    wireObj.encrypt_extra_data =
-        cst_encode_opt_box_autoadd_bool(apiObj.encryptExtraData);
+    wireObj.encrypt_extra_data = cst_encode_opt_box_autoadd_bool(
+      apiObj.encryptExtraData,
+    );
   }
 
   @protected
   void cst_api_fill_to_wire_xelis_asset_metadata(
-      XelisAssetMetadata apiObj, wire_cst_xelis_asset_metadata wireObj) {
+    XelisAssetMetadata apiObj,
+    wire_cst_xelis_asset_metadata wireObj,
+  ) {
     wireObj.name = cst_encode_String(apiObj.name);
     wireObj.ticker = cst_encode_String(apiObj.ticker);
     wireObj.decimals = cst_encode_u_8(apiObj.decimals);
     cst_api_fill_to_wire_xelis_max_supply_mode(
-        apiObj.maxSupply, wireObj.max_supply);
+      apiObj.maxSupply,
+      wireObj.max_supply,
+    );
     wireObj.owner = cst_encode_opt_box_autoadd_xelis_asset_owner(apiObj.owner);
   }
 
   @protected
   void cst_api_fill_to_wire_xelis_asset_owner(
-      XelisAssetOwner apiObj, wire_cst_xelis_asset_owner wireObj) {
+    XelisAssetOwner apiObj,
+    wire_cst_xelis_asset_owner wireObj,
+  ) {
     if (apiObj is XelisAssetOwner_None) {
       wireObj.tag = 0;
       return;
@@ -1568,7 +1782,9 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_xelis_max_supply_mode(
-      XelisMaxSupplyMode apiObj, wire_cst_xelis_max_supply_mode wireObj) {
+    XelisMaxSupplyMode apiObj,
+    wire_cst_xelis_max_supply_mode wireObj,
+  ) {
     if (apiObj is XelisMaxSupplyMode_None) {
       wireObj.tag = 0;
       return;
@@ -1589,16 +1805,24 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void cst_api_fill_to_wire_xswd_request_summary(
-      XswdRequestSummary apiObj, wire_cst_xswd_request_summary wireObj) {
+    XswdRequestSummary apiObj,
+    wire_cst_xswd_request_summary wireObj,
+  ) {
     cst_api_fill_to_wire_xswd_request_type(
-        apiObj.eventType, wireObj.event_type);
+      apiObj.eventType,
+      wireObj.event_type,
+    );
     cst_api_fill_to_wire_app_info(
-        apiObj.applicationInfo, wireObj.application_info);
+      apiObj.applicationInfo,
+      wireObj.application_info,
+    );
   }
 
   @protected
   void cst_api_fill_to_wire_xswd_request_type(
-      XswdRequestType apiObj, wire_cst_xswd_request_type wireObj) {
+    XswdRequestType apiObj,
+    wire_cst_xswd_request_type wireObj,
+  ) {
     if (apiObj is XswdRequestType_Application) {
       wireObj.tag = 0;
       return;
@@ -1626,161 +1850,235 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   }
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-      Address raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-      DataElement raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-      LevelFilter raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-      PrecomputedTablesShared raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-      Transaction raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-      TransactionBuilderState raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-      TransactionTypeBuilder raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-      UnboundedReceiverXswdEvent raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent raw,
+  );
 
   @protected
-  int cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-      AppState raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
   PlatformPointer
-      cst_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          FutureOr<void> Function(XswdRequestSummary) raw);
+  cst_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    FutureOr<void> Function(XswdRequestSummary) raw,
+  );
 
   @protected
   PlatformPointer
-      cst_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          FutureOr<UserPermissionDecision> Function(XswdRequestSummary) raw);
+  cst_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    FutureOr<UserPermissionDecision> Function(XswdRequestSummary) raw,
+  );
 
   @protected
   PlatformPointer cst_encode_DartOpaque(Object raw);
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-      Address raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-      AppState raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-      DataElement raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-      IntegratedAddress raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-      LevelFilter raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-      PrecomputedTablesShared raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-      SearchEngine raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-      SendToDartLogger raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-      SummaryTransaction raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-      Transaction raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-      TransactionBuilderState raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-      TransactionTypeBuilder raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-      UnboundedReceiverXswdEvent raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent raw,
+  );
 
   @protected
-  int cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-      XelisWallet raw);
+  int
+  cst_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet raw,
+  );
 
   @protected
   bool cst_encode_bool(bool raw);
@@ -1814,237 +2112,329 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_AnyhowException(
-      AnyhowException self, SseSerializer serializer);
+    AnyhowException self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          Address self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          LevelFilter self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          Transaction self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          TransactionBuilderState self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          TransactionTypeBuilder self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          UnboundedReceiverXswdEvent self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_RefMut_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          AppState self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_Auto_Ref_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
-          FutureOr<void> Function(XswdRequestSummary) self,
-          SseSerializer serializer);
+  sse_encode_DartFn_Inputs_xswd_request_summary_Output_unit_AnyhowException(
+    FutureOr<void> Function(XswdRequestSummary) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
-          FutureOr<UserPermissionDecision> Function(XswdRequestSummary) self,
-          SseSerializer serializer);
+  sse_encode_DartFn_Inputs_xswd_request_summary_Output_user_permission_decision_AnyhowException(
+    FutureOr<UserPermissionDecision> Function(XswdRequestSummary) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_DartOpaque(Object self, SseSerializer serializer);
 
   @protected
   void sse_encode_Map_String_String_None(
-      Map<String, String> self, SseSerializer serializer);
+    Map<String, String> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_contact_details_None(
-      Map<String, ContactDetails> self, SseSerializer serializer);
+    Map<String, ContactDetails> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_permission_policy_None(
-      Map<String, PermissionPolicy> self, SseSerializer serializer);
+    Map<String, PermissionPolicy> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_Map_String_u_64_None(
-      Map<String, BigInt> self, SseSerializer serializer);
+    Map<String, BigInt> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
-          Address self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+    Address self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
-          AppState self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+    AppState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
-          IntegratedAddress self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+    IntegratedAddress self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
-          LevelFilter self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+    LevelFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
-          SearchEngine self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+    SearchEngine self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
-          SendToDartLogger self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+    SendToDartLogger self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
-          SummaryTransaction self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+    SummaryTransaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
-          Transaction self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+    Transaction self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
-          TransactionBuilderState self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+    TransactionBuilderState self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
-          TransactionTypeBuilder self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+    TransactionTypeBuilder self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
-          UnboundedReceiverXswdEvent self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+    UnboundedReceiverXswdEvent self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
-          XelisWallet self, SseSerializer serializer);
+  sse_encode_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+    XelisWallet self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_String_Dco(
-      RustStreamSink<String> self, SseSerializer serializer);
+    RustStreamSink<String> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_log_entry_Dco(
-      RustStreamSink<LogEntry> self, SseSerializer serializer);
+    RustStreamSink<LogEntry> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_StreamSink_report_Dco(
-      RustStreamSink<Report> self, SseSerializer serializer);
+    RustStreamSink<Report> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_String(String self, SseSerializer serializer);
 
   @protected
   void sse_encode_address_book_data(
-      AddressBookData self, SseSerializer serializer);
+    AddressBookData self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_app_info(AppInfo self, SseSerializer serializer);
@@ -2054,28 +2444,38 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void
-      sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement self, SseSerializer serializer);
+  sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared self, SseSerializer serializer);
+  sse_encode_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_address_book_data(
-      AddressBookData self, SseSerializer serializer);
+    AddressBookData self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_bool(bool self, SseSerializer serializer);
 
   @protected
   void sse_encode_box_autoadd_history_page_filter(
-      HistoryPageFilter self, SseSerializer serializer);
+    HistoryPageFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_precomputed_table_type(
-      PrecomputedTableType self, SseSerializer serializer);
+    PrecomputedTableType self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_report(Report self, SseSerializer serializer);
@@ -2088,22 +2488,30 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_box_autoadd_xelis_asset_owner(
-      XelisAssetOwner self, SseSerializer serializer);
+    XelisAssetOwner self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_box_autoadd_xswd_request_summary(
-      XswdRequestSummary self, SseSerializer serializer);
+    XswdRequestSummary self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_contact_details(
-      ContactDetails self, SseSerializer serializer);
+    ContactDetails self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_f_64(double self, SseSerializer serializer);
 
   @protected
   void sse_encode_history_page_filter(
-      HistoryPageFilter self, SseSerializer serializer);
+    HistoryPageFilter self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_i_32(int self, SseSerializer serializer);
@@ -2122,35 +2530,51 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_list_contact_details(
-      List<ContactDetails> self, SseSerializer serializer);
+    List<ContactDetails> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_prim_u_8_strict(
-      Uint8List self, SseSerializer serializer);
+    Uint8List self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_contact_details(
-      List<(String, ContactDetails)> self, SseSerializer serializer);
+    List<(String, ContactDetails)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_permission_policy(
-      List<(String, PermissionPolicy)> self, SseSerializer serializer);
+    List<(String, PermissionPolicy)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_string(
-      List<(String, String)> self, SseSerializer serializer);
+    List<(String, String)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_u_64(
-      List<(String, BigInt)> self, SseSerializer serializer);
+    List<(String, BigInt)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_record_string_xelis_asset_metadata(
-      List<(String, XelisAssetMetadata)> self, SseSerializer serializer);
+    List<(String, XelisAssetMetadata)> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_signature_multisig(
-      List<SignatureMultisig> self, SseSerializer serializer);
+    List<SignatureMultisig> self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_list_transfer(List<Transfer> self, SseSerializer serializer);
@@ -2166,13 +2590,17 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void
-      sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
-          DataElement? self, SseSerializer serializer);
+  sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+    DataElement? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
-          PrecomputedTablesShared? self, SseSerializer serializer);
+  sse_encode_opt_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+    PrecomputedTablesShared? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_opt_box_autoadd_bool(bool? self, SseSerializer serializer);
@@ -2185,48 +2613,67 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_opt_box_autoadd_xelis_asset_owner(
-      XelisAssetOwner? self, SseSerializer serializer);
+    XelisAssetOwner? self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_permission_policy(
-      PermissionPolicy self, SseSerializer serializer);
+    PermissionPolicy self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_precomputed_table_type(
-      PrecomputedTableType self, SseSerializer serializer);
+    PrecomputedTableType self,
+    SseSerializer serializer,
+  );
 
   @protected
   void
-      sse_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
-          (Transaction, TransactionBuilderState) self,
-          SseSerializer serializer);
+  sse_encode_record_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_auto_owned_rust_opaque_flutter_rust_bridgefor_generated_rust_auto_opaque_inner_transaction_builder_state(
+    (Transaction, TransactionBuilderState) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_contact_details(
-      (String, ContactDetails) self, SseSerializer serializer);
+    (String, ContactDetails) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_permission_policy(
-      (String, PermissionPolicy) self, SseSerializer serializer);
+    (String, PermissionPolicy) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_string(
-      (String, String) self, SseSerializer serializer);
+    (String, String) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_u_64(
-      (String, BigInt) self, SseSerializer serializer);
+    (String, BigInt) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_record_string_xelis_asset_metadata(
-      (String, XelisAssetMetadata) self, SseSerializer serializer);
+    (String, XelisAssetMetadata) self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_report(Report self, SseSerializer serializer);
 
   @protected
   void sse_encode_signature_multisig(
-      SignatureMultisig self, SseSerializer serializer);
+    SignatureMultisig self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_transfer(Transfer self, SseSerializer serializer);
@@ -2245,30 +2692,42 @@ abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
 
   @protected
   void sse_encode_user_permission_decision(
-      UserPermissionDecision self, SseSerializer serializer);
+    UserPermissionDecision self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_usize(BigInt self, SseSerializer serializer);
 
   @protected
   void sse_encode_xelis_asset_metadata(
-      XelisAssetMetadata self, SseSerializer serializer);
+    XelisAssetMetadata self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xelis_asset_owner(
-      XelisAssetOwner self, SseSerializer serializer);
+    XelisAssetOwner self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xelis_max_supply_mode(
-      XelisMaxSupplyMode self, SseSerializer serializer);
+    XelisMaxSupplyMode self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xswd_request_summary(
-      XswdRequestSummary self, SseSerializer serializer);
+    XswdRequestSummary self,
+    SseSerializer serializer,
+  );
 
   @protected
   void sse_encode_xswd_request_type(
-      XswdRequestType self, SseSerializer serializer);
+    XswdRequestType self,
+    SseSerializer serializer,
+  );
 }
 
 // Section: wire_class
@@ -2286,11 +2745,11 @@ class RustLibWire implements BaseWire {
 
   /// Holds the symbol lookup function.
   final ffi.Pointer<T> Function<T extends ffi.NativeType>(String symbolName)
-      _lookup;
+  _lookup;
 
   /// The symbols are looked up in [dynamicLibrary].
   RustLibWire(ffi.DynamicLibrary dynamicLibrary)
-      : _lookup = dynamicLibrary.lookup;
+    : _lookup = dynamicLibrary.lookup;
 
   /// The symbols are looked up with [lookup].
   RustLibWire.fromLookup(
@@ -2303,13 +2762,13 @@ class RustLibWire implements BaseWire {
 
   late final _store_dart_post_cobjectPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(DartPostCObjectFnType)>>(
-    'store_dart_post_cobject',
-  );
+        'store_dart_post_cobject',
+      );
   late final _store_dart_post_cobject = _store_dart_post_cobjectPtr
       .asFunction<void Function(DartPostCObjectFnType)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
     int that,
   ) {
     return _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address(
@@ -2319,14 +2778,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_addressPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address',
+      );
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_address =
       _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_addressPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
     int that,
   ) {
     return _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data(
@@ -2336,14 +2795,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_dataPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data',
+      );
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_data =
       _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_get_dataPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address(
     int that,
     int address,
   ) {
@@ -2355,16 +2814,18 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_addressPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address',
+      );
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_address =
       _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_addressPtr
           .asFunction<WireSyncRust2DartDco Function(int, int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
+  wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data(
     int that,
     ffi.Pointer<ffi.UintPtr> data,
   ) {
@@ -2376,18 +2837,20 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_dataPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                  ffi.UintPtr, ffi.Pointer<ffi.UintPtr>)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.Pointer<ffi.UintPtr>)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data',
+      );
   late final _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_data =
       _wire__crate__api__models__wallet_dtos__IntegratedAddress_auto_accessor_set_dataPtr
           .asFunction<
-              WireSyncRust2DartDco Function(int, ffi.Pointer<ffi.UintPtr>)>();
+            WireSyncRust2DartDco Function(int, ffi.Pointer<ffi.UintPtr>)
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__seed_search_engine__SearchEngine_check_seed(
+  wire__crate__api__seed_search_engine__SearchEngine_check_seed(
     int that,
     ffi.Pointer<wire_cst_list_String> seed,
   ) {
@@ -2399,20 +2862,23 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__seed_search_engine__SearchEngine_check_seedPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_String>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_check_seed',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_String>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_check_seed',
+      );
   late final _wire__crate__api__seed_search_engine__SearchEngine_check_seed =
       _wire__crate__api__seed_search_engine__SearchEngine_check_seedPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                int,
-                ffi.Pointer<wire_cst_list_String>,
-              )>();
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_String>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__seed_search_engine__SearchEngine_init(
     int language_index,
@@ -2424,14 +2890,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__seed_search_engine__SearchEngine_initPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_init',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_init',
+      );
   late final _wire__crate__api__seed_search_engine__SearchEngine_init =
       _wire__crate__api__seed_search_engine__SearchEngine_initPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__seed_search_engine__SearchEngine_search(
+  wire__crate__api__seed_search_engine__SearchEngine_search(
     int that,
     ffi.Pointer<wire_cst_list_prim_u_8_strict> query,
   ) {
@@ -2443,23 +2909,26 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__seed_search_engine__SearchEngine_searchPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_search',
-  );
-  late final _wire__crate__api__seed_search_engine__SearchEngine_search =
-      _wire__crate__api__seed_search_engine__SearchEngine_searchPtr.asFunction<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
-            int,
+            ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__seed_search_engine__SearchEngine_search',
+      );
+  late final _wire__crate__api__seed_search_engine__SearchEngine_search =
+      _wire__crate__api__seed_search_engine__SearchEngine_searchPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
-          int that) {
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(int that) {
     return _wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level(
       that,
     );
@@ -2467,14 +2936,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__logger__SendToDartLogger_auto_accessor_get_levelPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level',
+      );
   late final _wire__crate__api__logger__SendToDartLogger_auto_accessor_get_level =
       _wire__crate__api__logger__SendToDartLogger_auto_accessor_get_levelPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
+  wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level(
     int that,
     int level,
   ) {
@@ -2486,10 +2955,12 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__logger__SendToDartLogger_auto_accessor_set_levelPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level',
+      );
   late final _wire__crate__api__logger__SendToDartLogger_auto_accessor_set_level =
       _wire__crate__api__logger__SendToDartLogger_auto_accessor_set_levelPtr
           .asFunction<WireSyncRust2DartDco Function(int, int)>();
@@ -2506,19 +2977,23 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__logger__SendToDartLogger_set_stream_sinkPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_set_stream_sink',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__logger__SendToDartLogger_set_stream_sink',
+      );
   late final _wire__crate__api__logger__SendToDartLogger_set_stream_sink =
-      _wire__crate__api__logger__SendToDartLogger_set_stream_sinkPtr.asFunction<
-          void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__logger__SendToDartLogger_set_stream_sinkPtr
+          .asFunction<
+            void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
     int that,
   ) {
     return _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee(
@@ -2528,14 +3003,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_feePtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_fee =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_feePtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
     int that,
   ) {
     return _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash(
@@ -2545,14 +3020,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hashPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hash =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_hashPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
     int that,
   ) {
     return _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type(
@@ -2562,14 +3037,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_typePtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_type =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_get_transaction_typePtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee(
     int that,
     int fee,
   ) {
@@ -2581,16 +3056,18 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_feePtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(ffi.UintPtr, ffi.Uint64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.Uint64)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_fee =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_feePtr
           .asFunction<WireSyncRust2DartDco Function(int, int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash(
     int that,
     ffi.Pointer<wire_cst_list_prim_u_8_strict> hash,
   ) {
@@ -2602,23 +3079,26 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hashPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hash =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_hashPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>();
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
+  wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type(
     int that,
     int transaction_type,
   ) {
@@ -2630,10 +3110,12 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_typePtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type',
+      );
   late final _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_type =
       _wire__crate__api__models__wallet_dtos__SummaryTransaction_auto_accessor_set_transaction_typePtr
           .asFunction<WireSyncRust2DartDco Function(int, int)>();
@@ -2644,8 +3126,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_all_historyPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_all_history',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_all_history',
+      );
   late final _wire__crate__api__wallet__XelisWallet_all_history =
       _wire__crate__api__wallet__XelisWallet_all_historyPtr
           .asFunction<void Function(int, int)>();
@@ -2664,19 +3146,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_broadcast_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_broadcast_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_broadcast_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_broadcast_transaction =
       _wire__crate__api__wallet__XelisWallet_broadcast_transactionPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_change_password(
     int port_,
@@ -2694,23 +3178,27 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_change_passwordPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_change_password',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_change_password',
+      );
   late final _wire__crate__api__wallet__XelisWallet_change_password =
-      _wire__crate__api__wallet__XelisWallet_change_passwordPtr.asFunction<
-          void Function(
-            int,
-            int,
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+      _wire__crate__api__wallet__XelisWallet_change_passwordPtr
+          .asFunction<
+            void Function(
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__XelisWallet_clear_transaction(
     int that,
@@ -2724,19 +3212,23 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_clear_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_clear_transaction',
-  );
-  late final _wire__crate__api__wallet__XelisWallet_clear_transaction =
-      _wire__crate__api__wallet__XelisWallet_clear_transactionPtr.asFunction<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
-            int,
+            ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_clear_transaction',
+      );
+  late final _wire__crate__api__wallet__XelisWallet_clear_transaction =
+      _wire__crate__api__wallet__XelisWallet_clear_transactionPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_close(int port_, int that) {
     return _wire__crate__api__wallet__XelisWallet_close(port_, that);
@@ -2744,8 +3236,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_closePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_close',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_close',
+      );
   late final _wire__crate__api__wallet__XelisWallet_close =
       _wire__crate__api__wallet__XelisWallet_closePtr
           .asFunction<void Function(int, int)>();
@@ -2764,19 +3256,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_close_application_sessionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_close_application_session',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_close_application_session',
+      );
   late final _wire__crate__api__wallet__XelisWallet_close_application_session =
       _wire__crate__api__wallet__XelisWallet_close_application_sessionPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv(
     int port_,
@@ -2790,8 +3284,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_convert_transactions_to_csvPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv',
+      );
   late final _wire__crate__api__wallet__XelisWallet_convert_transactions_to_csv =
       _wire__crate__api__wallet__XelisWallet_convert_transactions_to_csvPtr
           .asFunction<void Function(int, int)>();
@@ -2810,19 +3304,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_burn_all_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_burn_all_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_burn_all_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_burn_all_transaction =
       _wire__crate__api__wallet__XelisWallet_create_burn_all_transactionPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_create_burn_transaction(
     int port_,
@@ -2840,27 +3336,30 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_burn_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Double,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_burn_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Double,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_burn_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_burn_transaction =
       _wire__crate__api__wallet__XelisWallet_create_burn_transactionPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                double,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>();
+            void Function(
+              int,
+              int,
+              double,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void
-      wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
+  wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction(
     int port_,
     int that,
     ffi.Pointer<wire_cst_list_prim_u_8_strict> asset_hash,
@@ -2874,19 +3373,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transaction =
       _wire__crate__api__wallet__XelisWallet_create_multisig_burn_all_transactionPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction(
     int port_,
@@ -2904,27 +3405,30 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_burn_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Double,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Double,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_burn_transaction =
       _wire__crate__api__wallet__XelisWallet_create_multisig_burn_transactionPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                double,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>();
+            void Function(
+              int,
+              int,
+              double,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void
-      wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction(
     int port_,
     int that,
     ffi.Pointer<wire_cst_list_prim_u_8_strict> str_address,
@@ -2944,31 +3448,34 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<ffi.Bool>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<ffi.Bool>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transaction =
       _wire__crate__api__wallet__XelisWallet_create_multisig_transfer_all_transactionPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<ffi.Bool>,
-              )>();
+            void Function(
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<ffi.Bool>,
+            )
+          >();
 
   void
-      wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
+  wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction(
     int port_,
     int that,
     ffi.Pointer<wire_cst_list_transfer> transfers,
@@ -2982,18 +3489,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_transfer>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_transfer>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transaction =
       _wire__crate__api__wallet__XelisWallet_create_multisig_transfers_transactionPtr
           .asFunction<
-              void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction(
     int port_,
@@ -3015,28 +3525,31 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_transfer_all_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<ffi.Bool>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<ffi.Bool>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_transfer_all_transaction =
       _wire__crate__api__wallet__XelisWallet_create_transfer_all_transactionPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<ffi.Bool>,
-              )>();
+            void Function(
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<ffi.Bool>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_create_transfers_transaction(
     int port_,
@@ -3052,18 +3565,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_create_transfers_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_transfer>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_transfers_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_transfer>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_create_transfers_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_create_transfers_transaction =
       _wire__crate__api__wallet__XelisWallet_create_transfers_transactionPtr
           .asFunction<
-              void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_estimate_fees(
     int port_,
@@ -3077,18 +3593,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_estimate_feesPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_estimate_feesPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_transfer>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_estimate_fees',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_estimate_fees',
+      );
   late final _wire__crate__api__wallet__XelisWallet_estimate_fees =
-      _wire__crate__api__wallet__XelisWallet_estimate_feesPtr.asFunction<
-          void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)>();
+      _wire__crate__api__wallet__XelisWallet_estimate_feesPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_transfer>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_events_stream(
     int port_,
@@ -3102,19 +3623,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_events_streamPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_events_streamPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_events_stream',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_events_stream',
+      );
   late final _wire__crate__api__wallet__XelisWallet_events_stream =
-      _wire__crate__api__wallet__XelisWallet_events_streamPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_events_streamPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file(
     int port_,
@@ -3130,19 +3655,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_filePtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file',
+      );
   late final _wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_file =
       _wire__crate__api__wallet__XelisWallet_export_transactions_to_csv_filePtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction(
     int port_,
@@ -3158,22 +3685,25 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_finalize_multisig_transactionPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_signature_multisig>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_signature_multisig>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction',
+      );
   late final _wire__crate__api__wallet__XelisWallet_finalize_multisig_transaction =
       _wire__crate__api__wallet__XelisWallet_finalize_multisig_transactionPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                ffi.Pointer<wire_cst_list_signature_multisig>,
-              )>();
+            void Function(
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_signature_multisig>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_format_coin(
     int port_,
@@ -3189,24 +3719,29 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_format_coinPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_format_coinPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Uint64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_format_coin',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_format_coin',
+      );
   late final _wire__crate__api__wallet__XelisWallet_format_coin =
-      _wire__crate__api__wallet__XelisWallet_format_coinPtr.asFunction<
-          void Function(
-            int,
-            int,
-            int,
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+      _wire__crate__api__wallet__XelisWallet_format_coinPtr
+          .asFunction<
+            void Function(
+              int,
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__XelisWallet_get_address_str(
     int that,
@@ -3216,8 +3751,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_address_strPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_address_str',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_address_str',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_address_str =
       _wire__crate__api__wallet__XelisWallet_get_address_strPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
@@ -3231,8 +3766,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_all_assetsPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_all_assets',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_all_assets',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_all_assets =
       _wire__crate__api__wallet__XelisWallet_get_all_assetsPtr
           .asFunction<void Function(int, int)>();
@@ -3249,8 +3784,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_application_permissionsPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_application_permissions',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_application_permissions',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_application_permissions =
       _wire__crate__api__wallet__XelisWallet_get_application_permissionsPtr
           .asFunction<void Function(int, int)>();
@@ -3269,19 +3804,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_idPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id =
       _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_idPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw(
     int port_,
@@ -3297,19 +3834,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_rawPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_raw =
       _wire__crate__api__wallet__XelisWallet_get_asset_balance_by_id_rawPtr
           .asFunction<
-              void Function(
-                  int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_get_asset_balances(
     int port_,
@@ -3323,8 +3862,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balancesPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balances',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_balances',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_balances =
       _wire__crate__api__wallet__XelisWallet_get_asset_balancesPtr
           .asFunction<void Function(int, int)>();
@@ -3343,18 +3882,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_decimalsPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_decimals',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_decimals',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_decimals =
-      _wire__crate__api__wallet__XelisWallet_get_asset_decimalsPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_get_asset_decimalsPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_get_asset_metadata(
     int port_,
@@ -3370,18 +3912,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_metadataPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_metadata',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_metadata',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_metadata =
-      _wire__crate__api__wallet__XelisWallet_get_asset_metadataPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_get_asset_metadataPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_get_asset_ticker(
     int port_,
@@ -3397,18 +3942,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_asset_tickerPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_ticker',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_asset_ticker',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_asset_ticker =
-      _wire__crate__api__wallet__XelisWallet_get_asset_tickerPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_get_asset_tickerPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_get_daemon_info(
     int port_,
@@ -3419,8 +3967,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_daemon_infoPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_daemon_info',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_daemon_info',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_daemon_info =
       _wire__crate__api__wallet__XelisWallet_get_daemon_infoPtr
           .asFunction<void Function(int, int)>();
@@ -3437,8 +3985,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_history_countPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_history_count',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_history_count',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_history_count =
       _wire__crate__api__wallet__XelisWallet_get_history_countPtr
           .asFunction<void Function(int, int)>();
@@ -3452,8 +4000,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_known_assetsPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_known_assets',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_known_assets',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_known_assets =
       _wire__crate__api__wallet__XelisWallet_get_known_assetsPtr
           .asFunction<void Function(int, int)>();
@@ -3470,8 +4018,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_multisig_statePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_multisig_state',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_multisig_state',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_multisig_state =
       _wire__crate__api__wallet__XelisWallet_get_multisig_statePtr
           .asFunction<void Function(int, int)>();
@@ -3484,8 +4032,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_networkPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_network',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_network',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_network =
       _wire__crate__api__wallet__XelisWallet_get_networkPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
@@ -3496,8 +4044,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_noncePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_nonce',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_nonce',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_nonce =
       _wire__crate__api__wallet__XelisWallet_get_noncePtr
           .asFunction<void Function(int, int)>();
@@ -3514,11 +4062,12 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_get_seedPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                  ffi.Int64, ffi.UintPtr, ffi.Pointer<ffi.UintPtr>)>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_seed');
+  late final _wire__crate__api__wallet__XelisWallet_get_seedPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Void Function(ffi.Int64, ffi.UintPtr, ffi.Pointer<ffi.UintPtr>)
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_seed');
   late final _wire__crate__api__wallet__XelisWallet_get_seed =
       _wire__crate__api__wallet__XelisWallet_get_seedPtr
           .asFunction<void Function(int, int, ffi.Pointer<ffi.UintPtr>)>();
@@ -3535,8 +4084,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_rawPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_raw =
       _wire__crate__api__wallet__XelisWallet_get_tracked_asset_balances_rawPtr
           .asFunction<void Function(int, int)>();
@@ -3553,8 +4102,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_tracked_balancesPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_tracked_balances',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_tracked_balances',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_tracked_balances =
       _wire__crate__api__wallet__XelisWallet_get_tracked_balancesPtr
           .asFunction<void Function(int, int)>();
@@ -3571,8 +4120,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_xelis_balancePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_xelis_balance',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_xelis_balance',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_xelis_balance =
       _wire__crate__api__wallet__XelisWallet_get_xelis_balancePtr
           .asFunction<void Function(int, int)>();
@@ -3589,8 +4138,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_get_xelis_balance_rawPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw',
+      );
   late final _wire__crate__api__wallet__XelisWallet_get_xelis_balance_raw =
       _wire__crate__api__wallet__XelisWallet_get_xelis_balance_rawPtr
           .asFunction<void Function(int, int)>();
@@ -3609,18 +4158,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_has_asset_balancePtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_has_asset_balance',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_has_asset_balance',
+      );
   late final _wire__crate__api__wallet__XelisWallet_has_asset_balance =
-      _wire__crate__api__wallet__XelisWallet_has_asset_balancePtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_has_asset_balancePtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_has_xelis_balance(
     int port_,
@@ -3634,8 +4186,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_has_xelis_balancePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_has_xelis_balance',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_has_xelis_balance',
+      );
   late final _wire__crate__api__wallet__XelisWallet_has_xelis_balance =
       _wire__crate__api__wallet__XelisWallet_has_xelis_balancePtr
           .asFunction<void Function(int, int)>();
@@ -3648,17 +4200,21 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__wallet__XelisWallet_history(port_, that, filter);
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_historyPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_history_page_filter>,
-              )>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_history');
+  late final _wire__crate__api__wallet__XelisWallet_historyPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_history_page_filter>,
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_history');
   late final _wire__crate__api__wallet__XelisWallet_history =
-      _wire__crate__api__wallet__XelisWallet_historyPtr.asFunction<
-          void Function(int, int, ffi.Pointer<wire_cst_history_page_filter>)>();
+      _wire__crate__api__wallet__XelisWallet_historyPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_history_page_filter>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_init_delete_multisig(
     int port_,
@@ -3672,14 +4228,14 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_init_delete_multisigPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_init_delete_multisig',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_init_delete_multisig',
+      );
   late final _wire__crate__api__wallet__XelisWallet_init_delete_multisig =
       _wire__crate__api__wallet__XelisWallet_init_delete_multisigPtr
           .asFunction<void Function(int, int)>();
 
   WireSyncRust2DartDco
-      wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
+  wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig(
     int that,
     ffi.Pointer<wire_cst_list_prim_u_8_strict> address,
   ) {
@@ -3691,20 +4247,23 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisigPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig',
+      );
   late final _wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisig =
       _wire__crate__api__wallet__XelisWallet_is_address_valid_for_multisigPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>();
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_is_asset_tracked(
     int port_,
@@ -3720,18 +4279,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_is_asset_trackedPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_asset_tracked',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_asset_tracked',
+      );
   late final _wire__crate__api__wallet__XelisWallet_is_asset_tracked =
-      _wire__crate__api__wallet__XelisWallet_is_asset_trackedPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_is_asset_trackedPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_is_online(int port_, int that) {
     return _wire__crate__api__wallet__XelisWallet_is_online(port_, that);
@@ -3739,8 +4301,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_is_onlinePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_online',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_online',
+      );
   late final _wire__crate__api__wallet__XelisWallet_is_online =
       _wire__crate__api__wallet__XelisWallet_is_onlinePtr
           .asFunction<void Function(int, int)>();
@@ -3759,18 +4321,21 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_is_valid_passwordPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_valid_password',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_valid_password',
+      );
   late final _wire__crate__api__wallet__XelisWallet_is_valid_password =
-      _wire__crate__api__wallet__XelisWallet_is_valid_passwordPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_is_valid_passwordPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_is_xswd_running(
     int port_,
@@ -3781,8 +4346,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_is_xswd_runningPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_xswd_running',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_is_xswd_running',
+      );
   late final _wire__crate__api__wallet__XelisWallet_is_xswd_running =
       _wire__crate__api__wallet__XelisWallet_is_xswd_runningPtr
           .asFunction<void Function(int, int)>();
@@ -3803,24 +4368,27 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_modify_application_permissionsPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.UintPtr,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_record_string_permission_policy>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_modify_application_permissions',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.UintPtr,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_list_record_string_permission_policy>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_modify_application_permissions',
+      );
   late final _wire__crate__api__wallet__XelisWallet_modify_application_permissions =
       _wire__crate__api__wallet__XelisWallet_modify_application_permissionsPtr
           .asFunction<
-              void Function(
-                int,
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_record_string_permission_policy>,
-              )>();
+            void Function(
+              int,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_record_string_permission_policy>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_multisig_setup(
     int port_,
@@ -3836,19 +4404,24 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_multisig_setupPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_multisig_setupPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Uint8,
             ffi.Pointer<wire_cst_list_String>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_multisig_setup',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_multisig_setup',
+      );
   late final _wire__crate__api__wallet__XelisWallet_multisig_setup =
-      _wire__crate__api__wallet__XelisWallet_multisig_setupPtr.asFunction<
-          void Function(int, int, int, ffi.Pointer<wire_cst_list_String>)>();
+      _wire__crate__api__wallet__XelisWallet_multisig_setupPtr
+          .asFunction<
+            void Function(int, int, int, ffi.Pointer<wire_cst_list_String>)
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__XelisWallet_multisig_sign(
     int that,
@@ -3857,20 +4430,25 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__wallet__XelisWallet_multisig_sign(that, tx_hash);
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_multisig_signPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_multisig_signPtr =
+      _lookup<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_multisig_sign',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_multisig_sign',
+      );
   late final _wire__crate__api__wallet__XelisWallet_multisig_sign =
-      _wire__crate__api__wallet__XelisWallet_multisig_signPtr.asFunction<
-          WireSyncRust2DartDco Function(
-            int,
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+      _wire__crate__api__wallet__XelisWallet_multisig_signPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_offline_mode(int port_, int that) {
     return _wire__crate__api__wallet__XelisWallet_offline_mode(port_, that);
@@ -3878,8 +4456,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_offline_modePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_offline_mode',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_offline_mode',
+      );
   late final _wire__crate__api__wallet__XelisWallet_offline_mode =
       _wire__crate__api__wallet__XelisWallet_offline_modePtr
           .asFunction<void Function(int, int)>();
@@ -3896,19 +4474,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_online_modePtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_online_modePtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_online_mode',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_online_mode',
+      );
   late final _wire__crate__api__wallet__XelisWallet_online_mode =
-      _wire__crate__api__wallet__XelisWallet_online_modePtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_online_modePtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_rescan(
     int port_,
@@ -3922,10 +4504,12 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_rescanPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(ffi.Int64, ffi.UintPtr, ffi.Uint64)>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_rescan');
+  late final _wire__crate__api__wallet__XelisWallet_rescanPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Void Function(ffi.Int64, ffi.UintPtr, ffi.Uint64)
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_rescan');
   late final _wire__crate__api__wallet__XelisWallet_rescan =
       _wire__crate__api__wallet__XelisWallet_rescanPtr
           .asFunction<void Function(int, int, int)>();
@@ -3950,8 +4534,9 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_start_xswdPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_start_xswdPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
@@ -3960,20 +4545,24 @@ class RustLibWire implements BaseWire {
             ffi.Pointer<ffi.Void>,
             ffi.Pointer<ffi.Void>,
             ffi.Pointer<ffi.Void>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_start_xswd',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_start_xswd',
+      );
   late final _wire__crate__api__wallet__XelisWallet_start_xswd =
-      _wire__crate__api__wallet__XelisWallet_start_xswdPtr.asFunction<
-          void Function(
-            int,
-            int,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-          )>();
+      _wire__crate__api__wallet__XelisWallet_start_xswdPtr
+          .asFunction<
+            void Function(
+              int,
+              int,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+            )
+          >();
 
   void wire__crate__api__wallet__XelisWallet_stop_xswd(int port_, int that) {
     return _wire__crate__api__wallet__XelisWallet_stop_xswd(port_, that);
@@ -3981,8 +4570,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__XelisWallet_stop_xswdPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_stop_xswd',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_stop_xswd',
+      );
   late final _wire__crate__api__wallet__XelisWallet_stop_xswd =
       _wire__crate__api__wallet__XelisWallet_stop_xswdPtr
           .asFunction<void Function(int, int)>();
@@ -3999,19 +4588,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_track_assetPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_track_assetPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_track_asset',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_track_asset',
+      );
   late final _wire__crate__api__wallet__XelisWallet_track_asset =
-      _wire__crate__api__wallet__XelisWallet_track_assetPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_track_assetPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__XelisWallet_untrack_asset(
     int port_,
@@ -4025,19 +4618,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__XelisWallet_untrack_assetPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__XelisWallet_untrack_assetPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_untrack_asset',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__wallet__XelisWallet_untrack_asset',
+      );
   late final _wire__crate__api__wallet__XelisWallet_untrack_asset =
-      _wire__crate__api__wallet__XelisWallet_untrack_assetPtr.asFunction<
-          void Function(
-              int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__wallet__XelisWallet_untrack_assetPtr
+          .asFunction<
+            void Function(int, int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__progress_report__add_progress_report(
     int port_,
@@ -4051,16 +4648,18 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__progress_report__add_progress_reportPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(ffi.Int64, ffi.Pointer<wire_cst_report>)>>(
-    'frbgen_xelis_flutter_wire__crate__api__progress_report__add_progress_report',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(ffi.Int64, ffi.Pointer<wire_cst_report>)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__progress_report__add_progress_report',
+      );
   late final _wire__crate__api__progress_report__add_progress_report =
       _wire__crate__api__progress_report__add_progress_reportPtr
           .asFunction<void Function(int, ffi.Pointer<wire_cst_report>)>();
 
   void
-      wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
+  wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries(
     int port_,
     ffi.Pointer<wire_cst_address_book_data> that,
   ) {
@@ -4072,15 +4671,17 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__address_book_dtos__address_book_data_get_all_entriesPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                  ffi.Int64, ffi.Pointer<wire_cst_address_book_data>)>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(ffi.Int64, ffi.Pointer<wire_cst_address_book_data>)
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries',
+      );
   late final _wire__crate__api__models__address_book_dtos__address_book_data_get_all_entries =
       _wire__crate__api__models__address_book_dtos__address_book_data_get_all_entriesPtr
           .asFunction<
-              void Function(int, ffi.Pointer<wire_cst_address_book_data>)>();
+            void Function(int, ffi.Pointer<wire_cst_address_book_data>)
+          >();
 
   void wire__crate__api__precomputed_tables__are_precomputed_tables_available(
     int port_,
@@ -4096,22 +4697,25 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__precomputed_tables__are_precomputed_tables_availablePtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__are_precomputed_tables_available',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            ffi.Pointer<wire_cst_precomputed_table_type>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__are_precomputed_tables_available',
+      );
   late final _wire__crate__api__precomputed_tables__are_precomputed_tables_available =
       _wire__crate__api__precomputed_tables__are_precomputed_tables_availablePtr
           .asFunction<
-              void Function(
-                int,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>();
+            void Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_precomputed_table_type>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__clear_cached_tables() {
     return _wire__crate__api__wallet__clear_cached_tables();
@@ -4119,8 +4723,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__clear_cached_tablesPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function()>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__clear_cached_tables',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__clear_cached_tables',
+      );
   late final _wire__crate__api__wallet__clear_cached_tables =
       _wire__crate__api__wallet__clear_cached_tablesPtr
           .asFunction<WireSyncRust2DartDco Function()>();
@@ -4131,8 +4735,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__xswd__imp__create_app_infoPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__xswd__imp__create_app_info',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__xswd__imp__create_app_info',
+      );
   late final _wire__crate__api__xswd__imp__create_app_info =
       _wire__crate__api__xswd__imp__create_app_infoPtr
           .asFunction<void Function(int, int)>();
@@ -4144,15 +4748,20 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__api__create_log_stream(port_, s);
   }
 
-  late final _wire__crate__api__api__create_log_streamPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__api__create_log_streamPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>('frbgen_xelis_flutter_wire__crate__api__api__create_log_stream');
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__api__create_log_stream');
   late final _wire__crate__api__api__create_log_stream =
-      _wire__crate__api__api__create_log_streamPtr.asFunction<
-          void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__api__create_log_streamPtr
+          .asFunction<
+            void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__api__create_progress_report_stream(
     int port_,
@@ -4164,17 +4773,22 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__api__create_progress_report_streamPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__api__create_progress_report_streamPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__api__create_progress_report_stream',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__api__create_progress_report_stream',
+      );
   late final _wire__crate__api__api__create_progress_report_stream =
-      _wire__crate__api__api__create_progress_report_streamPtr.asFunction<
-          void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)>();
+      _wire__crate__api__api__create_progress_report_streamPtr
+          .asFunction<
+            void Function(int, ffi.Pointer<wire_cst_list_prim_u_8_strict>)
+          >();
 
   void wire__crate__api__wallet__create_xelis_wallet(
     int port_,
@@ -4200,33 +4814,37 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__create_xelis_walletPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Int32,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__create_xelis_wallet');
-  late final _wire__crate__api__wallet__create_xelis_wallet =
-      _wire__crate__api__wallet__create_xelis_walletPtr.asFunction<
-          void Function(
-            int,
+  late final _wire__crate__api__wallet__create_xelis_walletPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-            int,
+            ffi.Int32,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_precomputed_table_type>,
-          )>();
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__create_xelis_wallet');
+  late final _wire__crate__api__wallet__create_xelis_wallet =
+      _wire__crate__api__wallet__create_xelis_walletPtr
+          .asFunction<
+            void Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_precomputed_table_type>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__drop_wallet(int wallet) {
     return _wire__crate__api__wallet__drop_wallet(wallet);
@@ -4234,8 +4852,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__drop_walletPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__drop_wallet',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__drop_wallet',
+      );
   late final _wire__crate__api__wallet__drop_wallet =
       _wire__crate__api__wallet__drop_walletPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
@@ -4248,10 +4866,10 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__utils__format_coin(port_, value, decimals);
   }
 
-  late final _wire__crate__api__utils__format_coinPtr = _lookup<
-          ffi
-          .NativeFunction<ffi.Void Function(ffi.Int64, ffi.Uint64, ffi.Uint8)>>(
-      'frbgen_xelis_flutter_wire__crate__api__utils__format_coin');
+  late final _wire__crate__api__utils__format_coinPtr =
+      _lookup<
+        ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.Uint64, ffi.Uint8)>
+      >('frbgen_xelis_flutter_wire__crate__api__utils__format_coin');
   late final _wire__crate__api__utils__format_coin =
       _wire__crate__api__utils__format_coinPtr
           .asFunction<void Function(int, int, int)>();
@@ -4262,8 +4880,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__utils__format_xelisPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64, ffi.Uint64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__utils__format_xelis',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__utils__format_xelis',
+      );
   late final _wire__crate__api__utils__format_xelis =
       _wire__crate__api__utils__format_xelisPtr
           .asFunction<void Function(int, int)>();
@@ -4274,8 +4892,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__get_cached_tablePtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function()>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__get_cached_table',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__get_cached_table',
+      );
   late final _wire__crate__api__wallet__get_cached_table =
       _wire__crate__api__wallet__get_cached_tablePtr
           .asFunction<WireSyncRust2DartDco Function()>();
@@ -4290,8 +4908,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__get_current_precomputed_tables_typePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__get_current_precomputed_tables_type',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__get_current_precomputed_tables_type',
+      );
   late final _wire__crate__api__wallet__get_current_precomputed_tables_type =
       _wire__crate__api__wallet__get_current_precomputed_tables_typePtr
           .asFunction<void Function(int)>();
@@ -4302,18 +4920,23 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__utils__get_language_index_from_str(input);
   }
 
-  late final _wire__crate__api__utils__get_language_index_from_strPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__utils__get_language_index_from_strPtr =
+      _lookup<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__utils__get_language_index_from_str',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__utils__get_language_index_from_str',
+      );
   late final _wire__crate__api__utils__get_language_index_from_str =
-      _wire__crate__api__utils__get_language_index_from_strPtr.asFunction<
-          WireSyncRust2DartDco Function(
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+      _wire__crate__api__utils__get_language_index_from_strPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   WireSyncRust2DartDco wire__crate__api__utils__get_mnemonic_words(
     int language_index,
@@ -4323,8 +4946,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__utils__get_mnemonic_wordsPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_wire__crate__api__utils__get_mnemonic_words',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__utils__get_mnemonic_words',
+      );
   late final _wire__crate__api__utils__get_mnemonic_words =
       _wire__crate__api__utils__get_mnemonic_wordsPtr
           .asFunction<WireSyncRust2DartDco Function(int)>();
@@ -4335,8 +4958,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__logger__init_loggerPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__logger__init_logger',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__logger__init_logger',
+      );
   late final _wire__crate__api__logger__init_logger =
       _wire__crate__api__logger__init_loggerPtr
           .asFunction<void Function(int)>();
@@ -4347,8 +4970,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__api__initialize_crypto_providerPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__api__initialize_crypto_provider',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__api__initialize_crypto_provider',
+      );
   late final _wire__crate__api__api__initialize_crypto_provider =
       _wire__crate__api__api__initialize_crypto_providerPtr
           .asFunction<void Function(int)>();
@@ -4359,8 +4982,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__api__initialize_xelis_configPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__api__initialize_xelis_config',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__api__initialize_xelis_config',
+      );
   late final _wire__crate__api__api__initialize_xelis_config =
       _wire__crate__api__api__initialize_xelis_configPtr
           .asFunction<void Function(int)>();
@@ -4372,18 +4995,23 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__utils__is_address_valid(str_address, network);
   }
 
-  late final _wire__crate__api__utils__is_address_validPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__utils__is_address_validPtr =
+      _lookup<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Int32,
-          )>>('frbgen_xelis_flutter_wire__crate__api__utils__is_address_valid');
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__utils__is_address_valid');
   late final _wire__crate__api__utils__is_address_valid =
-      _wire__crate__api__utils__is_address_validPtr.asFunction<
-          WireSyncRust2DartDco Function(
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-            int,
-          )>();
+      _wire__crate__api__utils__is_address_validPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              int,
+            )
+          >();
 
   void wire__crate__api__wallet__open_xelis_wallet(
     int port_,
@@ -4405,29 +5033,33 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__open_xelis_walletPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Int32,
-                ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__open_xelis_wallet');
-  late final _wire__crate__api__wallet__open_xelis_wallet =
-      _wire__crate__api__wallet__open_xelis_walletPtr.asFunction<
-          void Function(
-            int,
+  late final _wire__crate__api__wallet__open_xelis_walletPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-            int,
+            ffi.Int32,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_precomputed_table_type>,
-          )>();
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__open_xelis_wallet');
+  late final _wire__crate__api__wallet__open_xelis_wallet =
+      _wire__crate__api__wallet__open_xelis_walletPtr
+          .asFunction<
+            void Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_precomputed_table_type>,
+            )
+          >();
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_index(
     int port_,
@@ -4441,18 +5073,20 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_indexPtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_index',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.Pointer<wire_cst_precomputed_table_type>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_index',
+      );
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_index =
       _wire__crate__api__precomputed_tables__precomputed_table_type_indexPtr
           .asFunction<
-              void Function(
-                  int, ffi.Pointer<wire_cst_precomputed_table_type>)>();
+            void Function(int, ffi.Pointer<wire_cst_precomputed_table_type>)
+          >();
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_name(
     int port_,
@@ -4466,18 +5100,20 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_namePtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_name',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.Pointer<wire_cst_precomputed_table_type>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_name',
+      );
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_name =
       _wire__crate__api__precomputed_tables__precomputed_table_type_namePtr
           .asFunction<
-              void Function(
-                  int, ffi.Pointer<wire_cst_precomputed_table_type>)>();
+            void Function(int, ffi.Pointer<wire_cst_precomputed_table_type>)
+          >();
 
   void wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size(
     int port_,
@@ -4491,18 +5127,20 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_sizePtr =
       _lookup<
-          ffi.NativeFunction<
-              ffi.Void Function(
-                ffi.Int64,
-                ffi.Pointer<wire_cst_precomputed_table_type>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size',
-  );
+        ffi.NativeFunction<
+          ffi.Void Function(
+            ffi.Int64,
+            ffi.Pointer<wire_cst_precomputed_table_type>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size',
+      );
   late final _wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_size =
       _wire__crate__api__precomputed_tables__precomputed_table_type_to_l1_sizePtr
           .asFunction<
-              void Function(
-                  int, ffi.Pointer<wire_cst_precomputed_table_type>)>();
+            void Function(int, ffi.Pointer<wire_cst_precomputed_table_type>)
+          >();
 
   WireSyncRust2DartDco wire__crate__api__wallet__refresh_mt_params() {
     return _wire__crate__api__wallet__refresh_mt_params();
@@ -4510,8 +5148,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__wallet__refresh_mt_paramsPtr =
       _lookup<ffi.NativeFunction<WireSyncRust2DartDco Function()>>(
-    'frbgen_xelis_flutter_wire__crate__api__wallet__refresh_mt_params',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__wallet__refresh_mt_params',
+      );
   late final _wire__crate__api__wallet__refresh_mt_params =
       _wire__crate__api__wallet__refresh_mt_paramsPtr
           .asFunction<WireSyncRust2DartDco Function()>();
@@ -4523,10 +5161,12 @@ class RustLibWire implements BaseWire {
     return _wire__crate__api__wallet__set_mt_params(thread_count, concurrency);
   }
 
-  late final _wire__crate__api__wallet__set_mt_paramsPtr = _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)>>(
-      'frbgen_xelis_flutter_wire__crate__api__wallet__set_mt_params');
+  late final _wire__crate__api__wallet__set_mt_paramsPtr =
+      _lookup<
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(ffi.UintPtr, ffi.UintPtr)
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__set_mt_params');
   late final _wire__crate__api__wallet__set_mt_params =
       _wire__crate__api__wallet__set_mt_paramsPtr
           .asFunction<WireSyncRust2DartDco Function(int, int)>();
@@ -4537,8 +5177,8 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__api__set_up_rust_loggerPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Int64)>>(
-    'frbgen_xelis_flutter_wire__crate__api__api__set_up_rust_logger',
-  );
+        'frbgen_xelis_flutter_wire__crate__api__api__set_up_rust_logger',
+      );
   late final _wire__crate__api__api__set_up_rust_logger =
       _wire__crate__api__api__set_up_rust_loggerPtr
           .asFunction<void Function(int)>();
@@ -4551,18 +5191,23 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__utils__split_integrated_addressPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__utils__split_integrated_addressPtr =
+      _lookup<
+        ffi.NativeFunction<
           WireSyncRust2DartDco Function(
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>>(
-    'frbgen_xelis_flutter_wire__crate__api__utils__split_integrated_address',
-  );
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__utils__split_integrated_address',
+      );
   late final _wire__crate__api__utils__split_integrated_address =
-      _wire__crate__api__utils__split_integrated_addressPtr.asFunction<
-          WireSyncRust2DartDco Function(
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-          )>();
+      _wire__crate__api__utils__split_integrated_addressPtr
+          .asFunction<
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+            )
+          >();
 
   void wire__crate__api__wallet__update_tables(
     int port_,
@@ -4576,20 +5221,25 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__wallet__update_tablesPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__wallet__update_tablesPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.Pointer<wire_cst_list_prim_u_8_strict>,
             ffi.Pointer<wire_cst_precomputed_table_type>,
-          )>>('frbgen_xelis_flutter_wire__crate__api__wallet__update_tables');
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__wallet__update_tables');
   late final _wire__crate__api__wallet__update_tables =
-      _wire__crate__api__wallet__update_tablesPtr.asFunction<
-          void Function(
-            int,
-            ffi.Pointer<wire_cst_list_prim_u_8_strict>,
-            ffi.Pointer<wire_cst_precomputed_table_type>,
-          )>();
+      _wire__crate__api__wallet__update_tablesPtr
+          .asFunction<
+            void Function(
+              int,
+              ffi.Pointer<wire_cst_list_prim_u_8_strict>,
+              ffi.Pointer<wire_cst_precomputed_table_type>,
+            )
+          >();
 
   void wire__crate__api__xswd__imp__xswd_handler(
     int port_,
@@ -4611,8 +5261,9 @@ class RustLibWire implements BaseWire {
     );
   }
 
-  late final _wire__crate__api__xswd__imp__xswd_handlerPtr = _lookup<
-      ffi.NativeFunction<
+  late final _wire__crate__api__xswd__imp__xswd_handlerPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Void Function(
             ffi.Int64,
             ffi.UintPtr,
@@ -4621,21 +5272,25 @@ class RustLibWire implements BaseWire {
             ffi.Pointer<ffi.Void>,
             ffi.Pointer<ffi.Void>,
             ffi.Pointer<ffi.Void>,
-          )>>('frbgen_xelis_flutter_wire__crate__api__xswd__imp__xswd_handler');
+          )
+        >
+      >('frbgen_xelis_flutter_wire__crate__api__xswd__imp__xswd_handler');
   late final _wire__crate__api__xswd__imp__xswd_handler =
-      _wire__crate__api__xswd__imp__xswd_handlerPtr.asFunction<
-          void Function(
-            int,
-            int,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-            ffi.Pointer<ffi.Void>,
-          )>();
+      _wire__crate__api__xswd__imp__xswd_handlerPtr
+          .asFunction<
+            void Function(
+              int,
+              int,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+              ffi.Pointer<ffi.Void>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect(
@@ -4645,21 +5300,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnectPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnect =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_app_disconnectPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request(
@@ -4669,21 +5327,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_requestPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_request =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_application_requestPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request(
@@ -4693,21 +5354,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_requestPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_request =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_cancel_requestPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request(
@@ -4717,21 +5381,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_requestPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_request =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_permission_requestPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request(
@@ -4741,21 +5408,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_requestPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_request =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_is_prefetch_permissions_requestPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json(
@@ -4765,21 +5435,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_jsonPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_json =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_permission_jsonPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   WireSyncRust2DartDco
-      wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
+  wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
     ffi.Pointer<wire_cst_xswd_request_summary> that,
   ) {
     return _wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json(
@@ -4789,21 +5462,24 @@ class RustLibWire implements BaseWire {
 
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_jsonPtr =
       _lookup<
-          ffi.NativeFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>>(
-    'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json',
-  );
+        ffi.NativeFunction<
+          WireSyncRust2DartDco Function(
+            ffi.Pointer<wire_cst_xswd_request_summary>,
+          )
+        >
+      >(
+        'frbgen_xelis_flutter_wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json',
+      );
   late final _wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_json =
       _wire__crate__api__models__xswd_dtos__xswd_request_summary_prefetch_permissions_jsonPtr
           .asFunction<
-              WireSyncRust2DartDco Function(
-                ffi.Pointer<wire_cst_xswd_request_summary>,
-              )>();
+            WireSyncRust2DartDco Function(
+              ffi.Pointer<wire_cst_xswd_request_summary>,
+            )
+          >();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
@@ -4813,14 +5489,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddressPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddressPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress(
@@ -4830,14 +5506,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddressPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddress =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAddressPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
@@ -4847,14 +5523,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppStatePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppStatePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState(
@@ -4864,14 +5540,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppStatePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppState =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerAppStatePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
@@ -4881,14 +5557,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
@@ -4898,14 +5574,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
@@ -4915,14 +5591,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress(
@@ -4932,14 +5608,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddress =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerIntegratedAddressPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
@@ -4949,14 +5625,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter(
@@ -4966,14 +5642,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilter =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerLevelFilterPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
@@ -4983,14 +5659,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
@@ -5000,14 +5676,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
@@ -5017,14 +5693,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine(
@@ -5034,14 +5710,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEngine =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSearchEnginePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
@@ -5051,14 +5727,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger(
@@ -5068,14 +5744,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLogger =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSendToDartLoggerPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
@@ -5085,14 +5761,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction(
@@ -5102,14 +5778,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransaction =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerSummaryTransactionPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
@@ -5119,14 +5795,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction(
@@ -5136,14 +5812,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransaction =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
@@ -5153,14 +5829,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState(
@@ -5170,14 +5846,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderState =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionBuilderStatePtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
@@ -5187,14 +5863,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder(
@@ -5204,14 +5880,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilder =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerTransactionTypeBuilderPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
@@ -5221,14 +5897,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent(
@@ -5238,14 +5914,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEvent =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerUnboundedReceiverXSWDEventPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+  rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
@@ -5255,14 +5931,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet',
-  );
+        'frbgen_xelis_flutter_rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet',
+      );
   late final _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet =
       _rust_arc_increment_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   void
-      rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
+  rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
     ffi.Pointer<ffi.Void> ptr,
   ) {
     return _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet(
@@ -5272,14 +5948,14 @@ class RustLibWire implements BaseWire {
 
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Void>)>>(
-    'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet',
-  );
+        'frbgen_xelis_flutter_rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet',
+      );
   late final _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWallet =
       _rust_arc_decrement_strong_count_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerXelisWalletPtr
           .asFunction<void Function(ffi.Pointer<ffi.Void>)>();
 
   ffi.Pointer<ffi.UintPtr>
-      cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
+  cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
     int value,
   ) {
     return _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement(
@@ -5289,15 +5965,16 @@ class RustLibWire implements BaseWire {
 
   late final _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr =
       _lookup<
-          ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
-  );
+        ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>
+      >(
+        'frbgen_xelis_flutter_cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement',
+      );
   late final _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElement =
       _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerDataElementPtr
           .asFunction<ffi.Pointer<ffi.UintPtr> Function(int)>();
 
   ffi.Pointer<ffi.UintPtr>
-      cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
+  cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
     int value,
   ) {
     return _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared(
@@ -5307,22 +5984,23 @@ class RustLibWire implements BaseWire {
 
   late final _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr =
       _lookup<
-          ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>>(
-    'frbgen_xelis_flutter_cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
-  );
+        ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>
+      >(
+        'frbgen_xelis_flutter_cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared',
+      );
   late final _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesShared =
       _cst_new_box_autoadd_Auto_Owned_RustOpaque_flutter_rust_bridgefor_generatedRustAutoOpaqueInnerPrecomputedTablesSharedPtr
           .asFunction<ffi.Pointer<ffi.UintPtr> Function(int)>();
 
   ffi.Pointer<wire_cst_address_book_data>
-      cst_new_box_autoadd_address_book_data() {
+  cst_new_box_autoadd_address_book_data() {
     return _cst_new_box_autoadd_address_book_data();
   }
 
-  late final _cst_new_box_autoadd_address_book_dataPtr = _lookup<
-          ffi
-          .NativeFunction<ffi.Pointer<wire_cst_address_book_data> Function()>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_address_book_data');
+  late final _cst_new_box_autoadd_address_book_dataPtr =
+      _lookup<
+        ffi.NativeFunction<ffi.Pointer<wire_cst_address_book_data> Function()>
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_address_book_data');
   late final _cst_new_box_autoadd_address_book_data =
       _cst_new_box_autoadd_address_book_dataPtr
           .asFunction<ffi.Pointer<wire_cst_address_book_data> Function()>();
@@ -5333,36 +6011,40 @@ class RustLibWire implements BaseWire {
 
   late final _cst_new_box_autoadd_boolPtr =
       _lookup<ffi.NativeFunction<ffi.Pointer<ffi.Bool> Function(ffi.Bool)>>(
-    'frbgen_xelis_flutter_cst_new_box_autoadd_bool',
-  );
+        'frbgen_xelis_flutter_cst_new_box_autoadd_bool',
+      );
   late final _cst_new_box_autoadd_bool = _cst_new_box_autoadd_boolPtr
       .asFunction<ffi.Pointer<ffi.Bool> Function(bool)>();
 
   ffi.Pointer<wire_cst_history_page_filter>
-      cst_new_box_autoadd_history_page_filter() {
+  cst_new_box_autoadd_history_page_filter() {
     return _cst_new_box_autoadd_history_page_filter();
   }
 
-  late final _cst_new_box_autoadd_history_page_filterPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_history_page_filter> Function()>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_history_page_filter');
+  late final _cst_new_box_autoadd_history_page_filterPtr =
+      _lookup<
+        ffi.NativeFunction<ffi.Pointer<wire_cst_history_page_filter> Function()>
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_history_page_filter');
   late final _cst_new_box_autoadd_history_page_filter =
       _cst_new_box_autoadd_history_page_filterPtr
           .asFunction<ffi.Pointer<wire_cst_history_page_filter> Function()>();
 
   ffi.Pointer<wire_cst_precomputed_table_type>
-      cst_new_box_autoadd_precomputed_table_type() {
+  cst_new_box_autoadd_precomputed_table_type() {
     return _cst_new_box_autoadd_precomputed_table_type();
   }
 
-  late final _cst_new_box_autoadd_precomputed_table_typePtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_precomputed_table_type> Function()>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_precomputed_table_type');
+  late final _cst_new_box_autoadd_precomputed_table_typePtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_precomputed_table_type> Function()
+        >
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_precomputed_table_type');
   late final _cst_new_box_autoadd_precomputed_table_type =
-      _cst_new_box_autoadd_precomputed_table_typePtr.asFunction<
-          ffi.Pointer<wire_cst_precomputed_table_type> Function()>();
+      _cst_new_box_autoadd_precomputed_table_typePtr
+          .asFunction<
+            ffi.Pointer<wire_cst_precomputed_table_type> Function()
+          >();
 
   ffi.Pointer<wire_cst_report> cst_new_box_autoadd_report() {
     return _cst_new_box_autoadd_report();
@@ -5370,8 +6052,8 @@ class RustLibWire implements BaseWire {
 
   late final _cst_new_box_autoadd_reportPtr =
       _lookup<ffi.NativeFunction<ffi.Pointer<wire_cst_report> Function()>>(
-    'frbgen_xelis_flutter_cst_new_box_autoadd_report',
-  );
+        'frbgen_xelis_flutter_cst_new_box_autoadd_report',
+      );
   late final _cst_new_box_autoadd_report = _cst_new_box_autoadd_reportPtr
       .asFunction<ffi.Pointer<wire_cst_report> Function()>();
 
@@ -5381,8 +6063,8 @@ class RustLibWire implements BaseWire {
 
   late final _cst_new_box_autoadd_u_64Ptr =
       _lookup<ffi.NativeFunction<ffi.Pointer<ffi.Uint64> Function(ffi.Uint64)>>(
-    'frbgen_xelis_flutter_cst_new_box_autoadd_u_64',
-  );
+        'frbgen_xelis_flutter_cst_new_box_autoadd_u_64',
+      );
   late final _cst_new_box_autoadd_u_64 = _cst_new_box_autoadd_u_64Ptr
       .asFunction<ffi.Pointer<ffi.Uint64> Function(int)>();
 
@@ -5390,34 +6072,37 @@ class RustLibWire implements BaseWire {
     return _cst_new_box_autoadd_usize(value);
   }
 
-  late final _cst_new_box_autoadd_usizePtr = _lookup<
-          ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_usize');
+  late final _cst_new_box_autoadd_usizePtr =
+      _lookup<
+        ffi.NativeFunction<ffi.Pointer<ffi.UintPtr> Function(ffi.UintPtr)>
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_usize');
   late final _cst_new_box_autoadd_usize = _cst_new_box_autoadd_usizePtr
       .asFunction<ffi.Pointer<ffi.UintPtr> Function(int)>();
 
   ffi.Pointer<wire_cst_xelis_asset_owner>
-      cst_new_box_autoadd_xelis_asset_owner() {
+  cst_new_box_autoadd_xelis_asset_owner() {
     return _cst_new_box_autoadd_xelis_asset_owner();
   }
 
-  late final _cst_new_box_autoadd_xelis_asset_ownerPtr = _lookup<
-          ffi
-          .NativeFunction<ffi.Pointer<wire_cst_xelis_asset_owner> Function()>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_xelis_asset_owner');
+  late final _cst_new_box_autoadd_xelis_asset_ownerPtr =
+      _lookup<
+        ffi.NativeFunction<ffi.Pointer<wire_cst_xelis_asset_owner> Function()>
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_xelis_asset_owner');
   late final _cst_new_box_autoadd_xelis_asset_owner =
       _cst_new_box_autoadd_xelis_asset_ownerPtr
           .asFunction<ffi.Pointer<wire_cst_xelis_asset_owner> Function()>();
 
   ffi.Pointer<wire_cst_xswd_request_summary>
-      cst_new_box_autoadd_xswd_request_summary() {
+  cst_new_box_autoadd_xswd_request_summary() {
     return _cst_new_box_autoadd_xswd_request_summary();
   }
 
-  late final _cst_new_box_autoadd_xswd_request_summaryPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_xswd_request_summary> Function()>>(
-      'frbgen_xelis_flutter_cst_new_box_autoadd_xswd_request_summary');
+  late final _cst_new_box_autoadd_xswd_request_summaryPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_xswd_request_summary> Function()
+        >
+      >('frbgen_xelis_flutter_cst_new_box_autoadd_xswd_request_summary');
   late final _cst_new_box_autoadd_xswd_request_summary =
       _cst_new_box_autoadd_xswd_request_summaryPtr
           .asFunction<ffi.Pointer<wire_cst_xswd_request_summary> Function()>();
@@ -5426,10 +6111,12 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_String(len);
   }
 
-  late final _cst_new_list_StringPtr = _lookup<
-      ffi.NativeFunction<
-          ffi.Pointer<wire_cst_list_String> Function(
-              ffi.Int32)>>('frbgen_xelis_flutter_cst_new_list_String');
+  late final _cst_new_list_StringPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_String> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_String');
   late final _cst_new_list_String = _cst_new_list_StringPtr
       .asFunction<ffi.Pointer<wire_cst_list_String> Function(int)>();
 
@@ -5437,10 +6124,12 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_app_info(len);
   }
 
-  late final _cst_new_list_app_infoPtr = _lookup<
-      ffi.NativeFunction<
-          ffi.Pointer<wire_cst_list_app_info> Function(
-              ffi.Int32)>>('frbgen_xelis_flutter_cst_new_list_app_info');
+  late final _cst_new_list_app_infoPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_app_info> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_app_info');
   late final _cst_new_list_app_info = _cst_new_list_app_infoPtr
       .asFunction<ffi.Pointer<wire_cst_list_app_info> Function(int)>();
 
@@ -5450,10 +6139,12 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_contact_details(len);
   }
 
-  late final _cst_new_list_contact_detailsPtr = _lookup<
-      ffi.NativeFunction<
-          ffi.Pointer<wire_cst_list_contact_details> Function(
-              ffi.Int32)>>('frbgen_xelis_flutter_cst_new_list_contact_details');
+  late final _cst_new_list_contact_detailsPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_contact_details> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_contact_details');
   late final _cst_new_list_contact_details = _cst_new_list_contact_detailsPtr
       .asFunction<ffi.Pointer<wire_cst_list_contact_details> Function(int)>();
 
@@ -5463,60 +6154,73 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_prim_u_8_strict(len);
   }
 
-  late final _cst_new_list_prim_u_8_strictPtr = _lookup<
-      ffi.NativeFunction<
-          ffi.Pointer<wire_cst_list_prim_u_8_strict> Function(
-              ffi.Int32)>>('frbgen_xelis_flutter_cst_new_list_prim_u_8_strict');
+  late final _cst_new_list_prim_u_8_strictPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_prim_u_8_strict> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_prim_u_8_strict');
   late final _cst_new_list_prim_u_8_strict = _cst_new_list_prim_u_8_strictPtr
       .asFunction<ffi.Pointer<wire_cst_list_prim_u_8_strict> Function(int)>();
 
   ffi.Pointer<wire_cst_list_record_string_contact_details>
-      cst_new_list_record_string_contact_details(int len) {
+  cst_new_list_record_string_contact_details(int len) {
     return _cst_new_list_record_string_contact_details(len);
   }
 
-  late final _cst_new_list_record_string_contact_detailsPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_record_string_contact_details> Function(
-                ffi.Int32,
-              )>>(
-      'frbgen_xelis_flutter_cst_new_list_record_string_contact_details');
-  late final _cst_new_list_record_string_contact_details =
-      _cst_new_list_record_string_contact_detailsPtr.asFunction<
+  late final _cst_new_list_record_string_contact_detailsPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Pointer<wire_cst_list_record_string_contact_details> Function(
-            int,
-          )>();
+            ffi.Int32,
+          )
+        >
+      >('frbgen_xelis_flutter_cst_new_list_record_string_contact_details');
+  late final _cst_new_list_record_string_contact_details =
+      _cst_new_list_record_string_contact_detailsPtr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_record_string_contact_details> Function(
+              int,
+            )
+          >();
 
   ffi.Pointer<wire_cst_list_record_string_permission_policy>
-      cst_new_list_record_string_permission_policy(int len) {
+  cst_new_list_record_string_permission_policy(int len) {
     return _cst_new_list_record_string_permission_policy(len);
   }
 
-  late final _cst_new_list_record_string_permission_policyPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_record_string_permission_policy> Function(
-                ffi.Int32,
-              )>>(
-      'frbgen_xelis_flutter_cst_new_list_record_string_permission_policy');
-  late final _cst_new_list_record_string_permission_policy =
-      _cst_new_list_record_string_permission_policyPtr.asFunction<
+  late final _cst_new_list_record_string_permission_policyPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Pointer<wire_cst_list_record_string_permission_policy> Function(
-            int,
-          )>();
+            ffi.Int32,
+          )
+        >
+      >('frbgen_xelis_flutter_cst_new_list_record_string_permission_policy');
+  late final _cst_new_list_record_string_permission_policy =
+      _cst_new_list_record_string_permission_policyPtr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_record_string_permission_policy> Function(
+              int,
+            )
+          >();
 
   ffi.Pointer<wire_cst_list_record_string_string>
-      cst_new_list_record_string_string(int len) {
+  cst_new_list_record_string_string(int len) {
     return _cst_new_list_record_string_string(len);
   }
 
-  late final _cst_new_list_record_string_stringPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_record_string_string> Function(
-                  ffi.Int32)>>(
-      'frbgen_xelis_flutter_cst_new_list_record_string_string');
+  late final _cst_new_list_record_string_stringPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_record_string_string> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_record_string_string');
   late final _cst_new_list_record_string_string =
-      _cst_new_list_record_string_stringPtr.asFunction<
-          ffi.Pointer<wire_cst_list_record_string_string> Function(int)>();
+      _cst_new_list_record_string_stringPtr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_record_string_string> Function(int)
+          >();
 
   ffi.Pointer<wire_cst_list_record_string_u_64> cst_new_list_record_string_u_64(
     int len,
@@ -5524,29 +6228,36 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_record_string_u_64(len);
   }
 
-  late final _cst_new_list_record_string_u_64Ptr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_record_string_u_64> Function(
-                  ffi.Int32)>>(
-      'frbgen_xelis_flutter_cst_new_list_record_string_u_64');
+  late final _cst_new_list_record_string_u_64Ptr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_record_string_u_64> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_record_string_u_64');
   late final _cst_new_list_record_string_u_64 =
-      _cst_new_list_record_string_u_64Ptr.asFunction<
-          ffi.Pointer<wire_cst_list_record_string_u_64> Function(int)>();
+      _cst_new_list_record_string_u_64Ptr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_record_string_u_64> Function(int)
+          >();
 
   ffi.Pointer<wire_cst_list_record_string_xelis_asset_metadata>
-      cst_new_list_record_string_xelis_asset_metadata(int len) {
+  cst_new_list_record_string_xelis_asset_metadata(int len) {
     return _cst_new_list_record_string_xelis_asset_metadata(len);
   }
 
-  late final _cst_new_list_record_string_xelis_asset_metadataPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_record_string_xelis_asset_metadata>
-                  Function(ffi.Int32)>>(
-      'frbgen_xelis_flutter_cst_new_list_record_string_xelis_asset_metadata');
-  late final _cst_new_list_record_string_xelis_asset_metadata =
-      _cst_new_list_record_string_xelis_asset_metadataPtr.asFunction<
+  late final _cst_new_list_record_string_xelis_asset_metadataPtr =
+      _lookup<
+        ffi.NativeFunction<
           ffi.Pointer<wire_cst_list_record_string_xelis_asset_metadata>
-              Function(int)>();
+          Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_record_string_xelis_asset_metadata');
+  late final _cst_new_list_record_string_xelis_asset_metadata =
+      _cst_new_list_record_string_xelis_asset_metadataPtr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_record_string_xelis_asset_metadata>
+            Function(int)
+          >();
 
   ffi.Pointer<wire_cst_list_signature_multisig> cst_new_list_signature_multisig(
     int len,
@@ -5554,23 +6265,28 @@ class RustLibWire implements BaseWire {
     return _cst_new_list_signature_multisig(len);
   }
 
-  late final _cst_new_list_signature_multisigPtr = _lookup<
-          ffi.NativeFunction<
-              ffi.Pointer<wire_cst_list_signature_multisig> Function(
-                  ffi.Int32)>>(
-      'frbgen_xelis_flutter_cst_new_list_signature_multisig');
+  late final _cst_new_list_signature_multisigPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_signature_multisig> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_signature_multisig');
   late final _cst_new_list_signature_multisig =
-      _cst_new_list_signature_multisigPtr.asFunction<
-          ffi.Pointer<wire_cst_list_signature_multisig> Function(int)>();
+      _cst_new_list_signature_multisigPtr
+          .asFunction<
+            ffi.Pointer<wire_cst_list_signature_multisig> Function(int)
+          >();
 
   ffi.Pointer<wire_cst_list_transfer> cst_new_list_transfer(int len) {
     return _cst_new_list_transfer(len);
   }
 
-  late final _cst_new_list_transferPtr = _lookup<
-      ffi.NativeFunction<
-          ffi.Pointer<wire_cst_list_transfer> Function(
-              ffi.Int32)>>('frbgen_xelis_flutter_cst_new_list_transfer');
+  late final _cst_new_list_transferPtr =
+      _lookup<
+        ffi.NativeFunction<
+          ffi.Pointer<wire_cst_list_transfer> Function(ffi.Int32)
+        >
+      >('frbgen_xelis_flutter_cst_new_list_transfer');
   late final _cst_new_list_transfer = _cst_new_list_transferPtr
       .asFunction<ffi.Pointer<wire_cst_list_transfer> Function(int)>();
 
@@ -5580,20 +6296,20 @@ class RustLibWire implements BaseWire {
 
   late final _dummy_method_to_enforce_bundlingPtr =
       _lookup<ffi.NativeFunction<ffi.Int64 Function()>>(
-    'dummy_method_to_enforce_bundling',
-  );
+        'dummy_method_to_enforce_bundling',
+      );
   late final _dummy_method_to_enforce_bundling =
       _dummy_method_to_enforce_bundlingPtr.asFunction<int Function()>();
 }
 
 typedef DartPort = ffi.Int64;
 typedef DartDartPort = int;
-typedef DartPostCObjectFnTypeFunction = ffi.Bool Function(
-    DartPort port_id, ffi.Pointer<ffi.Void> message);
-typedef DartDartPostCObjectFnTypeFunction = bool Function(
-    DartDartPort port_id, ffi.Pointer<ffi.Void> message);
-typedef DartPostCObjectFnType
-    = ffi.Pointer<ffi.NativeFunction<DartPostCObjectFnTypeFunction>>;
+typedef DartPostCObjectFnTypeFunction =
+    ffi.Bool Function(DartPort port_id, ffi.Pointer<ffi.Void> message);
+typedef DartDartPostCObjectFnTypeFunction =
+    bool Function(DartDartPort port_id, ffi.Pointer<ffi.Void> message);
+typedef DartPostCObjectFnType =
+    ffi.Pointer<ffi.NativeFunction<DartPostCObjectFnTypeFunction>>;
 
 final class wire_cst_list_prim_u_8_strict extends ffi.Struct {
   external ffi.Pointer<ffi.Uint8> ptr;
@@ -5653,6 +6369,8 @@ final class wire_cst_history_page_filter extends ffi.Struct {
 
   external ffi.Pointer<wire_cst_list_prim_u_8_strict> address;
 
+  external ffi.Pointer<wire_cst_list_prim_u_8_strict> contract;
+
   external ffi.Pointer<ffi.Uint64> min_topoheight;
 
   external ffi.Pointer<ffi.Uint64> max_topoheight;
@@ -5668,6 +6386,13 @@ final class wire_cst_history_page_filter extends ffi.Struct {
 
   @ffi.Bool()
   external bool accept_burn;
+
+  @ffi.Bool()
+  external bool accept_blob;
+
+  external ffi.Pointer<ffi.Uint64> min_timestamp;
+
+  external ffi.Pointer<ffi.Uint64> max_timestamp;
 }
 
 final class wire_cst_record_string_permission_policy extends ffi.Struct {
@@ -5782,7 +6507,7 @@ final class wire_cst_app_info extends ffi.Struct {
   external ffi.Pointer<wire_cst_list_prim_u_8_strict> url;
 
   external ffi.Pointer<wire_cst_list_record_string_permission_policy>
-      permissions;
+  permissions;
 }
 
 final class wire_cst_xswd_request_summary extends ffi.Struct {

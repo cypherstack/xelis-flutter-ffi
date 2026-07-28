@@ -23,25 +23,14 @@ abstract class SendToDartLogger implements RustOpaqueInterface {
       RustLib.instance.api.crateApiLoggerSendToDartLoggerSetStreamSink();
 }
 
-enum Level {
-  error,
-  warn,
-  info,
-  debug,
-  trace,
-  ;
-}
+enum Level { error, warn, info, debug, trace }
 
 class LogEntry {
   final Level level;
   final String tag;
   final String msg;
 
-  const LogEntry({
-    required this.level,
-    required this.tag,
-    required this.msg,
-  });
+  const LogEntry({required this.level, required this.tag, required this.msg});
 
   @override
   int get hashCode => level.hashCode ^ tag.hashCode ^ msg.hashCode;

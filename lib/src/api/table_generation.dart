@@ -12,9 +12,9 @@ import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated.dart';
 
 Future<bool> precomputedTablesExist({
   required String precomputedTablesPath,
-  PrecomputedTableType precomputedTableType = const PrecomputedTableType.l1Low(),
-}) =>
-    arePrecomputedTablesAvailable(
-      precomputedTablesPath: precomputedTablesPath,
-      precomputedTableType: precomputedTableType,
-    );
+  PrecomputedTableType precomputedTableType =
+      const PrecomputedTableType.l1Low(),
+}) => arePrecomputedTablesAvailable(
+  precomputedTablesPath: precomputedTablesPath,
+  precomputedTableType: precomputedTableType,
+);

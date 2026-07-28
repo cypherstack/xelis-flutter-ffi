@@ -28,51 +28,56 @@ void refreshMtParams() => RustLib.instance.api.crateApiWalletRefreshMtParams();
 
 void setMtParams({required BigInt threadCount, required BigInt concurrency}) =>
     RustLib.instance.api.crateApiWalletSetMtParams(
-        threadCount: threadCount, concurrency: concurrency);
+      threadCount: threadCount,
+      concurrency: concurrency,
+    );
 
-Future<void> updateTables(
-        {required String precomputedTablesPath,
-        required PrecomputedTableType precomputedTableType}) =>
-    RustLib.instance.api.crateApiWalletUpdateTables(
-        precomputedTablesPath: precomputedTablesPath,
-        precomputedTableType: precomputedTableType);
+Future<void> updateTables({
+  required String precomputedTablesPath,
+  required PrecomputedTableType precomputedTableType,
+}) => RustLib.instance.api.crateApiWalletUpdateTables(
+  precomputedTablesPath: precomputedTablesPath,
+  precomputedTableType: precomputedTableType,
+);
 
 Future<PrecomputedTableType> getCurrentPrecomputedTablesType() =>
     RustLib.instance.api.crateApiWalletGetCurrentPrecomputedTablesType();
 
-Future<XelisWallet> createXelisWallet(
-        {required String name,
-        required String directory,
-        required String password,
-        required Network network,
-        String? seed,
-        String? privateKey,
-        String? precomputedTablesPath,
-        required PrecomputedTableType precomputedTableType}) =>
-    RustLib.instance.api.crateApiWalletCreateXelisWallet(
-        name: name,
-        directory: directory,
-        password: password,
-        network: network,
-        seed: seed,
-        privateKey: privateKey,
-        precomputedTablesPath: precomputedTablesPath,
-        precomputedTableType: precomputedTableType);
+Future<XelisWallet> createXelisWallet({
+  required String name,
+  required String directory,
+  required String password,
+  required Network network,
+  String? seed,
+  String? privateKey,
+  String? precomputedTablesPath,
+  required PrecomputedTableType precomputedTableType,
+}) => RustLib.instance.api.crateApiWalletCreateXelisWallet(
+  name: name,
+  directory: directory,
+  password: password,
+  network: network,
+  seed: seed,
+  privateKey: privateKey,
+  precomputedTablesPath: precomputedTablesPath,
+  precomputedTableType: precomputedTableType,
+);
 
-Future<XelisWallet> openXelisWallet(
-        {required String name,
-        required String directory,
-        required String password,
-        required Network network,
-        String? precomputedTablesPath,
-        required PrecomputedTableType precomputedTableType}) =>
-    RustLib.instance.api.crateApiWalletOpenXelisWallet(
-        name: name,
-        directory: directory,
-        password: password,
-        network: network,
-        precomputedTablesPath: precomputedTablesPath,
-        precomputedTableType: precomputedTableType);
+Future<XelisWallet> openXelisWallet({
+  required String name,
+  required String directory,
+  required String password,
+  required Network network,
+  String? precomputedTablesPath,
+  required PrecomputedTableType precomputedTableType,
+}) => RustLib.instance.api.crateApiWalletOpenXelisWallet(
+  name: name,
+  directory: directory,
+  password: password,
+  network: network,
+  precomputedTablesPath: precomputedTablesPath,
+  precomputedTableType: precomputedTableType,
+);
 
 // Rust type: RustOpaqueNom<flutter_rust_bridge::for_generated::RustAutoOpaqueInner<PrecomputedTablesShared>>
 abstract class PrecomputedTablesShared implements RustOpaqueInterface {}
@@ -89,11 +94,14 @@ abstract class XelisWallet implements RustOpaqueInterface, XSWD {
 
   Future<void> broadcastTransaction({required String txHash});
 
-  Future<void> changePassword(
-      {required String oldPassword, required String newPassword});
+  Future<void> changePassword({
+    required String oldPassword,
+    required String newPassword,
+  });
 
-  (Transaction, TransactionBuilderState) clearTransaction(
-      {required String txHash});
+  (Transaction, TransactionBuilderState) clearTransaction({
+    required String txHash,
+  });
 
   Future<void> close();
 
@@ -104,31 +112,39 @@ abstract class XelisWallet implements RustOpaqueInterface, XSWD {
 
   Future<String> createBurnAllTransaction({required String assetHash});
 
-  Future<String> createBurnTransaction(
-      {required double floatAmount, required String assetHash});
+  Future<String> createBurnTransaction({
+    required double floatAmount,
+    required String assetHash,
+  });
 
   Future<String> createMultisigBurnAllTransaction({required String assetHash});
 
-  Future<String> createMultisigBurnTransaction(
-      {required double floatAmount, required String assetHash});
+  Future<String> createMultisigBurnTransaction({
+    required double floatAmount,
+    required String assetHash,
+  });
 
-  Future<String> createMultisigTransferAllTransaction(
-      {required String strAddress,
-      String? assetHash,
-      String? extraData,
-      bool? encryptExtraData});
+  Future<String> createMultisigTransferAllTransaction({
+    required String strAddress,
+    String? assetHash,
+    String? extraData,
+    bool? encryptExtraData,
+  });
 
-  Future<String> createMultisigTransfersTransaction(
-      {required List<Transfer> transfers});
+  Future<String> createMultisigTransfersTransaction({
+    required List<Transfer> transfers,
+  });
 
-  Future<String> createTransferAllTransaction(
-      {required String strAddress,
-      String? assetHash,
-      String? extraData,
-      bool? encryptExtraData});
+  Future<String> createTransferAllTransaction({
+    required String strAddress,
+    String? assetHash,
+    String? extraData,
+    bool? encryptExtraData,
+  });
 
-  Future<String> createTransfersTransaction(
-      {required List<Transfer> transfers});
+  Future<String> createTransfersTransaction({
+    required List<Transfer> transfers,
+  });
 
   Future<String> estimateFees({required List<Transfer> transfers});
 
@@ -136,8 +152,9 @@ abstract class XelisWallet implements RustOpaqueInterface, XSWD {
 
   Future<void> exportTransactionsToCsvFile({required String filePath});
 
-  Future<String> finalizeMultisigTransaction(
-      {required List<SignatureMultisig> signatures});
+  Future<String> finalizeMultisigTransaction({
+    required List<SignatureMultisig> signatures,
+  });
 
   Future<String> formatCoin({required BigInt atomicAmount, String? assetHash});
 
@@ -202,11 +219,15 @@ abstract class XelisWallet implements RustOpaqueInterface, XSWD {
   Future<bool> isXswdRunning();
 
   @override
-  Future<void> modifyApplicationPermissions(
-      {required String id, required Map<String, PermissionPolicy> permissions});
+  Future<void> modifyApplicationPermissions({
+    required String id,
+    required Map<String, PermissionPolicy> permissions,
+  });
 
-  Future<String> multisigSetup(
-      {required int threshold, required List<String> participants});
+  Future<String> multisigSetup({
+    required int threshold,
+    required List<String> participants,
+  });
 
   String multisigSign({required String txHash});
 
@@ -217,17 +238,18 @@ abstract class XelisWallet implements RustOpaqueInterface, XSWD {
   Future<void> rescan({required BigInt topoheight});
 
   @override
-  Future<void> startXswd(
-      {required FutureOr<void> Function(XswdRequestSummary)
-          cancelRequestDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestApplicationDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestPermissionDartCallback,
-      required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
-          requestPrefetchPermissionsDartCallback,
-      required FutureOr<void> Function(XswdRequestSummary)
-          appDisconnectDartCallback});
+  Future<void> startXswd({
+    required FutureOr<void> Function(XswdRequestSummary)
+    cancelRequestDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestApplicationDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestPermissionDartCallback,
+    required FutureOr<UserPermissionDecision> Function(XswdRequestSummary)
+    requestPrefetchPermissionsDartCallback,
+    required FutureOr<void> Function(XswdRequestSummary)
+    appDisconnectDartCallback,
+  });
 
   @override
   Future<void> stopXswd();
