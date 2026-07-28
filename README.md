@@ -36,6 +36,14 @@ xelis_flutter:
 When either `flutter run` or `flutter build` are called, this library will handle all dependency building and/or Podspec operations for you, without the need for any extra setup.
 
 The FFI bindings are updated and included in the repo; there is no need to regenerate them on your end unless you modify the files in `rust/`.
+
+To regenerate bindings after changing the Rust API, make sure LLVM/Clang is installed and run:
+
+```bash
+dart run tool/generate_bindings.dart
+```
+
+The script detects LLVM through `llvm-config`. If it is installed in a custom location, set `LLVM_PATH` or pass the path directly to `flutter_rust_bridge_codegen` with `--llvm-path`.
 ## Usage
 
 In your app's `main` entry point, be sure to initialize the RustLib. This will enable the use of imported bindings anywhere in your app.

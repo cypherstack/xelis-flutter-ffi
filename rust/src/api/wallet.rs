@@ -265,12 +265,12 @@ pub async fn create_xelis_wallet(
     };
 
     // Recover option (seed / private key / none)
-    let recover: Option<RecoverOption> = if let Some(seed) = seed.as_deref() {
-        Some(RecoverOption::Seed(seed))
+    let recover = if let Some(seed) = seed.as_deref() {
+        RecoverOption::Seed(seed)
     } else if let Some(private_key) = private_key.as_deref() {
-        Some(RecoverOption::PrivateKey(private_key))
+        RecoverOption::PrivateKey(private_key)
     } else {
-        None
+        RecoverOption::None
     };
 
     let (thread_count, concurrency) = get_mt_params();
@@ -1420,7 +1420,7 @@ impl XelisWallet {
             } else {
                 info!("Transaction submitted successfully!");
                 state
-                    .apply_changes(&mut storage)
+                    .apply_changes(&mut storage, &self.wallet, &tx)
                     .await
                     .context("Error while applying changes")?;
                 info!("Transaction applied to storage");
@@ -1832,7 +1832,7 @@ impl XelisWallet {
             }
         }
 
-        let (mut unsigned, mut state, transaction_type_builder) = self
+        let (mut unsigned, state, transaction_type_builder) = self
             .pending_unsigned
             .write()
             .take()
@@ -1841,8 +1841,6 @@ impl XelisWallet {
         unsigned.set_multisig(multisig);
 
         let tx = unsigned.finalize(self.wallet.get_keypair());
-
-        state.set_tx_hash_built(tx.hash());
 
         self.pending_transactions
             .write()

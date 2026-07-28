@@ -15,6 +15,23 @@ String getFrbCodegenVersion(String cargoTomlPath) {
   return '2.7.1'; // fallback
 }
 
+String? findLlvmPath() {
+  final configuredPath = Platform.environment['LLVM_PATH'];
+  if (configuredPath != null && configuredPath.isNotEmpty) {
+    return configuredPath;
+  }
+
+  try {
+    final result = Process.runSync('llvm-config', ['--prefix']);
+    if (result.exitCode != 0) return null;
+
+    final path = (result.stdout as String).trim();
+    return path.isEmpty ? null : path;
+  } on ProcessException {
+    return null;
+  }
+}
+
 Future<void> main() async {
   print('🔧 Starting Flutter Rust Bridge binding generation...');
 
@@ -34,7 +51,8 @@ Future<void> main() async {
     final bin = File(binPath);
 
     // Check if installed and version matches
-    final alreadyInstalled = bin.existsSync() && await _checkFrbVersion(binPath, version);
+    final alreadyInstalled =
+        bin.existsSync() && await _checkFrbVersion(binPath, version);
 
     if (!alreadyInstalled) {
       print('📥 Installing flutter_rust_bridge_codegen...');
@@ -47,7 +65,8 @@ Future<void> main() async {
           'flutter_rust_bridge_codegen',
           '--version', version,
           '--root', binRoot.path,
-          if (bin.existsSync()) '--force', // Only force if an old version exists
+          if (bin.existsSync())
+            '--force', // Only force if an old version exists
         ],
         mode: ProcessStartMode.inheritStdio,
       );
@@ -59,7 +78,7 @@ Future<void> main() async {
     } else {
       print('✅ flutter_rust_bridge_codegen $version already installed');
     }
-    
+
     // Prepare Dart output dir
     final dartOutput = Directory(p.join('lib', 'src'));
     if (!dartOutput.existsSync()) {
@@ -68,20 +87,29 @@ Future<void> main() async {
 
     // Run the codegen
     print('🚀 Running flutter_rust_bridge_codegen...');
+    final llvmPath = findLlvmPath();
+    if (llvmPath != null) {
+      print('🔎 Using LLVM at $llvmPath');
+    }
     final process = await Process.start(
       binPath,
       [
         'generate',
-        '--rust-root', 'rust',
-        '--rust-input', 'crate::api',
-        '--dart-output', dartOutput.path,
+        '--rust-root',
+        'rust',
+        '--rust-input',
+        'crate::api',
+        '--dart-output',
+        dartOutput.path,
+        if (llvmPath != null) ...['--llvm-path', llvmPath],
       ],
       mode: ProcessStartMode.inheritStdio,
     );
 
     final code = await process.exitCode;
     if (code != 0) {
-      throw Exception('flutter_rust_bridge_codegen failed with exit code $code');
+      throw Exception(
+          'flutter_rust_bridge_codegen failed with exit code $code');
     }
 
     print('🎉 Bindings generated successfully!');

@@ -64,12 +64,14 @@ pub struct HistoryPageFilter {
     pub limit: Option<usize>,
     pub asset_hash: Option<String>,
     pub address: Option<String>,
+    pub contract: Option<String>,
     pub min_topoheight: Option<u64>,
     pub max_topoheight: Option<u64>,
     pub accept_incoming: bool,
     pub accept_outgoing: bool,
     pub accept_coinbase: bool,
     pub accept_burn: bool,
+    pub accept_blob: bool,
     pub min_timestamp: Option<u64>,
     pub max_timestamp: Option<u64>,
 }
@@ -91,13 +93,22 @@ impl HistoryPageFilter {
             None => None,
         };
 
+        let contract = match self.contract.as_ref() {
+            Some(contract) => Some(Cow::Owned(
+                Hash::from_hex(&contract).context("Invalid asset")?,
+            )),
+            None => None,
+        };
+
         Ok(TransactionFilterOptions {
             address,
             asset,
+            contract,
             min_topoheight: self.min_topoheight,
             max_topoheight: self.max_topoheight,
             accept_incoming: self.accept_incoming,
             accept_outgoing: self.accept_outgoing,
+            accept_blob: self.accept_blob,
             accept_coinbase: match self.address {
                 Some(_) => false,
                 None => self.accept_coinbase,
