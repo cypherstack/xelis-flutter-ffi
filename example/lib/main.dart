@@ -6,6 +6,9 @@ import 'package:xelis_flutter/src/api/wallet.dart' as x_wallet;
 import 'package:xelis_flutter/src/api/network.dart';
 import 'package:xelis_flutter/src/api/precomputed_tables.dart';
 
+// The example intentionally demonstrates the plugin's generated API.
+// ignore_for_file: implementation_imports
+
 Future<void> main() async {
   await RustLib.init();
   runApp(const MyApp());
@@ -33,9 +36,9 @@ class _MyAppState extends State<MyApp> {
   Future<void> _getSeed() async {
     try {
       currentDir =
-          "${Directory.current.path}${Platform.pathSeparator}example_data";
+          '${Directory.current.path}${Platform.pathSeparator}example_data';
       tableDir =
-          "${currentDir}${Platform.pathSeparator}tables${Platform.pathSeparator}";
+          '$currentDir${Platform.pathSeparator}tables${Platform.pathSeparator}';
 
       final wallet = await x_wallet.createXelisWallet(
         name: "Test Wallet",
