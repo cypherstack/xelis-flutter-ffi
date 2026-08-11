@@ -4555,7 +4555,7 @@ dependencies = [
 [[package]]
 name = "xelis_common"
 version = "1.24.0"
-source = "git+https://github.com/xelis-project/xelis-blockchain?branch=dev#fead931c5098edcd0ed0f9c15e9ffab641455e69"
+source = "git+https://github.com/xelis-project/xelis-blockchain?tag=v1.24.0#e8d7625a05ced6f9144d6abc9ecc278b8cab661c"
 dependencies = [
  "actix-rt",
  "actix-web",
@@ -4634,7 +4634,7 @@ dependencies = [
 [[package]]
 name = "xelis_wallet"
 version = "1.24.0"
-source = "git+https://github.com/xelis-project/xelis-blockchain?branch=dev#fead931c5098edcd0ed0f9c15e9ffab641455e69"
+source = "git+https://github.com/xelis-project/xelis-blockchain?tag=v1.24.0#e8d7625a05ced6f9144d6abc9ecc278b8cab661c"
 dependencies = [
  "actix-web",
  "actix-web-httpauth",
