@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // coverage:ignore-file
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'wallet_dtos.dart';
@@ -9,6 +9,7 @@ part of 'wallet_dtos.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
 // dart format off
 T _$identity<T>(T value) => value;
 /// @nodoc
@@ -25,16 +26,21 @@ $HistoryPageFilterCopyWith<HistoryPageFilter> get copyWith => _$HistoryPageFilte
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is HistoryPageFilter&&(identical(other.page, page) || other.page == page)&&(identical(other.limit, limit) || other.limit == limit)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.address, address) || other.address == address)&&(identical(other.contract, contract) || other.contract == contract)&&(identical(other.minTopoheight, minTopoheight) || other.minTopoheight == minTopoheight)&&(identical(other.maxTopoheight, maxTopoheight) || other.maxTopoheight == maxTopoheight)&&(identical(other.acceptIncoming, acceptIncoming) || other.acceptIncoming == acceptIncoming)&&(identical(other.acceptOutgoing, acceptOutgoing) || other.acceptOutgoing == acceptOutgoing)&&(identical(other.acceptCoinbase, acceptCoinbase) || other.acceptCoinbase == acceptCoinbase)&&(identical(other.acceptBurn, acceptBurn) || other.acceptBurn == acceptBurn)&&(identical(other.acceptBlob, acceptBlob) || other.acceptBlob == acceptBlob)&&(identical(other.minTimestamp, minTimestamp) || other.minTimestamp == minTimestamp)&&(identical(other.maxTimestamp, maxTimestamp) || other.maxTimestamp == maxTimestamp));
+  final _this = this as HistoryPageFilter;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is HistoryPageFilter&&(identical(other.page, _this.page) || other.page == _this.page)&&(identical(other.limit, _this.limit) || other.limit == _this.limit)&&(identical(other.assetHash, _this.assetHash) || other.assetHash == _this.assetHash)&&(identical(other.address, _this.address) || other.address == _this.address)&&(identical(other.contract, _this.contract) || other.contract == _this.contract)&&(identical(other.minTopoheight, _this.minTopoheight) || other.minTopoheight == _this.minTopoheight)&&(identical(other.maxTopoheight, _this.maxTopoheight) || other.maxTopoheight == _this.maxTopoheight)&&(identical(other.acceptIncoming, _this.acceptIncoming) || other.acceptIncoming == _this.acceptIncoming)&&(identical(other.acceptOutgoing, _this.acceptOutgoing) || other.acceptOutgoing == _this.acceptOutgoing)&&(identical(other.acceptCoinbase, _this.acceptCoinbase) || other.acceptCoinbase == _this.acceptCoinbase)&&(identical(other.acceptBurn, _this.acceptBurn) || other.acceptBurn == _this.acceptBurn)&&(identical(other.acceptBlob, _this.acceptBlob) || other.acceptBlob == _this.acceptBlob)&&(identical(other.minTimestamp, _this.minTimestamp) || other.minTimestamp == _this.minTimestamp)&&(identical(other.maxTimestamp, _this.maxTimestamp) || other.maxTimestamp == _this.maxTimestamp));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,page,limit,assetHash,address,contract,minTopoheight,maxTopoheight,acceptIncoming,acceptOutgoing,acceptCoinbase,acceptBurn,acceptBlob,minTimestamp,maxTimestamp);
+int get hashCode {
+  final _this = this as HistoryPageFilter;
+  return Object.hash(runtimeType,_this.page,_this.limit,_this.assetHash,_this.address,_this.contract,_this.minTopoheight,_this.maxTopoheight,_this.acceptIncoming,_this.acceptOutgoing,_this.acceptCoinbase,_this.acceptBurn,_this.acceptBlob,_this.minTimestamp,_this.maxTimestamp);
+}
 
 @override
 String toString() {
-  return 'HistoryPageFilter(page: $page, limit: $limit, assetHash: $assetHash, address: $address, contract: $contract, minTopoheight: $minTopoheight, maxTopoheight: $maxTopoheight, acceptIncoming: $acceptIncoming, acceptOutgoing: $acceptOutgoing, acceptCoinbase: $acceptCoinbase, acceptBurn: $acceptBurn, acceptBlob: $acceptBlob, minTimestamp: $minTimestamp, maxTimestamp: $maxTimestamp)';
+  final _this = this as HistoryPageFilter;
+  return 'HistoryPageFilter(page: ${_this.page}, limit: ${_this.limit}, assetHash: ${_this.assetHash}, address: ${_this.address}, contract: ${_this.contract}, minTopoheight: ${_this.minTopoheight}, maxTopoheight: ${_this.maxTopoheight}, acceptIncoming: ${_this.acceptIncoming}, acceptOutgoing: ${_this.acceptOutgoing}, acceptCoinbase: ${_this.acceptCoinbase}, acceptBurn: ${_this.acceptBurn}, acceptBlob: ${_this.acceptBlob}, minTimestamp: ${_this.minTimestamp}, maxTimestamp: ${_this.maxTimestamp})';
 }
 
 
@@ -63,7 +69,7 @@ class _$HistoryPageFilterCopyWithImpl<$Res>
 /// Create a copy of HistoryPageFilter
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? page = null,Object? limit = freezed,Object? assetHash = freezed,Object? address = freezed,Object? contract = freezed,Object? minTopoheight = freezed,Object? maxTopoheight = freezed,Object? acceptIncoming = null,Object? acceptOutgoing = null,Object? acceptCoinbase = null,Object? acceptBurn = null,Object? acceptBlob = null,Object? minTimestamp = freezed,Object? maxTimestamp = freezed,}) {
-  return _then(_self.copyWith(
+  return _then(HistoryPageFilter(
 page: null == page ? _self.page : page // ignore: cast_nullable_to_non_nullable
 as BigInt,limit: freezed == limit ? _self.limit : limit // ignore: cast_nullable_to_non_nullable
 as BigInt?,assetHash: freezed == assetHash ? _self.assetHash : assetHash // ignore: cast_nullable_to_non_nullable
@@ -241,16 +247,18 @@ _$HistoryPageFilterCopyWith<_HistoryPageFilter> get copyWith => __$HistoryPageFi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _HistoryPageFilter&&(identical(other.page, page) || other.page == page)&&(identical(other.limit, limit) || other.limit == limit)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.address, address) || other.address == address)&&(identical(other.contract, contract) || other.contract == contract)&&(identical(other.minTopoheight, minTopoheight) || other.minTopoheight == minTopoheight)&&(identical(other.maxTopoheight, maxTopoheight) || other.maxTopoheight == maxTopoheight)&&(identical(other.acceptIncoming, acceptIncoming) || other.acceptIncoming == acceptIncoming)&&(identical(other.acceptOutgoing, acceptOutgoing) || other.acceptOutgoing == acceptOutgoing)&&(identical(other.acceptCoinbase, acceptCoinbase) || other.acceptCoinbase == acceptCoinbase)&&(identical(other.acceptBurn, acceptBurn) || other.acceptBurn == acceptBurn)&&(identical(other.acceptBlob, acceptBlob) || other.acceptBlob == acceptBlob)&&(identical(other.minTimestamp, minTimestamp) || other.minTimestamp == minTimestamp)&&(identical(other.maxTimestamp, maxTimestamp) || other.maxTimestamp == maxTimestamp));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _HistoryPageFilter&&(identical(other.page, page) || other.page == page)&&(identical(other.limit, limit) || other.limit == limit)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.address, address) || other.address == address)&&(identical(other.contract, contract) || other.contract == contract)&&(identical(other.minTopoheight, minTopoheight) || other.minTopoheight == minTopoheight)&&(identical(other.maxTopoheight, maxTopoheight) || other.maxTopoheight == maxTopoheight)&&(identical(other.acceptIncoming, acceptIncoming) || other.acceptIncoming == acceptIncoming)&&(identical(other.acceptOutgoing, acceptOutgoing) || other.acceptOutgoing == acceptOutgoing)&&(identical(other.acceptCoinbase, acceptCoinbase) || other.acceptCoinbase == acceptCoinbase)&&(identical(other.acceptBurn, acceptBurn) || other.acceptBurn == acceptBurn)&&(identical(other.acceptBlob, acceptBlob) || other.acceptBlob == acceptBlob)&&(identical(other.minTimestamp, minTimestamp) || other.minTimestamp == minTimestamp)&&(identical(other.maxTimestamp, maxTimestamp) || other.maxTimestamp == maxTimestamp));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,page,limit,assetHash,address,contract,minTopoheight,maxTopoheight,acceptIncoming,acceptOutgoing,acceptCoinbase,acceptBurn,acceptBlob,minTimestamp,maxTimestamp);
+int get hashCode {
+    return Object.hash(runtimeType,page,limit,assetHash,address,contract,minTopoheight,maxTopoheight,acceptIncoming,acceptOutgoing,acceptCoinbase,acceptBurn,acceptBlob,minTimestamp,maxTimestamp);
+}
 
 @override
 String toString() {
-  return 'HistoryPageFilter(page: $page, limit: $limit, assetHash: $assetHash, address: $address, contract: $contract, minTopoheight: $minTopoheight, maxTopoheight: $maxTopoheight, acceptIncoming: $acceptIncoming, acceptOutgoing: $acceptOutgoing, acceptCoinbase: $acceptCoinbase, acceptBurn: $acceptBurn, acceptBlob: $acceptBlob, minTimestamp: $minTimestamp, maxTimestamp: $maxTimestamp)';
+    return 'HistoryPageFilter(page: $page, limit: $limit, assetHash: $assetHash, address: $address, contract: $contract, minTopoheight: $minTopoheight, maxTopoheight: $maxTopoheight, acceptIncoming: $acceptIncoming, acceptOutgoing: $acceptOutgoing, acceptCoinbase: $acceptCoinbase, acceptBurn: $acceptBurn, acceptBlob: $acceptBlob, minTimestamp: $minTimestamp, maxTimestamp: $maxTimestamp)';
 }
 
 
@@ -315,16 +323,21 @@ $SignatureMultisigCopyWith<SignatureMultisig> get copyWith => _$SignatureMultisi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is SignatureMultisig&&(identical(other.id, id) || other.id == id)&&(identical(other.signature, signature) || other.signature == signature));
+  final _this = this as SignatureMultisig;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is SignatureMultisig&&(identical(other.id, _this.id) || other.id == _this.id)&&(identical(other.signature, _this.signature) || other.signature == _this.signature));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,id,signature);
+int get hashCode {
+  final _this = this as SignatureMultisig;
+  return Object.hash(runtimeType,_this.id,_this.signature);
+}
 
 @override
 String toString() {
-  return 'SignatureMultisig(id: $id, signature: $signature)';
+  final _this = this as SignatureMultisig;
+  return 'SignatureMultisig(id: ${_this.id}, signature: ${_this.signature})';
 }
 
 
@@ -353,7 +366,7 @@ class _$SignatureMultisigCopyWithImpl<$Res>
 /// Create a copy of SignatureMultisig
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? signature = null,}) {
-  return _then(_self.copyWith(
+  return _then(SignatureMultisig(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as int,signature: null == signature ? _self.signature : signature // ignore: cast_nullable_to_non_nullable
 as String,
@@ -507,16 +520,18 @@ _$SignatureMultisigCopyWith<_SignatureMultisig> get copyWith => __$SignatureMult
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _SignatureMultisig&&(identical(other.id, id) || other.id == id)&&(identical(other.signature, signature) || other.signature == signature));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _SignatureMultisig&&(identical(other.id, id) || other.id == id)&&(identical(other.signature, signature) || other.signature == signature));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,id,signature);
+int get hashCode {
+    return Object.hash(runtimeType,id,signature);
+}
 
 @override
 String toString() {
-  return 'SignatureMultisig(id: $id, signature: $signature)';
+    return 'SignatureMultisig(id: $id, signature: $signature)';
 }
 
 
@@ -569,16 +584,21 @@ $TransferCopyWith<Transfer> get copyWith => _$TransferCopyWithImpl<Transfer>(thi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Transfer&&(identical(other.floatAmount, floatAmount) || other.floatAmount == floatAmount)&&(identical(other.strAddress, strAddress) || other.strAddress == strAddress)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.extraData, extraData) || other.extraData == extraData)&&(identical(other.encryptExtraData, encryptExtraData) || other.encryptExtraData == encryptExtraData));
+  final _this = this as Transfer;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Transfer&&(identical(other.floatAmount, _this.floatAmount) || other.floatAmount == _this.floatAmount)&&(identical(other.strAddress, _this.strAddress) || other.strAddress == _this.strAddress)&&(identical(other.assetHash, _this.assetHash) || other.assetHash == _this.assetHash)&&(identical(other.extraData, _this.extraData) || other.extraData == _this.extraData)&&(identical(other.encryptExtraData, _this.encryptExtraData) || other.encryptExtraData == _this.encryptExtraData));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,floatAmount,strAddress,assetHash,extraData,encryptExtraData);
+int get hashCode {
+  final _this = this as Transfer;
+  return Object.hash(runtimeType,_this.floatAmount,_this.strAddress,_this.assetHash,_this.extraData,_this.encryptExtraData);
+}
 
 @override
 String toString() {
-  return 'Transfer(floatAmount: $floatAmount, strAddress: $strAddress, assetHash: $assetHash, extraData: $extraData, encryptExtraData: $encryptExtraData)';
+  final _this = this as Transfer;
+  return 'Transfer(floatAmount: ${_this.floatAmount}, strAddress: ${_this.strAddress}, assetHash: ${_this.assetHash}, extraData: ${_this.extraData}, encryptExtraData: ${_this.encryptExtraData})';
 }
 
 
@@ -607,7 +627,7 @@ class _$TransferCopyWithImpl<$Res>
 /// Create a copy of Transfer
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? floatAmount = null,Object? strAddress = null,Object? assetHash = null,Object? extraData = freezed,Object? encryptExtraData = freezed,}) {
-  return _then(_self.copyWith(
+  return _then(Transfer(
 floatAmount: null == floatAmount ? _self.floatAmount : floatAmount // ignore: cast_nullable_to_non_nullable
 as double,strAddress: null == strAddress ? _self.strAddress : strAddress // ignore: cast_nullable_to_non_nullable
 as String,assetHash: null == assetHash ? _self.assetHash : assetHash // ignore: cast_nullable_to_non_nullable
@@ -767,16 +787,18 @@ _$TransferCopyWith<_Transfer> get copyWith => __$TransferCopyWithImpl<_Transfer>
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Transfer&&(identical(other.floatAmount, floatAmount) || other.floatAmount == floatAmount)&&(identical(other.strAddress, strAddress) || other.strAddress == strAddress)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.extraData, extraData) || other.extraData == extraData)&&(identical(other.encryptExtraData, encryptExtraData) || other.encryptExtraData == encryptExtraData));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _Transfer&&(identical(other.floatAmount, floatAmount) || other.floatAmount == floatAmount)&&(identical(other.strAddress, strAddress) || other.strAddress == strAddress)&&(identical(other.assetHash, assetHash) || other.assetHash == assetHash)&&(identical(other.extraData, extraData) || other.extraData == extraData)&&(identical(other.encryptExtraData, encryptExtraData) || other.encryptExtraData == encryptExtraData));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,floatAmount,strAddress,assetHash,extraData,encryptExtraData);
+int get hashCode {
+    return Object.hash(runtimeType,floatAmount,strAddress,assetHash,extraData,encryptExtraData);
+}
 
 @override
 String toString() {
-  return 'Transfer(floatAmount: $floatAmount, strAddress: $strAddress, assetHash: $assetHash, extraData: $extraData, encryptExtraData: $encryptExtraData)';
+    return 'Transfer(floatAmount: $floatAmount, strAddress: $strAddress, assetHash: $assetHash, extraData: $extraData, encryptExtraData: $encryptExtraData)';
 }
 
 
@@ -832,16 +854,21 @@ $XelisAssetMetadataCopyWith<XelisAssetMetadata> get copyWith => _$XelisAssetMeta
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetMetadata&&(identical(other.name, name) || other.name == name)&&(identical(other.ticker, ticker) || other.ticker == ticker)&&(identical(other.decimals, decimals) || other.decimals == decimals)&&(identical(other.maxSupply, maxSupply) || other.maxSupply == maxSupply)&&(identical(other.owner, owner) || other.owner == owner));
+  final _this = this as XelisAssetMetadata;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetMetadata&&(identical(other.name, _this.name) || other.name == _this.name)&&(identical(other.ticker, _this.ticker) || other.ticker == _this.ticker)&&(identical(other.decimals, _this.decimals) || other.decimals == _this.decimals)&&(identical(other.maxSupply, _this.maxSupply) || other.maxSupply == _this.maxSupply)&&(identical(other.owner, _this.owner) || other.owner == _this.owner));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,name,ticker,decimals,maxSupply,owner);
+int get hashCode {
+  final _this = this as XelisAssetMetadata;
+  return Object.hash(runtimeType,_this.name,_this.ticker,_this.decimals,_this.maxSupply,_this.owner);
+}
 
 @override
 String toString() {
-  return 'XelisAssetMetadata(name: $name, ticker: $ticker, decimals: $decimals, maxSupply: $maxSupply, owner: $owner)';
+  final _this = this as XelisAssetMetadata;
+  return 'XelisAssetMetadata(name: ${_this.name}, ticker: ${_this.ticker}, decimals: ${_this.decimals}, maxSupply: ${_this.maxSupply}, owner: ${_this.owner})';
 }
 
 
@@ -870,7 +897,7 @@ class _$XelisAssetMetadataCopyWithImpl<$Res>
 /// Create a copy of XelisAssetMetadata
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? name = null,Object? ticker = null,Object? decimals = null,Object? maxSupply = null,Object? owner = freezed,}) {
-  return _then(_self.copyWith(
+  return _then(XelisAssetMetadata(
 name: null == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
 as String,ticker: null == ticker ? _self.ticker : ticker // ignore: cast_nullable_to_non_nullable
 as String,decimals: null == decimals ? _self.decimals : decimals // ignore: cast_nullable_to_non_nullable
@@ -1051,16 +1078,18 @@ _$XelisAssetMetadataCopyWith<_XelisAssetMetadata> get copyWith => __$XelisAssetM
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _XelisAssetMetadata&&(identical(other.name, name) || other.name == name)&&(identical(other.ticker, ticker) || other.ticker == ticker)&&(identical(other.decimals, decimals) || other.decimals == decimals)&&(identical(other.maxSupply, maxSupply) || other.maxSupply == maxSupply)&&(identical(other.owner, owner) || other.owner == owner));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _XelisAssetMetadata&&(identical(other.name, name) || other.name == name)&&(identical(other.ticker, ticker) || other.ticker == ticker)&&(identical(other.decimals, decimals) || other.decimals == decimals)&&(identical(other.maxSupply, maxSupply) || other.maxSupply == maxSupply)&&(identical(other.owner, owner) || other.owner == owner));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,name,ticker,decimals,maxSupply,owner);
+int get hashCode {
+    return Object.hash(runtimeType,name,ticker,decimals,maxSupply,owner);
+}
 
 @override
 String toString() {
-  return 'XelisAssetMetadata(name: $name, ticker: $ticker, decimals: $decimals, maxSupply: $maxSupply, owner: $owner)';
+    return 'XelisAssetMetadata(name: $name, ticker: $ticker, decimals: $decimals, maxSupply: $maxSupply, owner: $owner)';
 }
 
 
@@ -1132,7 +1161,7 @@ mixin _$XelisAssetOwner {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner);
 }
 
 
@@ -1141,7 +1170,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XelisAssetOwner()';
+    return 'XelisAssetOwner()';
 }
 
 
@@ -1303,7 +1332,7 @@ class XelisAssetOwner_None extends XelisAssetOwner {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_None);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_None);
 }
 
 
@@ -1312,7 +1341,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XelisAssetOwner.none()';
+    return 'XelisAssetOwner.none()';
 }
 
 
@@ -1341,16 +1370,18 @@ $XelisAssetOwner_CreatorCopyWith<XelisAssetOwner_Creator> get copyWith => _$Xeli
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_Creator&&(identical(other.contract, contract) || other.contract == contract)&&(identical(other.id, id) || other.id == id));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_Creator&&(identical(other.contract, contract) || other.contract == contract)&&(identical(other.id, id) || other.id == id));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,contract,id);
+int get hashCode {
+    return Object.hash(runtimeType,contract,id);
+}
 
 @override
 String toString() {
-  return 'XelisAssetOwner.creator(contract: $contract, id: $id)';
+    return 'XelisAssetOwner.creator(contract: $contract, id: $id)';
 }
 
 
@@ -1410,16 +1441,18 @@ $XelisAssetOwner_OwnerCopyWith<XelisAssetOwner_Owner> get copyWith => _$XelisAss
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_Owner&&(identical(other.origin, origin) || other.origin == origin)&&(identical(other.originId, originId) || other.originId == originId)&&(identical(other.owner, owner) || other.owner == owner));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisAssetOwner_Owner&&(identical(other.origin, origin) || other.origin == origin)&&(identical(other.originId, originId) || other.originId == originId)&&(identical(other.owner, owner) || other.owner == owner));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,origin,originId,owner);
+int get hashCode {
+    return Object.hash(runtimeType,origin,originId,owner);
+}
 
 @override
 String toString() {
-  return 'XelisAssetOwner.owner(origin: $origin, originId: $originId, owner: $owner)';
+    return 'XelisAssetOwner.owner(origin: $origin, originId: $originId, owner: $owner)';
 }
 
 
@@ -1468,7 +1501,7 @@ mixin _$XelisMaxSupplyMode {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode);
 }
 
 
@@ -1477,7 +1510,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XelisMaxSupplyMode()';
+    return 'XelisMaxSupplyMode()';
 }
 
 
@@ -1639,7 +1672,7 @@ class XelisMaxSupplyMode_None extends XelisMaxSupplyMode {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_None);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_None);
 }
 
 
@@ -1648,7 +1681,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XelisMaxSupplyMode.none()';
+    return 'XelisMaxSupplyMode.none()';
 }
 
 
@@ -1676,16 +1709,18 @@ $XelisMaxSupplyMode_FixedCopyWith<XelisMaxSupplyMode_Fixed> get copyWith => _$Xe
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_Fixed&&(identical(other.field0, field0) || other.field0 == field0));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_Fixed&&(identical(other.field0, field0) || other.field0 == field0));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,field0);
+int get hashCode {
+    return Object.hash(runtimeType,field0);
+}
 
 @override
 String toString() {
-  return 'XelisMaxSupplyMode.fixed(field0: $field0)';
+    return 'XelisMaxSupplyMode.fixed(field0: $field0)';
 }
 
 
@@ -1742,16 +1777,18 @@ $XelisMaxSupplyMode_MintableCopyWith<XelisMaxSupplyMode_Mintable> get copyWith =
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_Mintable&&(identical(other.field0, field0) || other.field0 == field0));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XelisMaxSupplyMode_Mintable&&(identical(other.field0, field0) || other.field0 == field0));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,field0);
+int get hashCode {
+    return Object.hash(runtimeType,field0);
+}
 
 @override
 String toString() {
-  return 'XelisMaxSupplyMode.mintable(field0: $field0)';
+    return 'XelisMaxSupplyMode.mintable(field0: $field0)';
 }
 
 

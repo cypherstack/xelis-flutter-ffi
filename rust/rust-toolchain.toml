@@ -1,3 +1,27 @@
 [toolchain]
-channel = "1.91.0" 
-components = ["rustfmt", "clippy"]
+# native_toolchain_rust requires an exact version (no floating `stable`/`beta`/`nightly`)
+# so that consumers get reproducible builds. rustup installs this toolchain and every
+# target listed below automatically the first time the crate is built.
+channel = "1.91.0"
+# Consumers only need rustc, cargo and the std targets below; rustfmt/clippy/docs
+# are not installed (maintainers: `rustup component add rustfmt clippy`).
+profile = "minimal"
+targets = [
+  # Android
+  "aarch64-linux-android",
+  "armv7-linux-androideabi",
+  "x86_64-linux-android",
+  # iOS (device + simulator)
+  "aarch64-apple-ios",
+  "aarch64-apple-ios-sim",
+  "x86_64-apple-ios",
+  # macOS
+  "aarch64-apple-darwin",
+  "x86_64-apple-darwin",
+  # Linux
+  "x86_64-unknown-linux-gnu",
+  "aarch64-unknown-linux-gnu",
+  # Windows
+  "x86_64-pc-windows-msvc",
+  "aarch64-pc-windows-msvc",
+]

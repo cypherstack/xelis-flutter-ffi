@@ -6,6 +6,11 @@
 // Static analysis wrongly picks the IO variant, thus ignore this
 // ignore_for_file: argument_type_not_assignable
 
+import 'dart:async';
+import 'dart:convert';
+
+import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated_web.dart';
+
 import 'api/api.dart';
 import 'api/logger.dart';
 import 'api/models/address_book_dtos.dart';
@@ -18,11 +23,8 @@ import 'api/seed_search_engine.dart';
 import 'api/utils.dart';
 import 'api/wallet.dart';
 import 'api/xswd/imp.dart';
-import 'dart:async';
-import 'dart:convert';
 import 'frb_generated.dart';
 import 'lib.dart';
-import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated_web.dart';
 
 abstract class RustLibApiImplPlatform extends BaseApiImpl<RustLibWire> {
   RustLibApiImplPlatform({

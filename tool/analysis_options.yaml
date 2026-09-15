@@ -1,0 +1,3 @@
+# The tool is its own package; without this file the analyzer would inherit
+# the parent package's analysis_options.yaml (which excludes tool/**).
+include: package:lints/recommended.yaml
