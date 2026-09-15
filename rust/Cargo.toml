@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
+name = "xelis_flutter"
 crate-type = ["lib", "cdylib", "staticlib"]
 
 [dependencies]
-flutter_rust_bridge = { version = "=2.12.0", features = ["log"] }
+flutter_rust_bridge = { version = "=2.13.0", features = ["log"] }
 anyhow = "1"
 log = { version = "0.4", features = ["release_max_level_trace"] }
 parking_lot = "0.12.1"
@@ -22,10 +23,6 @@ bytemuck_derive = "=1.8.1"
 lru = "0.12"
 indexmap = { version = "2.0.0", features = ["serde"] }
 
-[build-dependencies]
-flutter_rust_bridge_codegen = "2.12.0" 
-anyhow = "1"
-
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm-bindgen = "0.2.92"
 
@@ -36,3 +33,7 @@ rustls = { version = "0.23.29", features = ["ring"], default-features = false }
 [features]
 default = ["xelis_wallet/api_server", "log/release_max_level_trace"]
 network_handler = ["xelis_wallet/network_handler"]
+
+[lints.rust]
+# `frb_expand` is a cfg set by flutter_rust_bridge_codegen while it parses the crate.
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(frb_expand)"] }

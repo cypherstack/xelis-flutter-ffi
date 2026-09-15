@@ -27,27 +27,14 @@ migrate_working_dir/
 **/doc/api/
 .dart_tool/
 build/
-rust/src/bin
-android/src/main/jniLibs/
-rust/default/
-ios/include/
-ios/libs/
-macos/include/
-macos/libs/
 lib/git_versions.dart
 temp/
 
-scripts/windows/vcpkg/
-scripts/linux/xelis_flutter_bins/
-scripts/ios/xelis_flutter_bins/
-scripts/android/xelis_flutter_bins/
-scripts/windows/xelis_flutter_bins/
-scripts/macos/xelis_flutter_bins/
-scripts/android/cache/
-scripts/android/build/openssl/
-
-linux/bin/
+# Rust
 target
-.dart_tool
-*.iml
+rust/src/bin
+rust/default/
+
 !pubspec.lock
+# The maintainer tool in tool/ is a throwaway package; its lockfile is not tracked.
+/tool/pubspec.lock

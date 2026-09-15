@@ -6,23 +6,35 @@ on:
 
 name: Check and Lint
 
+permissions:
+  contents: read
+
 jobs:
   Flutter:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: subosito/flutter-action@v2
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
         with:
           channel: "stable"
-      - name: Pub Get
-        run: dart pub get --no-precompile
-        working-directory: build_tool
-      - name: Dart Format
-        run: dart format . --output=none --set-exit-if-changed
-        working-directory: build_tool
-      - name: Analyze
+      - name: Pub Get (package)
+        run: flutter pub get
+      - name: Pub Get (example)
+        run: flutter pub get
+        working-directory: example
+      - name: Pub Get (tool)
+        run: dart pub get
+        working-directory: tool
+      - name: Dart Format (hook + tool)
+        run: dart format hook tool --output=none --set-exit-if-changed
+      - name: Analyze (package)
+        run: flutter analyze
+      - name: Analyze (example)
+        run: flutter analyze
+        working-directory: example
+      - name: Analyze (tool)
         run: dart analyze
-        working-directory: build_tool
-      - name: Test
-        run: flutter test
-        working-directory: build_tool
+        working-directory: tool
+      - name: Test Cargo dependency parser
+        run: dart test
+        working-directory: tool

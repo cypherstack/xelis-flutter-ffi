@@ -1,0 +1,27 @@
+# pub uses this file INSTEAD of .gitignore for this directory, so it repeats
+# the relevant .gitignore rules and adds pub-only exclusions.
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+**/doc/api/
+.dart_tool/
+build/
+lib/git_versions.dart
+temp/
+target
+rust/src/bin
+rust/default/
+# Maintainer-only Dart package; not part of the published package.
+/tool/

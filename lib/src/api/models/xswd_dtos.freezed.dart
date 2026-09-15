@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // coverage:ignore-file
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'xswd_dtos.dart';
@@ -9,6 +9,7 @@ part of 'xswd_dtos.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
 // dart format off
 T _$identity<T>(T value) => value;
 /// @nodoc
@@ -25,16 +26,21 @@ $AppInfoCopyWith<AppInfo> get copyWith => _$AppInfoCopyWithImpl<AppInfo>(this as
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppInfo&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.url, url) || other.url == url)&&const DeepCollectionEquality().equals(other.permissions, permissions));
+  final _this = this as AppInfo;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppInfo&&(identical(other.id, _this.id) || other.id == _this.id)&&(identical(other.name, _this.name) || other.name == _this.name)&&(identical(other.description, _this.description) || other.description == _this.description)&&(identical(other.url, _this.url) || other.url == _this.url)&&const DeepCollectionEquality().equals(other.permissions, _this.permissions));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,id,name,description,url,const DeepCollectionEquality().hash(permissions));
+int get hashCode {
+  final _this = this as AppInfo;
+  return Object.hash(runtimeType,_this.id,_this.name,_this.description,_this.url,const DeepCollectionEquality().hash(_this.permissions));
+}
 
 @override
 String toString() {
-  return 'AppInfo(id: $id, name: $name, description: $description, url: $url, permissions: $permissions)';
+  final _this = this as AppInfo;
+  return 'AppInfo(id: ${_this.id}, name: ${_this.name}, description: ${_this.description}, url: ${_this.url}, permissions: ${_this.permissions})';
 }
 
 
@@ -63,7 +69,7 @@ class _$AppInfoCopyWithImpl<$Res>
 /// Create a copy of AppInfo
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? name = null,Object? description = null,Object? url = freezed,Object? permissions = null,}) {
-  return _then(_self.copyWith(
+  return _then(AppInfo(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,name: null == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
 as String,description: null == description ? _self.description : description // ignore: cast_nullable_to_non_nullable
@@ -204,7 +210,7 @@ return $default(_that.id,_that.name,_that.description,_that.url,_that.permission
 
 
 class _AppInfo implements AppInfo {
-  const _AppInfo({required this.id, required this.name, required this.description, this.url, required final  Map<String, PermissionPolicy> permissions}): _permissions = permissions;
+  const _AppInfo({required this.id, required this.name, required this.description, this.url, required  Map<String, PermissionPolicy> permissions}): _permissions = permissions;
   
 
 @override final  String id;
@@ -229,16 +235,18 @@ _$AppInfoCopyWith<_AppInfo> get copyWith => __$AppInfoCopyWithImpl<_AppInfo>(thi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppInfo&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.url, url) || other.url == url)&&const DeepCollectionEquality().equals(other._permissions, _permissions));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppInfo&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.url, url) || other.url == url)&&const DeepCollectionEquality().equals(other.permissions, _permissions));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,id,name,description,url,const DeepCollectionEquality().hash(_permissions));
+int get hashCode {
+    return Object.hash(runtimeType,id,name,description,url,const DeepCollectionEquality().hash(_permissions));
+}
 
 @override
 String toString() {
-  return 'AppInfo(id: $id, name: $name, description: $description, url: $url, permissions: $permissions)';
+    return 'AppInfo(id: $id, name: $name, description: $description, url: $url, permissions: $permissions)';
 }
 
 
@@ -294,16 +302,21 @@ $XswdRequestSummaryCopyWith<XswdRequestSummary> get copyWith => _$XswdRequestSum
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestSummary&&(identical(other.eventType, eventType) || other.eventType == eventType)&&(identical(other.applicationInfo, applicationInfo) || other.applicationInfo == applicationInfo));
+  final _this = this as XswdRequestSummary;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestSummary&&(identical(other.eventType, _this.eventType) || other.eventType == _this.eventType)&&(identical(other.applicationInfo, _this.applicationInfo) || other.applicationInfo == _this.applicationInfo));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,eventType,applicationInfo);
+int get hashCode {
+  final _this = this as XswdRequestSummary;
+  return Object.hash(runtimeType,_this.eventType,_this.applicationInfo);
+}
 
 @override
 String toString() {
-  return 'XswdRequestSummary(eventType: $eventType, applicationInfo: $applicationInfo)';
+  final _this = this as XswdRequestSummary;
+  return 'XswdRequestSummary(eventType: ${_this.eventType}, applicationInfo: ${_this.applicationInfo})';
 }
 
 
@@ -332,7 +345,7 @@ class _$XswdRequestSummaryCopyWithImpl<$Res>
 /// Create a copy of XswdRequestSummary
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? eventType = null,Object? applicationInfo = null,}) {
-  return _then(_self.copyWith(
+  return _then(XswdRequestSummary(
 eventType: null == eventType ? _self.eventType : eventType // ignore: cast_nullable_to_non_nullable
 as XswdRequestType,applicationInfo: null == applicationInfo ? _self.applicationInfo : applicationInfo // ignore: cast_nullable_to_non_nullable
 as AppInfo,
@@ -504,16 +517,18 @@ _$XswdRequestSummaryCopyWith<_XswdRequestSummary> get copyWith => __$XswdRequest
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _XswdRequestSummary&&(identical(other.eventType, eventType) || other.eventType == eventType)&&(identical(other.applicationInfo, applicationInfo) || other.applicationInfo == applicationInfo));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _XswdRequestSummary&&(identical(other.eventType, eventType) || other.eventType == eventType)&&(identical(other.applicationInfo, applicationInfo) || other.applicationInfo == applicationInfo));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,eventType,applicationInfo);
+int get hashCode {
+    return Object.hash(runtimeType,eventType,applicationInfo);
+}
 
 @override
 String toString() {
-  return 'XswdRequestSummary(eventType: $eventType, applicationInfo: $applicationInfo)';
+    return 'XswdRequestSummary(eventType: $eventType, applicationInfo: $applicationInfo)';
 }
 
 
@@ -579,7 +594,7 @@ mixin _$XswdRequestType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType);
 }
 
 
@@ -588,7 +603,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XswdRequestType()';
+    return 'XswdRequestType()';
 }
 
 
@@ -762,7 +777,7 @@ class XswdRequestType_Application extends XswdRequestType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_Application);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_Application);
 }
 
 
@@ -771,7 +786,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XswdRequestType.application()';
+    return 'XswdRequestType.application()';
 }
 
 
@@ -799,16 +814,18 @@ $XswdRequestType_PermissionCopyWith<XswdRequestType_Permission> get copyWith => 
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_Permission&&(identical(other.field0, field0) || other.field0 == field0));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_Permission&&(identical(other.field0, field0) || other.field0 == field0));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,field0);
+int get hashCode {
+    return Object.hash(runtimeType,field0);
+}
 
 @override
 String toString() {
-  return 'XswdRequestType.permission(field0: $field0)';
+    return 'XswdRequestType.permission(field0: $field0)';
 }
 
 
@@ -865,16 +882,18 @@ $XswdRequestType_PrefetchPermissionsCopyWith<XswdRequestType_PrefetchPermissions
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_PrefetchPermissions&&(identical(other.field0, field0) || other.field0 == field0));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_PrefetchPermissions&&(identical(other.field0, field0) || other.field0 == field0));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,field0);
+int get hashCode {
+    return Object.hash(runtimeType,field0);
+}
 
 @override
 String toString() {
-  return 'XswdRequestType.prefetchPermissions(field0: $field0)';
+    return 'XswdRequestType.prefetchPermissions(field0: $field0)';
 }
 
 
@@ -926,7 +945,7 @@ class XswdRequestType_CancelRequest extends XswdRequestType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_CancelRequest);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_CancelRequest);
 }
 
 
@@ -935,7 +954,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XswdRequestType.cancelRequest()';
+    return 'XswdRequestType.cancelRequest()';
 }
 
 
@@ -958,7 +977,7 @@ class XswdRequestType_AppDisconnect extends XswdRequestType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_AppDisconnect);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is XswdRequestType_AppDisconnect);
 }
 
 
@@ -967,7 +986,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'XswdRequestType.appDisconnect()';
+    return 'XswdRequestType.appDisconnect()';
 }
 
 

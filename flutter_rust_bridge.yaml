@@ -1,7 +1,6 @@
 rust_input: crate::api
 rust_root: rust/
 dart_output: lib/src/
-c_output: ios/Classes/frb_generated.h
 full_dep: true
 
 # ffigen searches each location for lib/libclang.so (or the platform

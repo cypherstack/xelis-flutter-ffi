@@ -1,12 +1,8 @@
 analyzer:
   exclude:
     - build/**
-    - android/**
-    - ios/**
-    - web/**
-    - windows/**
-    - macos/**
-    - linux/**
+    # Separate Dart package (maintainer script); analyzed on its own in CI.
+    - tool/**
 include: package:flutter_lints/flutter.yaml
 
 # Additional information about this file can be found at

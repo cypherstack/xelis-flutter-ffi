@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // coverage:ignore-file
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'precomputed_tables.dart';
@@ -9,6 +9,7 @@ part of 'precomputed_tables.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
 // dart format off
 T _$identity<T>(T value) => value;
 /// @nodoc
@@ -20,7 +21,7 @@ mixin _$PrecomputedTableType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType);
 }
 
 
@@ -29,7 +30,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'PrecomputedTableType()';
+    return 'PrecomputedTableType()';
 }
 
 
@@ -197,7 +198,7 @@ class PrecomputedTableType_L1Low extends PrecomputedTableType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Low);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Low);
 }
 
 
@@ -206,7 +207,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'PrecomputedTableType.l1Low()';
+    return 'PrecomputedTableType.l1Low()';
 }
 
 
@@ -229,7 +230,7 @@ class PrecomputedTableType_L1Medium extends PrecomputedTableType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Medium);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Medium);
 }
 
 
@@ -238,7 +239,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'PrecomputedTableType.l1Medium()';
+    return 'PrecomputedTableType.l1Medium()';
 }
 
 
@@ -261,7 +262,7 @@ class PrecomputedTableType_L1Full extends PrecomputedTableType {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Full);
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_L1Full);
 }
 
 
@@ -270,7 +271,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'PrecomputedTableType.l1Full()';
+    return 'PrecomputedTableType.l1Full()';
 }
 
 
@@ -298,16 +299,18 @@ $PrecomputedTableType_CustomCopyWith<PrecomputedTableType_Custom> get copyWith =
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_Custom&&(identical(other.field0, field0) || other.field0 == field0));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is PrecomputedTableType_Custom&&(identical(other.field0, field0) || other.field0 == field0));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,field0);
+int get hashCode {
+    return Object.hash(runtimeType,field0);
+}
 
 @override
 String toString() {
-  return 'PrecomputedTableType.custom(field0: $field0)';
+    return 'PrecomputedTableType.custom(field0: $field0)';
 }
 
 

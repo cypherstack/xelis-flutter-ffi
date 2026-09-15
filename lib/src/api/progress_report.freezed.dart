@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // coverage:ignore-file
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'progress_report.dart';
@@ -9,6 +9,7 @@ part of 'progress_report.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// GENERATED CODE - DO NOT MODIFY BY HAND
 // dart format off
 T _$identity<T>(T value) => value;
 /// @nodoc
@@ -25,16 +26,21 @@ $ReportCopyWith<Report> get copyWith => _$ReportCopyWithImpl<Report>(this as Rep
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Report&&(identical(other.message, message) || other.message == message));
+  final _this = this as Report;
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Report&&(identical(other.message, _this.message) || other.message == _this.message));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,message);
+int get hashCode {
+  final _this = this as Report;
+  return Object.hash(runtimeType,_this.message);
+}
 
 @override
 String toString() {
-  return 'Report(message: $message)';
+  final _this = this as Report;
+  return 'Report(message: ${_this.message})';
 }
 
 
@@ -223,16 +229,18 @@ $Report_TableGenerationCopyWith<Report_TableGeneration> get copyWith => _$Report
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Report_TableGeneration&&(identical(other.progress, progress) || other.progress == progress)&&(identical(other.step, step) || other.step == step)&&(identical(other.message, message) || other.message == message));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is Report_TableGeneration&&(identical(other.progress, progress) || other.progress == progress)&&(identical(other.step, step) || other.step == step)&&(identical(other.message, message) || other.message == message));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,progress,step,message);
+int get hashCode {
+    return Object.hash(runtimeType,progress,step,message);
+}
 
 @override
 String toString() {
-  return 'Report.tableGeneration(progress: $progress, step: $step, message: $message)';
+    return 'Report.tableGeneration(progress: $progress, step: $step, message: $message)';
 }
 
 
@@ -291,16 +299,18 @@ $Report_MiscCopyWith<Report_Misc> get copyWith => _$Report_MiscCopyWithImpl<Repo
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Report_Misc&&(identical(other.message, message) || other.message == message));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is Report_Misc&&(identical(other.message, message) || other.message == message));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,message);
+int get hashCode {
+    return Object.hash(runtimeType,message);
+}
 
 @override
 String toString() {
-  return 'Report.misc(message: $message)';
+    return 'Report.misc(message: $message)';
 }
 
 
